@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/template.scss"
+    ],
+    "names": [],
+    "file": "template.min.css"
+}
