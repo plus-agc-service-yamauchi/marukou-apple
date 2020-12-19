@@ -1,5 +1,23 @@
 @charset "UTF-8";
+html {
+  font-family: "Roboto", YuGothic, "Yu Gothic";
+}
+
+.bg-main {
+  background: #faf6e8;
+}
+
 /* デザインA（スマートフォン） */
 /* デザインB（タブレット） */
 /* デザインC(PC) */
+@media screen and (min-width: 1025px) {
+  body {
+    width: 1920px;
+    color: #3e0000;
+  }
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
 /*# sourceMappingURL=main.css.map */
