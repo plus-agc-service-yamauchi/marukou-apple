@@ -20,6 +20,11 @@
     <link rel="stylesheet" href="css/top.min.css" />
     <link rel="stylesheet" href="css/nav.min.css" />
     <link rel="stylesheet" href="css/common.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -131,6 +136,13 @@
           </svg>
           <h3>りんごのこと</h3>
         </div>
+        <div>
+          <ul class="slick01">
+            <li><img alt="画像1" src="img/photo1.jpg" /></li>
+            <li><img alt="画像2" src="img/photo2.jpg" /></li>
+            <li><img alt="画像3" src="img/photo3.jpg" /></li>
+          </ul>
+        </div>
       </div>
     </main>
     <footer></footer>
@@ -148,6 +160,38 @@
         $.fatNav();
       });
     </script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script>
+      $(".center").slick({
+        centerMode: true,
+        centerPadding: "60px",
+        slidesToShow: 3,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "40px",
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "40px",
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
+    </script>
+
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
       window.ga = function () {
