@@ -6,11 +6,15 @@
 
 /* デザインC(PC) */
 @media screen and (min-width: 1025px) {
+  img {
+    width: 100%;
+  }
   //   ヘッダー
   header#top {
     height: 804px;
     background: url(../img/top_bg.jpg) no-repeat;
     background-size: cover;
+    background-position: center center;
     position: relative;
     // ロゴ
     img {
@@ -20,10 +24,10 @@
     // タイトル
     h1 {
       position: absolute;
-      top: 32.6rem;
-      left: 125.3rem;
-      width: 42.6rem;
-      height: 8.3rem;
+      top: 326px;
+      left: 65.26%;
+      width: 24.06%;
+      height: 83px;
       line-height: 8rem;
       font-size: 6rem;
       font-weight: 100;
@@ -34,10 +38,10 @@
     p {
       position: absolute;
       top: 47.4rem;
-      left: 128.2rem;
+      left: 66.77%;
       line-height: 6rem;
       letter-spacing: 0.58px;
-      width: 40.4rem;
+      width: 21.04%;
       height: 9.1rem;
       font-size: 2.4rem;
       font-weight: 400;
@@ -64,5 +68,20 @@
       text-align: center;
       margin-bottom: 128px;
     }
+  }
+
+  #product {
+    img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+
+  .grid-col-gap160 {
+    grid-column-gap: 160px;
+  }
+
+  .grid-row-gap229 {
+    grid-row-gap: 229px;
   }
 }
