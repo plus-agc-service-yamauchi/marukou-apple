@@ -184,4 +184,17 @@
       margin-top: 40px;
     }
   }
+  .img-box {
+    position: relative;
+  }
+  .img-box .active {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s; // ゆっくり
+  }
+  .img-box:hover .active {
+    opacity: 1;
+  }
 }

@@ -172,5 +172,19 @@
     line-height: 41px;
     margin-top: 40px;
   }
+  .img-box {
+    position: relative;
+  }
+  .img-box .active {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .img-box:hover .active {
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=top.css.map */
