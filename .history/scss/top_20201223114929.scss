@@ -152,23 +152,10 @@
     grid-column-gap: 220px;
   }
 
-  a.aboutus {
-    display: relative;
-    a:after {
-      content: "";
-      position: absolute;
-      top: 1em;
-      left: 0;
-      display: inline-block;
-      pointer-events: none;
-      width: 500px;
+  .aboutus {
+    a {
     }
-    a:hover:after {
-      background: url(../img/aboutus_hover.png);
-      width: 100px;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center top;
+    a:hover {
     }
   }
 

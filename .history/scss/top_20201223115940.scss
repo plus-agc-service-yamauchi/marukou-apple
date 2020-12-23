@@ -152,7 +152,7 @@
     grid-column-gap: 220px;
   }
 
-  a.aboutus {
+  .aboutus a {
     display: relative;
     a:after {
       content: "";
@@ -164,8 +164,7 @@
       width: 500px;
     }
     a:hover:after {
-      background: url(../img/aboutus_hover.png);
-      width: 100px;
+      background: url(../img/aboutus_hover.svg); /* 表示する画像 */
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center top;

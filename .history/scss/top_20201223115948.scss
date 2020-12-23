@@ -152,7 +152,7 @@
     grid-column-gap: 220px;
   }
 
-  a.aboutus {
+  .aboutus a {
     display: relative;
     a:after {
       content: "";
@@ -164,7 +164,7 @@
       width: 500px;
     }
     a:hover:after {
-      background: url(../img/aboutus_hover.png);
+      background: url(../img/aboutus_hover.svg);
       width: 100px;
       background-size: contain;
       background-repeat: no-repeat;
