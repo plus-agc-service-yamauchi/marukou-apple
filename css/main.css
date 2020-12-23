@@ -13,9 +13,9 @@ html {
 /* デザインC(PC) */
 @media screen and (min-width: 1025px) {
   body {
-    width: 1920px;
+    min-width: 1920px;
     margin: 0 auto;
-    color: #3e0000;
+    color: #3e0000 !important;
   }
   .container {
     width: 1220px;
@@ -27,7 +27,7 @@ html {
     height: 50px;
     position: fixed;
     top: 58px;
-    left: 1830px;
+    right: 24.2px;
     z-index: 10000;
     padding: 12px;
   }

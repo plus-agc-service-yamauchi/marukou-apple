@@ -13,7 +13,7 @@
   header#top {
     height: 804px;
     background: url(../img/top_bg.jpg) no-repeat;
-    background-size: 1920px;
+    background-size: 100% 100%;
     background-position: center center;
     position: relative;
     // ロゴ
@@ -166,8 +166,8 @@
     grid-row-gap: 90px;
   }
 
-  .grid-col-gap280 {
-    grid-column-gap: 280px;
+  .grid-col-gap220 {
+    grid-column-gap: 250px;
   }
 
   #about {

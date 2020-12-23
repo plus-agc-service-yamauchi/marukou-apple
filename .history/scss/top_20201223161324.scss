@@ -13,7 +13,7 @@
   header#top {
     height: 804px;
     background: url(../img/top_bg.jpg) no-repeat;
-    background-size: 1920px;
+    background-size: cover;
     background-position: center center;
     position: relative;
     // ロゴ
@@ -166,9 +166,55 @@
     grid-row-gap: 90px;
   }
 
-  .grid-col-gap280 {
-    grid-column-gap: 280px;
+  .grid-col-gap220 {
+    grid-column-gap: 220px;
   }
+
+  .aboutus {
+    display: relative;
+    .balloon1 {
+      display: none;
+    }
+    .balloon1:hover {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 0;
+      height: 0;
+      right: 2px;
+      bottom: 2px;
+      border-right: 20px solid #ff9800;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      transform: rotate(-45deg);
+    }
+  }
+  /* .balloon1 {
+    position: relative;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 0.2em;
+    font-size: 14px;
+    background-color: #ff9800;
+  }
+  .balloon1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    left: 2px;
+    bottom: 2px;
+    border-right: 20px solid #ff9800;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transform: rotate(-45deg);
+  } */
 
   #about {
     img {

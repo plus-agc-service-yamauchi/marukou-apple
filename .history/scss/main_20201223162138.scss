@@ -15,9 +15,9 @@ html {
 /* デザインC(PC) */
 @media screen and (min-width: 1025px) {
   body {
-    min-width: 1920px;
+    width: 1920px;
     margin: 0 auto;
-    color: #3e0000 !important;
+    color: #3e0000;
   }
 
   .container {
@@ -31,7 +31,7 @@ html {
     height: 50px;
     position: fixed;
     top: 58px;
-    right: 24.2px;
+    left: 1830px;
     z-index: 10000;
     padding: 12px;
     img {
@@ -139,6 +139,7 @@ html {
       padding: 0 300px;
       display: flex;
       align-items: center;
+      margin-top: 48px;
       p {
         margin-right: 160px;
         display: inline-block;

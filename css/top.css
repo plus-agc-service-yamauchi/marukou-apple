@@ -9,7 +9,7 @@
   header#top {
     height: 804px;
     background: url(../img/top_bg.jpg) no-repeat;
-    background-size: cover;
+    background-size: 1920px;
     background-position: center center;
     position: relative;
   }
@@ -142,6 +142,8 @@
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 9.6px;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
   }
   .justify-center {
     -webkit-box-pack: center;
@@ -155,18 +157,8 @@
   .grid-row-gap90 {
     grid-row-gap: 90px;
   }
-  .grid-col-gap220 {
-    grid-column-gap: 220px;
-  }
-  .aboutus {
-    display: relative;
-  }
-  .aboutus a:hover:after {
-    background: url(../img/aboutus_hover.png);
-    width: 100px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center top;
+  .grid-col-gap280 {
+    grid-column-gap: 280px;
   }
   #about img {
     width: 500px;
