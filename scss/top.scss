@@ -6,8 +6,8 @@
 
 /* デザインC(PC) */
 @media screen and (min-width: 1025px) {
-  img {
-    width: 100%;
+  body {
+    font-size: 16px;
   }
   //   ヘッダー
   header#top {
@@ -66,7 +66,6 @@
     }
     .title {
       text-align: center;
-      margin-bottom: 128px;
     }
   }
 
@@ -74,14 +73,96 @@
     img {
       width: 300px;
       height: 300px;
+      border-radius: 10px;
+      margin-bottom: 30px;
     }
+    p {
+      font-weight: bold;
+      line-height: 2.7rem;
+      text-align: center;
+      font-size: 16px;
+    }
+    span {
+      display: block;
+      text-align: center;
+      font-size: 16px;
+      line-height: 2.7rem;
+    }
+    .btn {
+      background: #fff;
+      border: 2px solid #e5a615;
+      border-radius: 10px;
+      opacity: 1;
+      color: #e5a615;
+      display: block;
+      width: 250px;
+      padding: 17px 0;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 13px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #e5a615;
+      border: 2px solid #fff;
+      border-radius: 10px;
+      opacity: 1;
+      color: #fff;
+      display: block;
+      width: 250px;
+      padding: 17px 0;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 13px;
+      font-weight: bold;
+      transition: 0.1s;
+    }
+    .btn_l {
+      width: 400px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 90px;
+      box-shadow: 0px 3px 6px #00000029;
+      border: 2px solid #e5a615;
+      border-radius: 10px;
+      opacity: 1;
+      color: #fff;
+      text-align: center;
+      background: #e5a615;
+      padding: 34.31px 0;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 9.6px;
+    }
+  }
+
+  .justify-center {
+    justify-content: center;
   }
 
   .grid-col-gap160 {
     grid-column-gap: 160px;
   }
 
-  .grid-row-gap229 {
-    grid-row-gap: 229px;
+  .grid-row-gap90 {
+    grid-row-gap: 90px;
+  }
+
+  .grid-col-gap220 {
+    grid-column-gap: 220px;
+  }
+
+  #about {
+    img {
+      width: 500px;
+      border-radius: 10px;
+    }
+    p {
+      text-align: center;
+      font-size: 24px;
+      letter-spacing: 1.2px;
+      line-height: 41px;
+      margin-top: 40px;
+    }
   }
 }
