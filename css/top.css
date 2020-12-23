@@ -140,9 +140,20 @@
   .grid-col-gap220 {
     grid-column-gap: 220px;
   }
+  .aboutus {
+    display: relative;
+  }
+  .aboutus a:hover:after {
+    background: url(../img/aboutus_hover.png);
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
   #about img {
     width: 500px;
     border-radius: 10px;
+    padding-left: 30px;
   }
   #about p {
     text-align: center;

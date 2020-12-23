@@ -152,22 +152,10 @@
     grid-column-gap: 220px;
   }
 
-  .aboutus {
-    display: relative;
-    a:hover:after {
-      background: url(../img/aboutus_hover.png);
-      width: 100px;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center top;
-    }
-  }
-
   #about {
     img {
       width: 500px;
       border-radius: 10px;
-      padding-left: 30px;
     }
     p {
       text-align: center;
