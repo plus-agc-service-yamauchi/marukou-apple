@@ -108,10 +108,11 @@
   }
   #orin_history {
     background: url(../img/orin_history_bg.png) no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 727px;
+    background-size: 100%;
+    background-position: center bottom;
+    height: 790px;
     margin-bottom: 179px;
+    width: 100%;
   }
   #orin_history svg {
     display: block;
