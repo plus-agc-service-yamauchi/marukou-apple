@@ -9,7 +9,7 @@
   header#top {
     height: 804px;
     background: url(../img/top_bg.jpg) no-repeat;
-    background-size: 1920px;
+    background-size: 100%;
     background-position: center center;
     position: relative;
   }
