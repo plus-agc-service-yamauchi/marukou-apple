@@ -12,6 +12,11 @@ html {
 /* デザインB（タブレット） */
 /* デザインC(PC) */
 @media screen and (min-width: 1025px) {
+  header img {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+  }
   body {
     min-width: 1920px;
     margin: 0 auto;
@@ -37,7 +42,7 @@ html {
   }
   #footer {
     position: relative;
-    background: url(../img/footer_bg.png) no-repeat;
+    background: url(../img/footer_bg.svg) no-repeat;
     background-color: #faf6e8;
     background-size: cover;
     height: 600px;
