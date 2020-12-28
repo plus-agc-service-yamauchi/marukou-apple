@@ -9,6 +9,7 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .container {
   padding: 0 45px;
 }
@@ -170,6 +171,12 @@ header img.cart_img {
 /* デザインB（タブレット） */
 /* デザインC(PC) */
 @media screen and (min-width: 1025px) {
+=======
+/* デザインA（スマートフォン） */
+/* デザインB（タブレット） */
+/* デザインC(PC) */
+@media screen and (min-width: 1025px) {
+>>>>>>> parent of 91596a7... 20201228
   header img {
 >>>>>>> parent of 91596a7... 20201228
     width: 200px;
