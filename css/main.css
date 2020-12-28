@@ -16,6 +16,7 @@ html {
     width: 200px;
     height: 200px;
     position: fixed;
+    z-index: 3;
   }
   body {
     min-width: 1920px;

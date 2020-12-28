@@ -27,7 +27,7 @@
   }
   main .title h1 {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 400;
     color: #55991d;
     margin-top: 27px;
     text-align: center;
@@ -123,7 +123,7 @@
   }
   #orin_history .history_title h3 {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: bold;
     letter-spacing: 0.1em;
     color: #55991d;
     margin-bottom: 96px;
@@ -154,7 +154,7 @@
   }
   #marukou_orin h3 {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 400;
     color: #55991d;
     margin-top: 14.9px;
     letter-spacing: 0.1em;
