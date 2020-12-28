@@ -51,7 +51,7 @@
   }
   #ir {
     background-color: #fefdf9;
-    background: url(../img/ir_bg.png) no-repeat;
+    position: relative;
     background-position: right bottom;
     background-size: 100%;
     height: 1132px;
@@ -67,17 +67,21 @@
     border-bottom: solid 0.75px #3e0000;
   }
   #ir table tr th {
-    padding: 60px 87px 0 40px;
+    padding: 60px 87px 20px 40px;
     font-weight: normal;
   }
   #ir table tr td {
     padding: 60px 60px 0 0;
   }
+  #ir .ir_bg {
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+  }
   #footer {
     position: relative;
     background: url(../img/footer_bg.svg) no-repeat;
-    background-size: cover;
-    height: 600px;
+    background-size: 100%;
     padding: 185px 0 0 0;
     color: #fff;
   }
@@ -116,7 +120,10 @@
   }
   #footer div.email p {
     font-size: 24px;
-    display: inline-block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-right: 57px;
     font-family: YuGothic, "Yu Gothic";
   }

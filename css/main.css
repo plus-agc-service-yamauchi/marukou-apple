@@ -19,6 +19,7 @@ html {
     z-index: 3;
   }
   body {
+    width: 100%;
     min-width: 1920px;
     margin: 0 auto;
     color: #3e0000 !important;
@@ -45,13 +46,13 @@ html {
     position: relative;
     background: url(../img/footer_bg.svg) no-repeat;
     background-color: #faf6e8;
-    background-size: cover;
-    height: 600px;
+    background-size: 100%;
     padding: 185px 0 0 0;
     color: #fff;
   }
   #footer .container {
     width: 1350px;
+    height: 100%;
     margin: 0 auto;
   }
   #footer .footer_logo {
@@ -85,7 +86,10 @@ html {
   }
   #footer div.email p {
     font-size: 24px;
-    display: inline-block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-right: 57px;
     font-family: YuGothic, "Yu Gothic";
   }
@@ -155,6 +159,9 @@ html {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  #footer .policy .container {
+    width: 1350px;
   }
   #footer .policy p {
     margin-right: 160px;

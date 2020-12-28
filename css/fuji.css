@@ -38,6 +38,7 @@
   display: block;
   text-align: left;
   margin: 0 auto;
+  padding: 76px 0 90px 0;
 }
 
 #fuji h2.point-title {
@@ -49,6 +50,10 @@
   line-height: 41px;
   margin-top: 0px;
   border-bottom: 1px solid #653333;
+}
+
+#movie {
+  margin: 0 0 150px 0;
 }
 
 .point-fuji svg {
@@ -232,5 +237,94 @@ section#History_fuji {
   letter-spacing: 1.2px;
   line-height: 41px;
   margin-top: 40px;
+}
+
+.left {
+  margin-right: -100px;
+  z-index: 2;
+}
+
+.right {
+  margin-top: 100px;
+  margin-left: -100px;
+}
+
+.img-box {
+  position: relative;
+}
+
+.img-box .active {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.img-box:hover .active {
+  opacity: 1;
+}
+
+#slider {
+  width: 500px;
+  margin: 0 auto 30px;
+}
+
+.slide-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#thumbnail-list {
+  width: 300px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.thumbnail-item {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 30%;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
+  margin-bottom: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+}
+
+.thumbnail-item:after {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  -webkit-transition: 0.3s opacity linear;
+  transition: 0.3s opacity linear;
+}
+
+.thumbnail-item.thumbnail-current:after {
+  opacity: 0;
+}
+
+.thumbnail-item img {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=fuji.css.map */

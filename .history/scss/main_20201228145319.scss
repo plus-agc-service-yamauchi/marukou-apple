@@ -24,7 +24,6 @@ html {
     }
   }
   body {
-    width: 100%;
     min-width: 1920px;
     margin: 0 auto;
     color: #3e0000 !important;
@@ -52,9 +51,9 @@ html {
 
   #footer {
     position: relative;
-    background: url(../img/footer_bg.svg) no-repeat;
+    background: url(../img/footer_bg.png) no-repeat;
     background-color: #faf6e8;
-    background-size: 100%;
+    background-size: cover;
     padding: 185px 0 0 0;
     color: #fff;
     .container {
@@ -152,9 +151,6 @@ html {
       padding: 0 300px;
       display: flex;
       align-items: center;
-      .container {
-        width: 1350px;
-      }
       p {
         margin-right: 160px;
         display: inline-block;
