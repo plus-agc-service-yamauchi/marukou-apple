@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* デザインA（スマートフォン） */
 html {
   font-family: "Roboto", YuGothic, "Yu Gothic";
   scroll-behavior: smooth;
@@ -9,6 +8,7 @@ body {
   color: #3e0000 !important;
 }
 
+<<<<<<< HEAD
 .container {
   padding: 0 45px;
 }
@@ -165,6 +165,13 @@ header img.cart_img {
     text-decoration: none;
   }
   header img.logo {
+=======
+/* デザインA（スマートフォン） */
+/* デザインB（タブレット） */
+/* デザインC(PC) */
+@media screen and (min-width: 1025px) {
+  header img {
+>>>>>>> parent of 91596a7... 20201228
     width: 200px;
     height: 200px;
     position: fixed;

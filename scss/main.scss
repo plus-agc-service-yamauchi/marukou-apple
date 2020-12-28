@@ -1,4 +1,3 @@
-/* デザインA（スマートフォン） */
 html {
   font-family: "Roboto", YuGothic, "Yu Gothic";
   scroll-behavior: smooth;
@@ -14,6 +13,7 @@ body {
 .bg-main {
   background: #faf6e8;
 }
+<<<<<<< HEAD
 
 header {
   .cart {
@@ -51,6 +51,9 @@ header {
 //     display: none;
 //   }
 // }
+=======
+/* デザインA（スマートフォン） */
+>>>>>>> parent of 91596a7... 20201228
 
 /* デザインB（タブレット） */
 @media screen and (min-width: 600px) and (max-width: 1024px) {
@@ -58,6 +61,7 @@ header {
 
 /* デザインC(PC) */
 @media screen and (min-width: 1025px) {
+<<<<<<< HEAD
   // ナビゲーション
   .nav,
   .hamburger__icon,
@@ -185,6 +189,8 @@ header {
     text-decoration: none;
   }
 
+=======
+>>>>>>> parent of 91596a7... 20201228
   header {
     // ロゴ
     img.logo {
