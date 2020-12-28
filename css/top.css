@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* デザインA（スマートフォン） */
+#about img {
+  width: 100%;
+}
+
 /* デザインB（タブレット） */
 /* デザインC(PC) */
 @media screen and (min-width: 1025px) {

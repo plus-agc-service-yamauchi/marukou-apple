@@ -1,9 +1,5 @@
 /* デザインA（スマートフォン） */
-#about {
-  img {
-    width: 100%;
-  }
-}
+
 /* デザインB（タブレット） */
 @media screen and (min-width: 600px) and (max-width: 1024px) {
 }
@@ -171,7 +167,7 @@
 
   #about {
     img {
-      width: 500px;
+      width: 100%;
       border-radius: 10px;
       padding-left: 30px;
     }
