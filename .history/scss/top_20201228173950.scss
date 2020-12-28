@@ -1,0 +1,355 @@
+/* デザインA（スマートフォン） */
+header#top {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    line-height: 8rem;
+    font-size: 5rem;
+    font-weight: 100;
+    letter-spacing: 0.14rem;
+  }
+  p {
+    line-height: 3rem;
+    letter-spacing: 0.58px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 0 45px;
+  }
+}
+main {
+  padding: 50px 0;
+  .lead {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-bottom: 60px;
+  }
+}
+#apple {
+  .title {
+    svg {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 2.8rem;
+      letter-spacing: 2.88px;
+      color: #e5a615;
+      text-align: center;
+    }
+  }
+}
+
+#product {
+  img {
+    width: 100%;
+  }
+  .title {
+    svg {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 2.8rem;
+      letter-spacing: 2.88px;
+      color: #e5a615;
+      text-align: center;
+    }
+  }
+  p {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  span {
+    display: block;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+  }
+  .btn {
+    background: #fff;
+    border: 2px solid #e5a615;
+    border-radius: 3px;
+    opacity: 1;
+    color: #e5a615;
+    display: block;
+    width: 250px;
+    padding: 17px 0;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 13px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+  .btn:hover {
+    background: #e5a615;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    opacity: 1;
+    color: #fff;
+    display: block;
+    width: 250px;
+    padding: 17px 0;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 13px;
+    font-weight: bold;
+    transition: 0.1s;
+  }
+  a.btn_l {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 90px;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 2px solid #e5a615;
+    border-radius: 3px;
+    opacity: 1;
+    color: #fff;
+    text-align: center;
+    background: #e5a615;
+    padding: 20px 0;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 9.6px;
+  }
+  a.btn_l:hover {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 90px;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    opacity: 1;
+    color: #e5a615;
+    text-align: center;
+    background: #fff;
+    padding: 34.31px 0;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 9.6px;
+    transition: 0.1s;
+  }
+}
+
+#about {
+  .title {
+    svg {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 3rem;
+      letter-spacing: 2.88px;
+      color: #e5a615;
+      text-align: center;
+    }
+  }
+  img {
+    width: 100%;
+  }
+}
+
+/* デザインB（タブレット） */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+}
+
+/* デザインC(PC) */
+@media screen and (min-width: 1025px) {
+  body {
+    font-size: 16px;
+  }
+  //   ヘッダー
+  header#top {
+    height: 804px;
+    background: url(../img/top_bg.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    position: relative;
+    // タイトル
+    h1 {
+      position: absolute;
+      top: 326px;
+      left: 65.26%;
+      width: 24.06%;
+      height: 83px;
+      line-height: 8rem;
+      font-size: 6rem;
+      font-weight: 100;
+      letter-spacing: 0.14rem;
+      text-align: center;
+    }
+    // サブタイトル
+    p {
+      position: absolute;
+      top: 47.4rem;
+      left: 66.77%;
+      line-height: 6rem;
+      letter-spacing: 0.58px;
+      width: 21.04%;
+      height: 9.1rem;
+      font-size: 2.4rem;
+      font-weight: 400;
+    }
+  }
+  main {
+    h2 {
+      padding: 90px 0 216px 0;
+      font-weight: 400;
+      letter-spacing: 0.58px;
+      line-height: 6rem;
+      font-size: 24px;
+      text-align: center;
+    }
+    h3 {
+      font-size: 36px;
+      letter-spacing: 1.2rem;
+      line-height: 6rem;
+      color: #e5a615;
+      font-weight: 400;
+      text-align: center;
+    }
+    .title {
+      text-align: center;
+    }
+  }
+
+  #product {
+    img {
+      width: 300px;
+      height: 300px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    p {
+      font-weight: bold;
+      line-height: 2.7rem;
+      text-align: center;
+      font-size: 16px;
+    }
+    span {
+      display: block;
+      text-align: center;
+      font-size: 16px;
+      line-height: 2.7rem;
+    }
+    .btn {
+      background: #fff;
+      border: 2px solid #e5a615;
+      border-radius: 3px;
+      opacity: 1;
+      color: #e5a615;
+      display: block;
+      width: 250px;
+      padding: 17px 0;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 13px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #e5a615;
+      border: 2px solid #fff;
+      border-radius: 3px;
+      opacity: 1;
+      color: #fff;
+      display: block;
+      width: 250px;
+      padding: 17px 0;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 13px;
+      font-weight: bold;
+      transition: 0.1s;
+    }
+    a.btn_l {
+      width: 400px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 90px;
+      box-shadow: 0px 3px 6px #00000029;
+      border: 2px solid #e5a615;
+      border-radius: 3px;
+      opacity: 1;
+      color: #fff;
+      text-align: center;
+      background: #e5a615;
+      padding: 34.31px 0;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 9.6px;
+    }
+    a.btn_l:hover {
+      width: 400px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 90px;
+      box-shadow: 0px 3px 6px #00000029;
+      border: 2px solid #fff;
+      border-radius: 3px;
+      opacity: 1;
+      color: #e5a615;
+      text-align: center;
+      background: #fff;
+      padding: 34.31px 0;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 9.6px;
+      transition: 0.1s;
+    }
+  }
+
+  .justify-center {
+    justify-content: center;
+  }
+
+  .grid-col-gap160 {
+    grid-column-gap: 160px;
+  }
+
+  .grid-row-gap90 {
+    grid-row-gap: 90px;
+  }
+
+  .grid-col-gap280 {
+    grid-column-gap: 280px;
+  }
+
+  #about {
+    img {
+      width: 500px;
+      border-radius: 10px;
+      padding-left: 30px;
+    }
+    p {
+      text-align: center;
+      font-size: 24px;
+      letter-spacing: 1.2px;
+      line-height: 41px;
+      margin-top: 40px;
+    }
+  }
+  .img-box {
+    position: relative;
+  }
+  .img-box .active {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s; // ゆっくり
+  }
+  .img-box:hover .active {
+    opacity: 1;
+  }
+}

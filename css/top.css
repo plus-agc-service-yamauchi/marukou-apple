@@ -1,5 +1,188 @@
 @charset "UTF-8";
 /* デザインA（スマートフォン） */
+header#top {
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header#top h1 {
+  line-height: 8rem;
+  font-size: 5rem;
+  font-weight: 100;
+  letter-spacing: 0.14rem;
+}
+
+header#top p {
+  line-height: 3rem;
+  letter-spacing: 0.58px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 0 45px;
+}
+
+main {
+  padding: 50px 0;
+}
+
+main .lead {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  margin-bottom: 60px;
+}
+
+#apple .title svg {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#apple .title h3 {
+  font-size: 2.8rem;
+  letter-spacing: 2.88px;
+  color: #e5a615;
+  text-align: center;
+}
+
+#product img {
+  width: 100%;
+}
+
+#product .title svg {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#product .title h3 {
+  font-size: 2.8rem;
+  letter-spacing: 2.88px;
+  color: #e5a615;
+  text-align: center;
+}
+
+#product p {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#product span {
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+}
+
+#product .btn {
+  background: #fff;
+  border: 2px solid #e5a615;
+  border-radius: 3px;
+  opacity: 1;
+  color: #e5a615;
+  display: block;
+  width: 250px;
+  padding: 17px 0;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 13px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+#product .btn:hover {
+  background: #e5a615;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  opacity: 1;
+  color: #fff;
+  display: block;
+  width: 250px;
+  padding: 17px 0;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 13px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+#product a.btn_l {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 90px;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  border: 2px solid #e5a615;
+  border-radius: 3px;
+  opacity: 1;
+  color: #fff;
+  text-align: center;
+  background: #e5a615;
+  padding: 20px 0;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 9.6px;
+}
+
+#product a.btn_l:hover {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 90px;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  opacity: 1;
+  color: #e5a615;
+  text-align: center;
+  background: #fff;
+  padding: 34.31px 0;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 9.6px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+#about .title {
+  margin: 100px 0 50px 0;
+}
+
+#about .title svg {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#about .title h3 {
+  font-size: 3rem;
+  letter-spacing: 2.88px;
+  color: #e5a615;
+  text-align: center;
+}
+
 #about img {
   width: 100%;
 }
@@ -159,6 +342,9 @@
   }
   .grid-col-gap280 {
     grid-column-gap: 280px;
+  }
+  #about .title {
+    margin: 200px 0 100px 0;
   }
   #about img {
     width: 500px;
