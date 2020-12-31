@@ -59,25 +59,6 @@
     }
     .description {
       margin-bottom: 160px;
-      .grid-pc-2 {
-        .left {
-          margin-right: -100px;
-          z-index: 2;
-          width: 610px;
-          img {
-            box-shadow: 0px 3px 6px #00000029;
-            width: 100%;
-          }
-        }
-        .right {
-          margin-top: 100px;
-          margin-left: -100px;
-          width: 745px;
-          img {
-            width: 100%;
-          }
-        }
-      }
     }
     .orin_point {
       width: 400px;
@@ -384,5 +365,16 @@
       margin: 0 auto;
       border-radius: 10px;
     }
+  }
+  .left {
+    margin-right: -100px;
+    z-index: 2;
+    img {
+      box-shadow: 0px 3px 6px #00000029;
+    }
+  }
+  .right {
+    margin-top: 100px;
+    margin-left: -100px;
   }
 }

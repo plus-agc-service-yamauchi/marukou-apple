@@ -216,13 +216,13 @@ header {
   }
   body {
     width: 100%;
-    max-width: 1920px;
+    min-width: 1920px;
     margin: 0 auto;
     color: #3e0000 !important;
   }
 
   .container {
-    width: 1350px;
+    width: 1220px;
     margin: 0 auto;
   }
 
@@ -230,7 +230,7 @@ header {
     position: relative;
     background: url(../img/footer_bg.svg) no-repeat;
     background-color: #faf6e8;
-    background-size: 100% 100%;
+    background-size: 100%;
     padding: 185px 0 0 0;
     color: #fff;
     .container {
