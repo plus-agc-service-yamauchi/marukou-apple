@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* デザインA（スマートフォン） */
-<<<<<<< HEAD
 header#top {
   height: 100vh;
   display: -webkit-box;
@@ -188,8 +187,6 @@ main .lead {
   width: 100%;
 }
 
-=======
->>>>>>> parent of 91596a7... 20201228
 /* デザインB（タブレット） */
 /* デザインC(PC) */
 @media screen and (min-width: 1025px) {
