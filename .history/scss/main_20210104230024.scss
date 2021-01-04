@@ -483,22 +483,18 @@ header {
         margin-left: -1em;
       }
     }
-
     .policy {
       background: #653333;
       height: 60px;
       padding: 0 300px;
       display: flex;
       align-items: center;
-      flex-direction: wrap;
-      justify-content: center;
+      .container {
+        width: 1350px;
+      }
       p {
-        font-size: 100%;
         margin-right: 160px;
         display: inline-block;
-        margin: 0;
-        padding: 0;
-        border: 0;
       }
     }
     .copy {

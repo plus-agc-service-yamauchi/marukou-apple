@@ -12,16 +12,14 @@ body {
   position: relative;
   background: url(../img/sp_footer_bg.svg) no-repeat;
   background-color: #faf6e8;
-  background-size: cover;
-  background-position: top center;
-  padding: 75px 0 0 0;
+  background-size: 100% 100%;
+  padding: 185px 0 0 0;
   color: #fff;
-  margin-bottom: 83px;
   .container {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    padding-bottom: 20px;
+    margin-bottom: 35px;
   }
   .footer_logo {
     width: 10%;
@@ -34,7 +32,7 @@ body {
   div.ad {
     p {
       font-size: 14px;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       span {
         display: block;
         font-size: 16px;
@@ -47,8 +45,9 @@ body {
     p {
       font-size: 14px;
       display: inline-block;
+      margin-right: 57px;
       font-family: YuGothic, "Yu Gothic";
-      margin-bottom: 10px;
+      margin-bottom: 17px;
       span {
         margin-right: 16px;
       }
@@ -58,6 +57,7 @@ body {
     p {
       font-size: 14px;
       display: flex;
+      margin-right: 57px;
       font-family: YuGothic, "Yu Gothic";
       span {
         margin-right: 16px;
@@ -79,14 +79,10 @@ body {
   .policy {
     background: #653333;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 10px 45px;
     p {
-      font-size: 14px;
-      margin: 10px 0;
-      padding: 10px 0;
-      border-bottom: solid 1px #fff;
+      margin-right: 160px;
+      display: inline-block;
     }
   }
   .copy {
@@ -105,13 +101,8 @@ body {
   }
   .pagetop {
     position: absolute;
-    top: -10px;
-    right: 20px;
-    text-align: right;
-    img {
-      width: 50%;
-      height: 50%;
-    }
+    top: -20px;
+    right: 176.1px;
   }
 }
 
@@ -483,22 +474,18 @@ header {
         margin-left: -1em;
       }
     }
-
     .policy {
       background: #653333;
       height: 60px;
       padding: 0 300px;
       display: flex;
       align-items: center;
-      flex-direction: wrap;
-      justify-content: center;
+      .container {
+        width: 1350px;
+      }
       p {
-        font-size: 100%;
         margin-right: 160px;
         display: inline-block;
-        margin: 0;
-        padding: 0;
-        border: 0;
       }
     }
     .copy {
@@ -519,19 +506,9 @@ header {
       position: absolute;
       top: -20px;
       right: 176.1px;
-      img {
-        width: 175.38px;
-        height: 184.19px;
-      }
     }
   }
   .sp_footer_nav {
     display: none !important;
-  }
-  .mr53 {
-    margin-right: 53.4px;
-  }
-  .mr130 {
-    margin-right: 130px;
   }
 }

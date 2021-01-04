@@ -491,9 +491,10 @@ header {
       display: flex;
       align-items: center;
       flex-direction: wrap;
-      justify-content: center;
+      .container {
+        width: 1350px;
+      }
       p {
-        font-size: 100%;
         margin-right: 160px;
         display: inline-block;
         margin: 0;

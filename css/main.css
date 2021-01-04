@@ -13,16 +13,18 @@ body {
   position: relative;
   background: url(../img/sp_footer_bg.svg) no-repeat;
   background-color: #faf6e8;
-  background-size: 100% 100%;
-  padding: 185px 0 0 0;
+  background-size: cover;
+  background-position: top center;
+  padding: 75px 0 0 0;
   color: #fff;
+  margin-bottom: 83px;
 }
 
 #footer .container {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  padding: 0;
+  padding-bottom: 20px;
 }
 
 #footer .footer_logo {
@@ -37,7 +39,7 @@ body {
 
 #footer div.ad p {
   font-size: 14px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 #footer div.ad p span {
@@ -50,9 +52,8 @@ body {
 #footer div.tel p {
   font-size: 14px;
   display: inline-block;
-  margin-right: 57px;
   font-family: YuGothic, "Yu Gothic";
-  margin-bottom: 17px;
+  margin-bottom: 10px;
 }
 
 #footer div.tel p span {
@@ -65,7 +66,6 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 57px;
   font-family: YuGothic, "Yu Gothic";
 }
 
@@ -106,15 +106,23 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 10px 45px;
 }
 
 #footer .policy p {
-  margin-right: 160px;
-  display: inline-block;
+  font-size: 14px;
+  margin: 10px 0;
+  padding: 10px 0;
+  border-bottom: solid 1px #fff;
 }
 
 #footer .copy {
@@ -145,8 +153,14 @@ body {
 
 #footer .pagetop {
   position: absolute;
-  top: -20px;
-  right: 176.1px;
+  top: -10px;
+  right: 20px;
+  text-align: right;
+}
+
+#footer .pagetop img {
+  width: 50%;
+  height: 50%;
 }
 
 .footer_nav_wrapper {
@@ -534,13 +548,23 @@ header img.cart_img {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-  #footer .policy .container {
-    width: 1350px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: wrap;
+        -ms-flex-direction: wrap;
+            flex-direction: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #footer .policy p {
+    font-size: 100%;
     margin-right: 160px;
     display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
   }
   #footer .copy {
     background: #3e0000;
@@ -570,8 +594,18 @@ header img.cart_img {
     top: -20px;
     right: 176.1px;
   }
+  #footer .pagetop img {
+    width: 175.38px;
+    height: 184.19px;
+  }
   .sp_footer_nav {
     display: none !important;
+  }
+  .mr53 {
+    margin-right: 53.4px;
+  }
+  .mr130 {
+    margin-right: 130px;
   }
 }
 /*# sourceMappingURL=main.css.map */
