@@ -152,30 +152,50 @@ main {
 
 #about {
   .title {
-    margin: 100px 0 50px 0;
-    svg {
-      display: block;
-      margin: 0 auto;
-      margin-bottom: 10px;
-    }
-    h3 {
-      font-size: 3rem;
-      letter-spacing: 2.88px;
-      color: #e5a615;
-      text-align: center;
-    }
-  }
-  img {
-    width: 100%;
-  }
+    //     margin: 100px 0 50px 0;
+    //     svg {
+    //       display: block;
+    //       margin: 0 auto;
+    //       margin-bottom: 10px;
+    //     }
+    //     h3 {
+    //       font-size: 3rem;
+    //       letter-spacing: 2.88px;
+    //       color: #e5a615;
+    //       text-align: center;
+    //     }
+    //   }
+    //   img {
+    //     width: 100%;
+    //   }
   p {
     text-align: center;
-    font-size: 16px;
+    font-size: 24px;
     letter-spacing: 1.2px;
-    line-height: 28px;
-    margin-top: 20px;
+    line-height: 41px;
+    margin-top: 40px;
   }
 }
+
+// #about {
+//   .title {
+//     margin: 100px 0 50px 0;
+//     svg {
+//       display: block;
+//       margin: 0 auto;
+//       margin-bottom: 10px;
+//     }
+//     h3 {
+//       font-size: 3rem;
+//       letter-spacing: 2.88px;
+//       color: #e5a615;
+//       text-align: center;
+//     }
+//   }
+//   img {
+//     width: 100%;
+//   }
+// }
 
 /* デザインB（タブレット） */
 @media screen and (min-width: 600px) and (max-width: 1024px) {

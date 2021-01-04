@@ -195,6 +195,14 @@ main .lead {
   width: 100%;
 }
 
+#about p {
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
 /* デザインB（タブレット） */
 /* デザインC(PC) */
 @media screen and (min-width: 1025px) {

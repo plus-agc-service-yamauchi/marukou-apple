@@ -152,6 +152,24 @@ main {
 
 #about {
   .title {
+    margin: 200px 0 100px 0;
+  }
+  img {
+    width: 500px;
+    border-radius: 10px;
+    padding-left: 30px;
+  }
+  p {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    line-height: 41px;
+    margin-top: 40px;
+  }
+}
+
+#about {
+  .title {
     margin: 100px 0 50px 0;
     svg {
       display: block;
@@ -167,13 +185,6 @@ main {
   }
   img {
     width: 100%;
-  }
-  p {
-    text-align: center;
-    font-size: 16px;
-    letter-spacing: 1.2px;
-    line-height: 28px;
-    margin-top: 20px;
   }
 }
 

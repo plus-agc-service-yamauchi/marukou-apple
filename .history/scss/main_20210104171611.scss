@@ -31,7 +31,7 @@ body {
   }
   div.ad {
     p {
-      font-size: 14px;
+      font-size: 24px;
       margin-bottom: 20px;
       span {
         display: block;
@@ -68,13 +68,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: wrap;
   }
   hr {
-    display: none;
-    /* background: #fff;
+    background: #fff;
     border: solid 2px #fff;
-    margin: 16.5px 0 42.5px 0; */
+    margin: 16.5px 0 42.5px 0;
   }
   .policy {
     background: #653333;
@@ -436,10 +435,8 @@ header {
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: row;
     }
     hr {
-      display: block;
       background: #fff;
       border: solid 2px #fff;
       margin: 16.5px 0 42.5px 0;

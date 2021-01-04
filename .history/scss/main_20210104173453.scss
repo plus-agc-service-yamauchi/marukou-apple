@@ -71,10 +71,9 @@ body {
     flex-direction: column;
   }
   hr {
-    display: none;
-    /* background: #fff;
+    background: #fff;
     border: solid 2px #fff;
-    margin: 16.5px 0 42.5px 0; */
+    margin: 16.5px 0 42.5px 0;
   }
   .policy {
     background: #653333;
@@ -439,7 +438,6 @@ header {
       flex-direction: row;
     }
     hr {
-      display: block;
       background: #fff;
       border: solid 2px #fff;
       margin: 16.5px 0 42.5px 0;

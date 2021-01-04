@@ -10,28 +10,30 @@ body {
 #footer {
   display: block;
   position: relative;
-  background: url(../img/sp_footer_bg.svg) no-repeat;
+  background: url(../img/footer_bg.svg) no-repeat;
   background-color: #faf6e8;
-  background-size: 100% 100%;
+  background-size: 100%;
   padding: 185px 0 0 0;
   color: #fff;
+  height: 600px;
   .container {
-    width: 100%;
+    width: 1350px;
     height: 100%;
     margin: 0 auto;
     padding: 0;
   }
   .footer_logo {
-    width: 10%;
+    width: 113.59px !important;
+    height: 131.51px !important;
   }
   h3 {
-    font-size: 16px;
+    font-size: 36px;
     font-weight: bold;
     line-height: 6.1rem;
   }
   div.ad {
     p {
-      font-size: 14px;
+      font-size: 24px;
       margin-bottom: 20px;
       span {
         display: block;
@@ -43,7 +45,7 @@ body {
   }
   div.tel {
     p {
-      font-size: 14px;
+      font-size: 24px;
       display: inline-block;
       margin-right: 57px;
       font-family: YuGothic, "Yu Gothic";
@@ -55,7 +57,7 @@ body {
   }
   div.email {
     p {
-      font-size: 14px;
+      font-size: 24px;
       display: flex;
       margin-right: 57px;
       font-family: YuGothic, "Yu Gothic";
@@ -68,16 +70,46 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
   }
   hr {
-    display: none;
-    /* background: #fff;
+    background: #fff;
     border: solid 2px #fff;
-    margin: 16.5px 0 42.5px 0; */
+    margin: 16.5px 0 42.5px 0;
+  }
+  .footer_nav {
+    p {
+      font-size: 24px;
+      margin-bottom: 20px;
+      letter-spacing: 0.2rem;
+      font-family: YuGothic, "Yu Gothic";
+    }
+    p:before {
+      content: ""; /*何も入れない*/
+      display: inline-block; /*忘れずに！*/
+      width: 22.72px; /*画像の幅*/
+      height: 24.49px; /*画像の高さ*/
+      background-image: url(../img/appleicon.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      vertical-align: top;
+      margin-right: 10.3px;
+    }
+    ul {
+      margin-left: 2em;
+    }
+    li {
+      margin-bottom: 20px;
+      font-size: 16px;
+      letter-spacing: 0.3rem;
+    }
+    li:first-line {
+      margin-left: -1em;
+    }
   }
   .policy {
     background: #653333;
+    height: 60px;
+    padding: 0 300px;
     display: flex;
     align-items: center;
     p {
@@ -436,10 +468,8 @@ header {
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: row;
     }
     hr {
-      display: block;
       background: #fff;
       border: solid 2px #fff;
       margin: 16.5px 0 42.5px 0;
