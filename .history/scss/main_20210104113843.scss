@@ -14,20 +14,18 @@ body {
   -o-transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s;
 }
-
 .hamburger {
   display: block;
-  width: 50px;
+  width: 100px;
   height: 50px;
   position: fixed;
-  bottom: 0;
-  left: 0;
+  top: 75px;
+  right: 108.3px;
   z-index: 10000;
   padding: 12px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: transparent;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
@@ -38,52 +36,48 @@ body {
   margin-bottom: 7px;
 }
 .hamburger__icon,
-.hamburger__icon:before,
-.hamburger__icon:after {
+.hamburger__icon:after,
+.hamburger__icon:before {
   display: block;
-  width: 25px;
+  width: 50px;
   height: 2px;
-  background-color: #222;
+  background-color: #3e0000;
   -moz-transition-property: background-color, -moz-transform;
   -o-transition-property: background-color, -o-transform;
   -webkit-transition-property: background-color, -webkit-transform;
   transition-property: background-color, transform;
-  -moz-transition-duration: 0.4s;
-  -o-transition-duration: 0.4s;
-  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-.hamburger__icon:before,
-.hamburger__icon:after {
+.hamburger__icon:after,
+.hamburger__icon:before {
   position: absolute;
   content: "";
 }
 .hamburger__icon:before {
-  top: -7px;
+  top: -22px;
 }
 .hamburger__icon:after {
-  top: 7px;
+  top: 22px;
 }
 .hamburger.active .hamburger__icon {
   background-color: transparent;
 }
-.hamburger.active .hamburger__icon:before,
-.hamburger.active .hamburger__icon:after {
+.hamburger.active .hamburger__icon:after,
+.hamburger.active .hamburger__icon:before {
   background-color: #fff;
 }
 .hamburger.active .hamburger__icon:before {
-  -moz-transform: translateY(7px) rotate(45deg);
-  -ms-transform: translateY(7px) rotate(45deg);
-  -webkit-transform: translateY(7px) rotate(45deg);
-  transform: translateY(7px) rotate(45deg);
+  -moz-transform: translateY(22px) rotate(45deg);
+  -ms-transform: translateY(22px) rotate(45deg);
+  -webkit-transform: translateY(22px) rotate(45deg);
+  transform: translateY(22px) rotate(45deg);
 }
 .hamburger.active .hamburger__icon:after {
-  -moz-transform: translateY(-7px) rotate(-45deg);
-  -ms-transform: translateY(-7px) rotate(-45deg);
-  -webkit-transform: translateY(-7px) rotate(-45deg);
-  transform: translateY(-7px) rotate(-45deg);
+  -moz-transform: translateY(-22px) rotate(-45deg);
+  -ms-transform: translateY(-22px) rotate(-45deg);
+  -webkit-transform: translateY(-22px) rotate(-45deg);
+  transform: translateY(-22px) rotate(-45deg);
 }
-
 .nav {
   top: 0;
   left: 0;
@@ -101,9 +95,6 @@ body {
   -o-transition-property: -o-transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: transform;
-  -moz-transition-duration: 0.4s;
-  -o-transition-duration: 0.4s;
-  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   overflow-y: auto;
   overflow-x: hidden;
@@ -175,9 +166,20 @@ header {
   }
 }
 
-.sp_footer_nav {
-  display: block;
+.nav {
+  display: none;
 }
+// #footer {
+//   position: fixed;
+//   bottom: 0;
+//   background: #653333;
+//   width: 100%;
+//   color: #fff;
+//   height: 90px;
+//   img {
+//     display: none;
+//   }
+// }
 
 /* デザインB（タブレット） */
 @media screen and (min-width: 600px) and (max-width: 1024px) {
@@ -200,7 +202,7 @@ header {
     height: 50px;
     position: fixed;
     top: 75px;
-    left: 1703px;
+    right: 108.3px;
     z-index: 10000;
     padding: 12px;
     -moz-box-sizing: border-box;

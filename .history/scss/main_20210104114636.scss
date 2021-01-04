@@ -6,22 +6,13 @@ body {
   color: #3e0000 !important;
 }
 
-.nav,
-.hamburger__icon,
-.hamburger__icon:after,
-.hamburger__icon:before {
-  -moz-transition-duration: 0.4s;
-  -o-transition-duration: 0.4s;
-  -webkit-transition-duration: 0.4s;
-}
-
 .hamburger {
   display: block;
   width: 50px;
   height: 50px;
   position: fixed;
-  bottom: 0;
-  left: 0;
+  top: 0;
+  right: 0;
   z-index: 10000;
   padding: 12px;
   -moz-box-sizing: border-box;
@@ -175,9 +166,20 @@ header {
   }
 }
 
-.sp_footer_nav {
-  display: block;
+.nav {
+  display: none;
 }
+// #footer {
+//   position: fixed;
+//   bottom: 0;
+//   background: #653333;
+//   width: 100%;
+//   color: #fff;
+//   height: 90px;
+//   img {
+//     display: none;
+//   }
+// }
 
 /* デザインB（タブレット） */
 @media screen and (min-width: 600px) and (max-width: 1024px) {
@@ -200,7 +202,7 @@ header {
     height: 50px;
     position: fixed;
     top: 75px;
-    left: 1703px;
+    right: 108.3px;
     z-index: 10000;
     padding: 12px;
     -moz-box-sizing: border-box;

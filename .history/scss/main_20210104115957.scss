@@ -175,9 +175,20 @@ header {
   }
 }
 
-.sp_footer_nav {
-  display: block;
+.nav {
+  display: none;
 }
+// #footer {
+//   position: fixed;
+//   bottom: 0;
+//   background: #653333;
+//   width: 100%;
+//   color: #fff;
+//   height: 90px;
+//   img {
+//     display: none;
+//   }
+// }
 
 /* デザインB（タブレット） */
 @media screen and (min-width: 600px) and (max-width: 1024px) {
