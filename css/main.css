@@ -8,15 +8,6 @@ body {
   color: #3e0000 !important;
 }
 
-.nav,
-.hamburger__icon,
-.hamburger__icon:after,
-.hamburger__icon:before {
-  -moz-transition-duration: 0.4s;
-  -o-transition-duration: 0.4s;
-  -webkit-transition-duration: 0.4s;
-}
-
 .hamburger {
   display: block;
   width: 50px;
