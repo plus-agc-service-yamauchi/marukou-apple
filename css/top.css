@@ -76,6 +76,14 @@ main .lead {
   text-align: center;
 }
 
+#product .title .grid-sp-2 img {
+  width: 100%;
+}
+
+#product .grid-col-gap160 {
+  grid-column-gap: 30px;
+}
+
 #product p {
   font-size: 2rem;
   text-align: center;
@@ -98,7 +106,7 @@ main .lead {
   opacity: 1;
   color: #e5a615;
   display: block;
-  width: 250px;
+  width: 100%;
   padding: 17px 0;
   text-align: center;
   margin: 0 auto;
@@ -115,7 +123,7 @@ main .lead {
   opacity: 1;
   color: #fff;
   display: block;
-  width: 250px;
+  width: 100%;
   padding: 17px 0;
   text-align: center;
   margin: 0 auto;
@@ -146,7 +154,7 @@ main .lead {
 }
 
 #product a.btn_l:hover {
-  width: 400px;
+  width: 100%;
   display: block;
   margin: 0 auto;
   margin-top: 90px;
@@ -158,8 +166,8 @@ main .lead {
   color: #e5a615;
   text-align: center;
   background: #fff;
-  padding: 34.31px 0;
-  font-size: 24px;
+  padding: 20px 0;
+  font-size: 2rem;
   font-weight: bold;
   letter-spacing: 9.6px;
   -webkit-transition: 0.1s;
