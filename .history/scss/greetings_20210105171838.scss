@@ -21,7 +21,7 @@ main {
     }
     // タイトル
     h1 {
-      font-size: 40px;
+      font-size: 42px;
       font-weight: 400;
       color: #e5a615;
       margin-top: 27px;
@@ -78,6 +78,7 @@ main {
   }
   .ir_bg {
     position: absolute;
+    bottom: -40px;
     width: 100%;
     opacity: 1;
   }
@@ -89,7 +90,7 @@ main {
   background-size: 100%;
   padding: 75px 0 0 0;
   color: #fff;
-  margin-top: -132px;
+  margin-top: -101px;
   .footer_logo {
     width: 10%;
   }
@@ -191,7 +192,7 @@ main {
     p {
       font-size: 10px;
       span {
-        margin-right: 8px;
+        margin-right: 16px;
       }
       font-family: YuGothic, "Yu Gothic";
     }
@@ -407,7 +408,7 @@ main {
       p {
         font-size: 10px;
         span {
-          margin-right: 8px;
+          margin-right: 16px;
         }
         font-family: YuGothic, "Yu Gothic";
       }

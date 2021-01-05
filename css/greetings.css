@@ -24,7 +24,7 @@ main .title svg {
 }
 
 main .title h1 {
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 400;
   color: #e5a615;
   margin-top: 27px;
@@ -84,9 +84,8 @@ main .title h1 {
 
 #ir .ir_bg {
   position: absolute;
-  bottom: -40px;
   width: 100%;
-  opacity: 0.3;
+  opacity: 1;
 }
 
 #footer {
@@ -95,7 +94,7 @@ main .title h1 {
   background-size: 100%;
   padding: 75px 0 0 0;
   color: #fff;
-  margin-top: 196px;
+  margin-top: -132px;
 }
 
 #footer .footer_logo {
@@ -244,7 +243,7 @@ main .title h1 {
 }
 
 #footer .copy p span {
-  margin-right: 16px;
+  margin-right: 8px;
 }
 
 /* デザインB（タブレット） */
@@ -335,6 +334,7 @@ main .title h1 {
     background-size: 100%;
     padding: 185px 0 0 0;
     color: #fff;
+    margin-top: -200px;
   }
   #footer .container {
     width: 1350px;
@@ -470,7 +470,7 @@ main .title h1 {
     font-family: YuGothic, "Yu Gothic";
   }
   #footer .copy p span {
-    margin-right: 16px;
+    margin-right: 8px;
   }
 }
 /*# sourceMappingURL=greetings.css.map */
