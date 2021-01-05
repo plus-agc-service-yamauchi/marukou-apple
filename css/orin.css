@@ -1,5 +1,10 @@
 @charset "UTF-8";
 /* デザインA（スマートフォン） */
+html {
+  font-family: "Roboto", YuGothic, "Yu Gothic";
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 16px;
 }
@@ -28,7 +33,7 @@ main .title svg {
 }
 
 main .title h1 {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 400;
   color: #55991d;
   margin-top: 27px;
@@ -40,11 +45,11 @@ main .title h1 {
 }
 
 #orin_data {
-  margin-bottom: 190px;
+  margin-bottom: 80px;
 }
 
 #orin_data h3 {
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: 0.1em;
   line-height: 41px;
   font-weight: 400;
@@ -56,7 +61,12 @@ main .title h1 {
 }
 
 #orin_data .description {
-  margin-bottom: 160px;
+  margin-bottom: 80px;
+}
+
+#orin_data .description .grid-pc-2 .left {
+  z-index: 2;
+  margin-bottom: -20px;
 }
 
 #orin_data .description .grid-pc-2 .left img {
@@ -66,11 +76,16 @@ main .title h1 {
 }
 
 #orin_data .description .grid-pc-2 .right {
-  margin-top: -50px;
+  background: #fefdf9 0% 0% no-repeat padding-box;
+  border: 1px solid #653333;
+  border-radius: 10px;
+  width: 95%;
+  padding: 40px 0 20px 0;
+  margin: 0 auto;
 }
 
 #orin_data .description .grid-pc-2 .right img {
-  width: 95%;
+  width: 80%;
   margin: 0 auto;
   display: block;
 }
@@ -81,7 +96,7 @@ main .title h1 {
 }
 
 #orin_data p.orin_point_one {
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.2em;
   line-height: 3.2rem;
   margin-bottom: 30.2px;
@@ -96,11 +111,11 @@ main .title h1 {
   background-repeat: no-repeat;
   background-size: contain;
   vertical-align: middle;
-  margin-right: 23.7px;
+  margin-right: 10px;
 }
 
 #orin_data p.orin_point_two {
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.2em;
   line-height: 3.2rem;
   margin-bottom: 30.2px;
@@ -115,11 +130,11 @@ main .title h1 {
   background-repeat: no-repeat;
   background-size: contain;
   vertical-align: middle;
-  margin-right: 23.7px;
+  margin-right: 10px;
 }
 
 #orin_data p.orin_point_three {
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.2em;
   line-height: 3.2rem;
 }
@@ -133,7 +148,7 @@ main .title h1 {
   background-repeat: no-repeat;
   background-size: contain;
   vertical-align: middle;
-  margin-right: 23.7px;
+  margin-right: 10px;
 }
 
 #orin_history {
@@ -141,7 +156,7 @@ main .title h1 {
   background-size: cover;
   background-position: center bottom;
   height: 790px;
-  margin-bottom: 179px;
+  margin-bottom: 90px;
   padding: 0 45px;
   width: 100%;
 }
@@ -156,8 +171,8 @@ main .title h1 {
 }
 
 #orin_history .history_title h3 {
-  font-size: 48px;
-  font-weight: bold;
+  font-size: 42px;
+  font-weight: 400;
   letter-spacing: 0.1em;
   color: #55991d;
   margin-bottom: 96px;
@@ -166,11 +181,12 @@ main .title h1 {
 }
 
 #orin_history .history_title h4 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600px;
   letter-spacing: 0.1em;
   margin-bottom: 46px;
-  text-align: center;
+  line-height: 4.8rem;
+  text-align: left;
 }
 
 #orin_history .history_title p {
@@ -182,7 +198,7 @@ main .title h1 {
 }
 
 #marukou_orin {
-  margin-bottom: 239px;
+  margin-bottom: 120px;
 }
 
 #marukou_orin svg {
@@ -191,7 +207,7 @@ main .title h1 {
 }
 
 #marukou_orin h3 {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 400;
   color: #55991d;
   margin-top: 14.9px;
@@ -214,13 +230,13 @@ main .title h1 {
 }
 
 #product h3 {
-  font-size: 36px;
+  font-size: 32px;
   letter-spacing: 3.6px;
   line-height: 6.1rem;
   color: #55991d;
   font-weight: 800;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 #product img {
@@ -289,7 +305,7 @@ main .title h1 {
   text-align: center;
   background: #e5a615;
   padding: 34.31px 0;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   letter-spacing: 9.6px;
 }
@@ -308,7 +324,7 @@ main .title h1 {
   text-align: center;
   background: #fff;
   padding: 34.31px 0;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   letter-spacing: 9.6px;
   -webkit-transition: 0.1s;
@@ -567,7 +583,7 @@ main .title h1 {
   }
   #orin_history .history_title h3 {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 400;
     letter-spacing: 0.1em;
     color: #55991d;
     margin-bottom: 96px;
