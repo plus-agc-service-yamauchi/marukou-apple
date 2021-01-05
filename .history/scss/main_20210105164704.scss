@@ -401,7 +401,8 @@ header {
     }
   }
   body {
-    min-width: 1920px;
+    width: 100%;
+    max-width: 1920px;
     margin: 0 auto;
     color: #3e0000 !important;
   }
