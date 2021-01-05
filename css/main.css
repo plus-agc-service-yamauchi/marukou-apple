@@ -248,27 +248,53 @@ header img.cart_img {
 .modal__content {
   background: #fff;
   left: 50%;
-  padding: 40px;
+  padding: 40px 0;
   position: absolute;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 60%;
+  width: 80%;
   color: #3e0000;
+  border-radius: 5px;
 }
 
-.modal__content ul,
+.modal__content ul {
+  margin-bottom: 40px;
+}
+
 .modal__content li {
   font-size: 18px;
-  line-height: 2em;
+  text-align: left;
+  border-top: solid 0.5px #3e0000;
+  padding: 20px 0;
+}
+
+.modal__content .bb {
+  border-bottom: solid 0.5px #3e0000;
+}
+
+.modal__content li:before {
+  content: "";
+  /*何も入れない*/
+  display: inline-block;
+  /*忘れずに！*/
+  width: 22px;
+  /*画像の幅*/
+  height: 22px;
+  /*画像の高さ*/
+  background-image: url(../img/appleicon_sp.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: bottom;
+  margin: 0 10px 0 10px;
 }
 
 .js-modal-close {
-  display: block;
   font-size: 18px;
   background: #3e0000;
   color: #fff;
-  padding: 10px 0;
+  padding: 10px 10px;
+  border-radius: 5px;
 }
 
 /* デザインB（タブレット） */
@@ -539,11 +565,15 @@ header img.cart_img {
   #footer .policy {
     background: #653333;
     height: 60px;
-    padding: 0 300px;
+    padding: 0 285px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
@@ -553,15 +583,10 @@ header img.cart_img {
     -webkit-flex-direction: wrap;
         -ms-flex-direction: wrap;
             flex-direction: wrap;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   #footer .policy p {
     font-size: 100%;
     margin-right: 160px;
-    display: inline-block;
     margin: 0;
     padding: 0;
     border: 0;
