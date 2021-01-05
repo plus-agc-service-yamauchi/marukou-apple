@@ -43,6 +43,7 @@ main {
 main .lead {
   font-size: 1.6rem;
   line-height: 3rem;
+  letter-spacing: 0.58px;
   margin-bottom: 60px;
 }
 
@@ -238,6 +239,12 @@ main .lead {
     height: 9.1rem;
     font-size: 2.4rem;
     font-weight: 400;
+  }
+  main .lead {
+    font-size: 2.4rem;
+    letter-spacing: 0.58px;
+    line-height: 6rem;
+    margin-bottom: 60px;
   }
   main h2 {
     padding: 90px 0 216px 0;

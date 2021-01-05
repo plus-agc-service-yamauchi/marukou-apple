@@ -37,6 +37,11 @@ body {
   line-height: 6.1rem;
 }
 
+#footer div.ad {
+  font-family: YuGothic, "Yu Gothic";
+  text-align: left;
+}
+
 #footer div.ad p {
   font-size: 14px;
   margin-bottom: 10px;
@@ -49,15 +54,23 @@ body {
   margin-bottom: 9px;
 }
 
+#footer div.tel {
+  font-family: YuGothic, "Yu Gothic";
+}
+
 #footer div.tel p {
   font-size: 14px;
   display: inline-block;
-  font-family: YuGothic, "Yu Gothic";
   margin-bottom: 10px;
+  margin-right: 8px;
 }
 
 #footer div.tel p span {
-  margin-right: 16px;
+  margin-right: 8px;
+}
+
+#footer div.email {
+  font-family: YuGothic, "Yu Gothic";
 }
 
 #footer div.email p {
@@ -66,7 +79,6 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-family: YuGothic, "Yu Gothic";
 }
 
 #footer div.email p span {
@@ -148,7 +160,7 @@ body {
 }
 
 #footer .copy p span {
-  margin-right: 16px;
+  margin-right: 8px;
 }
 
 #footer .pagetop {
@@ -173,6 +185,7 @@ body {
 
 .bg-main {
   background: #faf6e8;
+  padding-bottom: 100px;
 }
 
 header .cart {
@@ -302,6 +315,10 @@ header img.cart_img {
 /* デザインB（タブレット） */
 /* デザインC(PC) */
 @media screen and (min-width: 1025px) {
+  .bg-main {
+    background: #faf6e8;
+    padding-bottom: 200px;
+  }
   .nav,
   .hamburger__icon,
   .hamburger__icon:after,
