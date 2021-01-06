@@ -157,13 +157,13 @@
             <h3>りんごのこと</h3>
           </div>
           <!-- スライダー -->
-          <!-- <div id="slider"> -->
-          <!-- <ul class="slider"> -->
-          <!-- <li><img alt="画像1" src="img/slider_1.png" /></li> -->
-          <!-- <li><img alt="画像2" src="img/slider_2.png" /></li> -->
-          <!-- <li><img alt="画像3" src="img/slider_3.png" /></li> -->
-          <!-- </ul> -->
-          <!-- </div> -->
+          <div id="slider">
+            <ul class="slider">
+              <li><img alt="画像1" src="img/slide_1.svg" /></li>
+              <li><img alt="画像2" src="img/slide_2.svg" /></li>
+              <li><img alt="画像3" src="img/slide_3.svg" /></li>
+            </ul>
+          </div>
           <!-- /スライダー -->
         </section>
         <!-- /りんごのこと -->
@@ -554,7 +554,6 @@
     <script src="js/plugins.js"></script>
     <script src="js/nav.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/sp_nav.js"></script>
     <script src="js/returnTop.js"></script>
     <script>
       $(document).ready(function () {
@@ -563,12 +562,14 @@
     </script>
     <script src="js/slick.min.js"></script>
     <script>
-      $(".slider").slick({
-        autoplay: true,
-        autoplaySpeed: 5000,
-        dots: true,
+      $(".slider").on("beforeChange", function () {
+        $(".slick-current").removeClass("is--active");
+      });
+      $(".slider").on("afterChange", function () {
+        $(".slick-current").addClass("is--active");
       });
     </script>
+    <script src="js/sp_nav.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>

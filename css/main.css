@@ -179,7 +179,7 @@ header .cart {
 
 header img.logo {
   width: 20%;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 3;

@@ -60,6 +60,10 @@ main .lead {
   text-align: center;
 }
 
+#product {
+  text-align: center;
+}
+
 #product img {
   width: 100%;
 }
@@ -394,6 +398,16 @@ main .lead {
   }
   .img-box:hover .active {
     opacity: 1;
+  }
+  .slick-slide {
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+  }
+  .is--active {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 /*# sourceMappingURL=top.css.map */
