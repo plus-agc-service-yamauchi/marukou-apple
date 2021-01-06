@@ -82,7 +82,17 @@ body {
     margin: 16.5px 0 42.5px 0; */
   }
   .policy {
-    display: none;
+    background: #653333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 45px;
+    p {
+      font-size: 14px;
+      margin: 10px 0;
+      padding: 10px 0;
+      border-bottom: solid 1px #fff;
+    }
   }
   .copy {
     background: #3e0000;

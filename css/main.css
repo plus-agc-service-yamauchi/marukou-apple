@@ -113,28 +113,7 @@ body {
 }
 
 #footer .policy {
-  background: #653333;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 10px 45px;
-}
-
-#footer .policy p {
-  font-size: 14px;
-  margin: 10px 0;
-  padding: 10px 0;
-  border-bottom: solid 1px #fff;
+  display: none;
 }
 
 #footer .copy {
@@ -583,27 +562,12 @@ header img.cart_img {
     background: #653333;
     height: 60px;
     padding: 0 285px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: wrap;
-        -ms-flex-direction: wrap;
-            flex-direction: wrap;
   }
   #footer .policy p {
     font-size: 100%;
-    margin-right: 160px;
+    margin-right: 160px !important;
+    margin-top: 25px !important;
+    display: inline-block;
     margin: 0;
     padding: 0;
     border: 0;

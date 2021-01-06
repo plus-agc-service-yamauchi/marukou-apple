@@ -341,9 +341,7 @@
       </div>
       <!-- /特商法、ポリシー -->
       <!-- ページトップ -->
-      <a id="pageTop" href="#" class="pagetop"
-        ><img src="img/pagetop.svg" alt="" data-scroll
-      /></a>
+      <a href="#top" class="pagetop"><img src="img/pagetop.svg" alt="" /></a>
       <!-- /ページトップ -->
     </footer>
     <!-- SPナビゲーション -->
@@ -379,13 +377,19 @@
       </div>
     </div>
     <!-- /SPナビゲーション -->
+    <script>
+      document
+        .querySelectorAll("*")
+        .forEach((el) =>
+          el.clientWidth > document.body.clientWidth ? console.log(el) : null
+        );
+    </script>
     <script src="js/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/vivus/latest/vivus.min.js"></script>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/nav.min.js"></script>
     <script src="js/sp_nav.js"></script>
-    <script src="js/returnTop.js"></script>
     <script>
       $(document).ready(function () {
         $.Nav();

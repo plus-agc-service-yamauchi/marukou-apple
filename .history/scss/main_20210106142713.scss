@@ -9,6 +9,7 @@ body {
 }
 
 #footer {
+  font-family: YuGothic, "Yu Gothic";
   display: block;
   position: relative;
   background: url(../img/sp_footer_bg.svg) no-repeat;
@@ -82,7 +83,17 @@ body {
     margin: 16.5px 0 42.5px 0; */
   }
   .policy {
-    display: none;
+    background: #653333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 45px;
+    p {
+      font-size: 14px;
+      margin: 10px 0;
+      padding: 10px 0;
+      border-bottom: solid 1px #fff;
+    }
   }
   .copy {
     background: #3e0000;
@@ -502,15 +513,18 @@ header {
         margin-left: -1em;
       }
     }
+
     .policy {
       background: #653333;
       height: 60px;
       padding: 0 285px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: wrap;
       p {
         font-size: 100%;
-        margin-right: 160px !important;
-        margin-top: 25px !important;
-        display: inline-block;
+        margin-right: 160px;
         margin: 0;
         padding: 0;
         border: 0;
