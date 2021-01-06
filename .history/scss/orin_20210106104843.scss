@@ -57,8 +57,7 @@ main {
   }
   .description {
     margin-bottom: 80px;
-    .grid-pc-2,
-    .grid-sp-1 {
+    .grid-pc-2 {
       .left {
         z-index: 2;
         margin-bottom: -20px;
@@ -77,6 +76,7 @@ main {
         img {
           width: 80%;
           margin: 0 auto;
+          display: block;
         }
       }
     }
@@ -447,27 +447,30 @@ main {
     }
     .description {
       margin-bottom: 160px;
-      .grid-pc-2,
-      .grid-sp-1 {
+      .grid-pc-2 {
         .left {
           margin-right: -100px;
           z-index: 2;
           width: 610px;
           img {
             box-shadow: 0px 3px 6px #00000029;
-            width: 95%;
+            width: 100%;
           }
         }
         .right {
-          background: transparent;
-          border: none;
           margin-top: 100px;
           margin-left: -100px;
-          width: 700px;
-          padding: 0;
+          /* background: #fefdf9 0% 0% no-repeat padding-box;
+          border: 1px solid #653333;
+          border-radius: 10px;
+          width: 95%;
+          padding: 40px 0 20px 0;
+          margin: 0 auto; */
           img {
-            width: 100% !important;
-            margin: 0;
+            width: 100%;
+            /* width: 80%;
+            margin: 0 auto;
+            display: block; */
           }
         }
       }

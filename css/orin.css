@@ -64,18 +64,21 @@ main .title h1 {
   margin-bottom: 80px;
 }
 
-#orin_data .description .grid-pc-2 .left {
+#orin_data .description .grid-pc-2 .left,
+#orin_data .description .grid-sp-1 .left {
   z-index: 2;
   margin-bottom: -20px;
 }
 
-#orin_data .description .grid-pc-2 .left img {
+#orin_data .description .grid-pc-2 .left img,
+#orin_data .description .grid-sp-1 .left img {
   -webkit-box-shadow: 0px 3px 6px #00000029;
           box-shadow: 0px 3px 6px #00000029;
   width: 100%;
 }
 
-#orin_data .description .grid-pc-2 .right {
+#orin_data .description .grid-pc-2 .right,
+#orin_data .description .grid-sp-1 .right {
   background: #fefdf9 0% 0% no-repeat padding-box;
   border: 1px solid #653333;
   border-radius: 10px;
@@ -84,10 +87,10 @@ main .title h1 {
   margin: 0 auto;
 }
 
-#orin_data .description .grid-pc-2 .right img {
+#orin_data .description .grid-pc-2 .right img,
+#orin_data .description .grid-sp-1 .right img {
   width: 80%;
   margin: 0 auto;
-  display: block;
 }
 
 #orin_data .orin_point {
@@ -495,22 +498,31 @@ main .title h1 {
   #orin_data .description {
     margin-bottom: 160px;
   }
-  #orin_data .description .grid-pc-2 .left {
+  #orin_data .description .grid-pc-2 .left,
+  #orin_data .description .grid-sp-1 .left {
     margin-right: -100px;
     z-index: 2;
     width: 610px;
   }
-  #orin_data .description .grid-pc-2 .left img {
+  #orin_data .description .grid-pc-2 .left img,
+  #orin_data .description .grid-sp-1 .left img {
     -webkit-box-shadow: 0px 3px 6px #00000029;
             box-shadow: 0px 3px 6px #00000029;
-    width: 100%;
+    width: 95%;
   }
-  #orin_data .description .grid-pc-2 .right {
+  #orin_data .description .grid-pc-2 .right,
+  #orin_data .description .grid-sp-1 .right {
+    background: transparent;
+    border: none;
     margin-top: 100px;
     margin-left: -100px;
+    width: 700px;
+    padding: 0;
   }
-  #orin_data .description .grid-pc-2 .right img {
-    width: 100%;
+  #orin_data .description .grid-pc-2 .right img,
+  #orin_data .description .grid-sp-1 .right img {
+    width: 100% !important;
+    margin: 0;
   }
   #orin_data .orin_point {
     width: 400px;
