@@ -41,16 +41,17 @@ main {
     letter-spacing: 2.4px;
     line-height: 4.8rem;
     font-weight: 400;
-    margin-bottom: 54px;
+    margin-bottom: 30px;
   }
   p {
     font-size: 12px;
     letter-spacing: 1.2px;
     line-height: 3.2rem;
+    margin-bottom: 30px;
     font-weight: 400;
   }
   img {
-    margin-bottom: 47px;
+    margin-bottom: 87px;
     width: 100%;
   }
 }
@@ -245,17 +246,41 @@ main {
       letter-spacing: 2.4px;
       line-height: 4.8rem;
       font-weight: 400;
-      margin-bottom: 54px;
+      margin-bottom: 30px;
     }
     p {
       font-size: 12px;
       letter-spacing: 1.2px;
       line-height: 3.2rem;
       font-weight: 400;
-      margin-bottom: 20px;
+      margin-bottom: 70px;
     }
     img {
       margin-bottom: 47px;
+    }
+    .img_wrapper {
+      position: relative;
+      img.photo_1 {
+        position: absolute;
+        top: 0;
+        left: 56px;
+        width: 354px;
+        height: 234px;
+      }
+      img.photo_2 {
+        position: absolute;
+        top: 323px;
+        right: 0;
+        width: 403px;
+        height: 265px;
+      }
+      img.photo_3 {
+        position: absolute;
+        bottom: 0;
+        left: 10%;
+        width: 560px;
+        height: 312px;
+      }
     }
   }
 

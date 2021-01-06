@@ -1,0 +1,416 @@
+/* デザインA（スマートフォン） */
+body {
+  font-size: 16px;
+}
+
+main {
+  p.lead {
+    padding: 76px 0 90px 0;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    line-height: 3.2rem;
+    font-size: 16px;
+    text-align: left;
+  }
+  .title {
+    padding-top: 100px;
+    margin-bottom: 76px;
+    svg {
+      display: block;
+      margin: 0 auto;
+    }
+    // タイトル
+    h1 {
+      font-size: 40px;
+      font-weight: 400;
+      color: #e5a615;
+      margin-top: 27px;
+      text-align: center;
+      letter-spacing: 5.76px;
+    }
+  }
+}
+
+#heading {
+  margin-bottom: 90.5px;
+}
+
+.description {
+  h2 {
+    font-size: 24px;
+    letter-spacing: 2.4px;
+    line-height: 4.8rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 3.2rem;
+    font-weight: 400;
+  }
+  img {
+    margin-bottom: 47px;
+    width: 100%;
+  }
+}
+
+#ir {
+  background-color: #fefdf9;
+  position: relative;
+  background-position: right bottom;
+  background-size: 100%;
+  padding-bottom: 100px;
+  table {
+    font-size: 12px;
+    letter-spacing: 2.88px;
+    line-height: 4.1rem;
+    border-collapse: collapse;
+    margin: 0 auto;
+    tr {
+      border-bottom: solid 0.75px #3e0000;
+      th {
+        display: none;
+        /* font-size: 9px;
+        font-weight: normal; */
+      }
+    }
+  }
+  .ir_bg {
+    position: absolute;
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+#footer {
+  position: relative;
+  background: url(../img/sp_footer_bg.svg) no-repeat;
+  background-size: 100%;
+  padding: 75px 0 0 0;
+  color: #fff;
+  margin-top: -132px;
+  .footer_logo {
+    width: 10%;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 6.1rem;
+  }
+  div.ad {
+    p {
+      font-size: 14px;
+      margin-bottom: 10px;
+      span {
+        display: block;
+        font-size: 16px;
+        letter-spacing: 0.94px;
+        margin-bottom: 9px;
+      }
+    }
+  }
+  div.tel {
+    p {
+      font-size: 14px;
+      display: inline-block;
+      font-family: YuGothic, "Yu Gothic";
+      margin-bottom: 10px;
+      span {
+        margin-right: 16px;
+      }
+    }
+  }
+  div.email {
+    p {
+      font-size: 14px;
+      display: flex;
+      font-family: YuGothic, "Yu Gothic";
+      span {
+        margin-right: 16px;
+      }
+    }
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  hr {
+    background: #fff;
+    border: solid 2px #fff;
+    margin: 16.5px 0 42.5px 0;
+  }
+  .footer_nav {
+    p {
+      font-size: 24px;
+      margin-bottom: 20px;
+      letter-spacing: 0.2rem;
+      font-family: YuGothic, "Yu Gothic";
+    }
+    p:before {
+      content: ""; /*何も入れない*/
+      display: inline-block; /*忘れずに！*/
+      width: 22.72px; /*画像の幅*/
+      height: 24.49px; /*画像の高さ*/
+      background-image: url(../img/appleicon.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      vertical-align: top;
+      margin-right: 10.3px;
+    }
+    ul {
+      margin-left: 2em;
+    }
+    li {
+      margin-bottom: 20px;
+      font-size: 16px;
+      letter-spacing: 0.3rem;
+    }
+    li:first-line {
+      margin-left: -1em;
+    }
+  }
+  .policy {
+    background: #653333;
+    height: 60px;
+    padding: 0 300px;
+    display: flex;
+    align-items: center;
+    p {
+      margin-right: 160px;
+      display: inline-block;
+    }
+  }
+  .copy {
+    background: #3e0000;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: 10px;
+      span {
+        margin-right: 8px;
+      }
+      font-family: YuGothic, "Yu Gothic";
+    }
+  }
+}
+/* デザインB（タブレット） */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+}
+
+/* デザインC(PC) */
+@media screen and (min-width: 1025px) {
+  body {
+    font-size: 16px;
+  }
+
+  main {
+    p.lead {
+      padding: 76px 0 90px 0;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      line-height: 3.2rem;
+      font-size: 16px;
+      text-align: left;
+    }
+    .title {
+      padding-top: 100px;
+      margin-bottom: 76px;
+      svg {
+        display: block;
+        margin: 0 auto;
+      }
+      // タイトル
+      h1 {
+        font-size: 48px;
+        font-weight: 400;
+        color: #e5a615;
+        margin-top: 27px;
+        text-align: center;
+        letter-spacing: 5.76px;
+      }
+    }
+  }
+
+  #heading {
+    margin-bottom: 90.5px;
+  }
+
+  .description {
+    h2 {
+      font-size: 24px;
+      letter-spacing: 2.4px;
+      line-height: 4.8rem;
+      font-weight: 400;
+      margin-bottom: 54px;
+    }
+    p {
+      font-size: 12px;
+      letter-spacing: 1.2px;
+      line-height: 3.2rem;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+    img {
+      margin-bottom: 47px;
+    }
+  }
+
+  #ir {
+    background-color: #fefdf9;
+    position: relative;
+    background-position: right bottom;
+    background-size: 100%;
+    height: 1132px;
+    padding-bottom: 0;
+    table {
+      font-size: 24px;
+      letter-spacing: 2.88px;
+      line-height: 4.1rem;
+      border-collapse: collapse;
+      margin: 0 auto;
+      tr {
+        border-bottom: solid 0.75px #3e0000;
+        th {
+          font-size: 24px;
+          padding: 60px 87px 20px 40px;
+          font-weight: normal;
+        }
+        td {
+          padding: 60px 60px 0 0;
+        }
+      }
+    }
+    .ir_bg {
+      position: absolute;
+      bottom: -85px;
+      width: 100%;
+      opacity: 1;
+    }
+  }
+
+  #footer {
+    position: relative;
+    background: url(../img/footer_bg.svg) no-repeat;
+    background-size: 100%;
+    padding: 185px 0 0 0;
+    color: #fff;
+    margin-top: -200px;
+    .container {
+      width: 1350px;
+      margin: 0 auto;
+    }
+    .footer_logo {
+      width: 113.59px !important;
+      height: 131.51px !important;
+    }
+    h3 {
+      font-size: 36px;
+      font-weight: bold;
+      line-height: 6.1rem;
+    }
+    div.ad {
+      p {
+        font-size: 24px;
+        margin-bottom: 20px;
+        span {
+          display: block;
+          font-size: 16px;
+          letter-spacing: 0.94px;
+          margin-bottom: 9px;
+        }
+      }
+    }
+    div.tel {
+      p {
+        font-size: 24px;
+        display: inline-block;
+        margin-right: 57px;
+        font-family: YuGothic, "Yu Gothic";
+        margin-bottom: 17px;
+        span {
+          margin-right: 16px;
+        }
+      }
+    }
+    div.email {
+      p {
+        font-size: 24px;
+        display: flex;
+        margin-right: 57px;
+        font-family: YuGothic, "Yu Gothic";
+        span {
+          margin-right: 16px;
+        }
+      }
+    }
+    .flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    hr {
+      background: #fff;
+      border: solid 2px #fff;
+      margin: 16.5px 0 42.5px 0;
+    }
+    .footer_nav {
+      p {
+        font-size: 24px;
+        margin-bottom: 20px;
+        letter-spacing: 0.2rem;
+        font-family: YuGothic, "Yu Gothic";
+      }
+      p:before {
+        content: ""; /*何も入れない*/
+        display: inline-block; /*忘れずに！*/
+        width: 22.72px; /*画像の幅*/
+        height: 24.49px; /*画像の高さ*/
+        background-image: url(../img/appleicon.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        vertical-align: top;
+        margin-right: 10.3px;
+      }
+      ul {
+        margin-left: 2em;
+      }
+      li {
+        margin-bottom: 20px;
+        font-size: 16px;
+        letter-spacing: 0.3rem;
+      }
+      li:first-line {
+        margin-left: -1em;
+      }
+    }
+    .policy {
+      background: #653333;
+      height: 60px;
+      padding: 0 300px;
+      display: flex;
+      align-items: center;
+      p {
+        margin-right: 160px;
+        display: inline-block;
+      }
+    }
+    .copy {
+      background: #3e0000;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p {
+        font-size: 10px;
+        span {
+          margin-right: 8px;
+        }
+        font-family: YuGothic, "Yu Gothic";
+      }
+    }
+  }
+}
