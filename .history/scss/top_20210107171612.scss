@@ -418,11 +418,6 @@ main {
       align-items: center;
     }
   }
-  #slider {
-    background: url(../img/slider_bg.svg) no-repeat;
-    background-size: 100% 537px;
-    background-position: bottom;
-  }
   .slick-slide {
     div {
       display: flex;
@@ -439,12 +434,7 @@ main {
     transform: scale(1);
     transform-origin: 50% 50%;
     h4 {
-      span.text {
-        border-bottom: solid 1px #653333;
-        padding-bottom: 15.5px;
-        width: 100%;
-        animation: right 2s 0.3s ease-out infinite alternate;
-      }
+      border-bottom: solid 1px;
     }
   }
   .slick-current + .slick-slide {

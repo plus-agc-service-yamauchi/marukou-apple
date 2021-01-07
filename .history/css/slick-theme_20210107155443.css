@@ -34,6 +34,7 @@
   color: transparent;
   border: none;
   outline: none;
+  background: #000;
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -60,50 +61,34 @@
   font-size: 20px;
   line-height: 1;
   opacity: 0.75;
-  color: black;
+  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .slick-prev {
-  left: 28%;
-  z-index: 999;
+  left: 30%;
 }
 [dir="rtl"] .slick-prev {
   right: -25px;
   left: auto;
 }
 .slick-prev:before {
-  content: ""; /*何も入れない*/
-  display: inline-block; /*忘れずに！*/
-  width: 38px; /*画像の幅*/
-  height: 75px; /*画像の高さ*/
-  background-image: url(../img/slick-prev.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  vertical-align: middle;
+  content: "←";
 }
 [dir="rtl"] .slick-prev:before {
   content: "→";
 }
 
 .slick-next {
-  right: 28%;
-  z-index: 999;
+  right: -30%;
 }
 [dir="rtl"] .slick-next {
   right: auto;
   left: -25px;
 }
 .slick-next:before {
-  content: ""; /*何も入れない*/
-  display: inline-block; /*忘れずに！*/
-  width: 38px; /*画像の幅*/
-  height: 75px; /*画像の高さ*/
-  background-image: url(../img/slick-next.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  vertical-align: middle;
+  content: "→";
 }
 [dir="rtl"] .slick-next:before {
   content: "←";

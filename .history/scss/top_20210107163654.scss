@@ -385,67 +385,20 @@ main {
       width: 400px !important;
       display: block;
       margin: 0 auto;
-      h4 {
-        text-align: center;
-        font-size: 36px;
-        font-weight: bold;
-        letter-spacing: 7.2px;
-        line-height: 6.2rem;
-      }
     }
-    p.one {
-      line-height: 3;
-      font-size: 12px;
-    }
-    img {
-      display: block;
-      margin: 0 auto;
-    }
-    p.two {
-      margin-top: 25.1px;
-      text-align: center;
-    }
-    .btn_sunfuji {
-      width: 400px;
-      height: 70px;
-      font-size: 16px;
-      background-color: #b63333;
-      line-height: 1.75;
-      color: #ffffff;
-      border-radius: 5px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  }
-  #slider {
-    background: url(../img/slider_bg.svg) no-repeat;
-    background-size: 100% 537px;
-    background-position: bottom;
   }
   .slick-slide {
-    div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
     transition: 0.3s ease;
     transform: scale(0.85);
     transform-origin: 110% 50%;
+    filter: blur(7px);
   }
   .slick-current {
     position: relative;
     z-index: 2;
     transform: scale(1);
     transform-origin: 50% 50%;
-    h4 {
-      span.text {
-        border-bottom: solid 1px #653333;
-        padding-bottom: 15.5px;
-        width: 100%;
-        animation: right 2s 0.3s ease-out infinite alternate;
-      }
-    }
+    filter: blur(0);
   }
   .slick-current + .slick-slide {
     transform-origin: -10% 50%;
