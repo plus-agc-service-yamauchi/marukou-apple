@@ -27,8 +27,8 @@
 
   display: block;
 
-  width: 38px;
-  height: 75px;
+  width: 20px;
+  height: 20px;
   padding: 0;
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
@@ -74,8 +74,7 @@
 }
 
 .slick-prev {
-  left: 0;
-  z-index: 999;
+  left: -25px;
 }
 [dir="rtl"] .slick-prev {
   right: -25px;
@@ -96,8 +95,7 @@
 }
 
 .slick-next {
-  right: 0;
-  z-index: 999;
+  right: -25px;
 }
 [dir="rtl"] .slick-next {
   right: auto;

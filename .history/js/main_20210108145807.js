@@ -100,17 +100,17 @@ addEvent(window,'load',setRollOver2);
 
 }
 
-jQuery(function($) {
-  //アイコン hoverアクション
-  $('ul a img').each(function(){
-    var img = $(this);
-    var src_off = img.attr('src');
-    var src_on = src_off.replace(/^(.+)_mouseoff(\.[^\.]+)$/, '$1_mouseon$2');
-    $('<img />').attr('src', src_on);
-    $(this).parents('a').hover(function(){
-      img.attr('src', src_on);
-    },function(){
-      img.attr('src', src_off);
-    });
-  });
-  });
+// jQuery(function($) {
+//   //アイコン hoverアクション
+//   $('a img').each(function(){
+//     var img = $(this);
+//     var src_off = img.attr('src');
+//     var src_on = src_off.replace(/^(.+)_mouseoff(\.[^\.]+)$/, '$1_mouseon$2');
+//     $('<img />').attr('src', src_on);
+//     $(this).parents('a').hover(function(){
+//       img.attr('src', src_on);
+//     },function(){
+//       img.attr('src', src_off);
+//     });
+//   });
+//   });

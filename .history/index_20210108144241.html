@@ -601,26 +601,24 @@
     </script>
     <script src="js/slick.js"></script>
     <script>
-      $(function () {
-        $(".slick01").slick({
-          centerMode: true,
-          centerPadding: "28%",
-          slidesToShow: 1,
-          autoplay: true,
-          responsive: [
-            {
-              breakpoint: 736,
-              settings: {
-                centerPadding: "50px",
-              },
-              breakpoint: 480,
-              settings: {
-                centerMode: false,
-              },
-            },
-          ],
+        $(function () {
+          $(".slick01").slick({
+            centerMode: true,
+            centerPadding: "28%",
+            slidesToShow: 1,
+            autoplay: true,
+            responsive: [{
+        breakpoint: 640,  //ブレイクポイントを指定
+        settings: {
+          centerPadding:'50px',
+        },{
+        breakpoint: 480,
+        settings: {
+          centerMode: false,
+        }
+      }]
+          });
         });
-      });
     </script>
     <script src="js/sp_nav.js"></script>
 

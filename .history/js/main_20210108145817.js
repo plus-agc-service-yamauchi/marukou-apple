@@ -102,7 +102,7 @@ addEvent(window,'load',setRollOver2);
 
 jQuery(function($) {
   //アイコン hoverアクション
-  $('ul a img').each(function(){
+  $('a img').each(function(){
     var img = $(this);
     var src_off = img.attr('src');
     var src_on = src_off.replace(/^(.+)_mouseoff(\.[^\.]+)$/, '$1_mouseon$2');
