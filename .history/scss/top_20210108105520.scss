@@ -431,7 +431,7 @@ main {
     }
   }
   #slider {
-    /* background: url(../img/slider_bg.svg) no-repeat; */
+    background: url(../img/slider_bg.svg) no-repeat;
     background-size: 100% 537px;
     background-position: bottom;
   }
@@ -452,7 +452,7 @@ main {
     transform-origin: 50% 50%;
     h4 {
       span.text {
-        border-bottom: solid 1.5px #653333;
+        border-bottom: solid 1px #653333;
         padding-bottom: 15.5px;
         width: 100%;
         animation: right 2s 0.3s ease-out infinite alternate;
@@ -461,11 +461,5 @@ main {
   }
   .slick-current + .slick-slide {
     transform-origin: -10% 50%;
-  }
-  .fadeout:hover {
-    .off {
-      display: none;
-      height: 306px !important;
-    }
   }
 }

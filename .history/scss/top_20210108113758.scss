@@ -462,10 +462,4 @@ main {
   .slick-current + .slick-slide {
     transform-origin: -10% 50%;
   }
-  .fadeout:hover {
-    .off {
-      display: none;
-      height: 306px !important;
-    }
-  }
 }

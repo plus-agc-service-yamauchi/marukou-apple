@@ -13,7 +13,7 @@ function smartRollover() {
               }
           }
       }
-  }
+  }0
 }
 
 if(window.addEventListener) {

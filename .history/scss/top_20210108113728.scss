@@ -431,7 +431,7 @@ main {
     }
   }
   #slider {
-    /* background: url(../img/slider_bg.svg) no-repeat; */
+    background: url(../img/slider_bg.svg) no-repeat;
     background-size: 100% 537px;
     background-position: bottom;
   }
@@ -461,11 +461,5 @@ main {
   }
   .slick-current + .slick-slide {
     transform-origin: -10% 50%;
-  }
-  .fadeout:hover {
-    .off {
-      display: none;
-      height: 306px !important;
-    }
   }
 }
