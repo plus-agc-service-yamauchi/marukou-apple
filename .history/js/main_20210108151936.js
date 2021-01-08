@@ -26,7 +26,7 @@ else if(window.attachEvent) {
 // cross fade
 
 new function(){
-function setRollOver(){
+function setRollOver2(){
   if(!document.images){return;}
   var imgs = document.images;
   var insert = [];
