@@ -26,7 +26,7 @@ else if(window.attachEvent) {
 // cross fade
 
 new function(){
-function setRollOver2(){
+function setRollOver(){
   if(!document.images){return;}
   var imgs = document.images;
   var insert = [];
@@ -101,6 +101,7 @@ addEvent(window,'load',setRollOver2);
 }
 
 jQuery(function($) {
+  //アイコン hoverアクション
   $('ul a img').each(function(){
     var img = $(this);
     var src_off = img.attr('src');

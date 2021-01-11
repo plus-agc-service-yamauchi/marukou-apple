@@ -626,19 +626,31 @@
     <script>
       $(function () {
         $(".slick01").slick({
-          centerMode: true,
-          centerPadding: "28%",
-          slidesToShow: 1,
-          autoplay: true,
           responsive: [
             {
-              breakpoint: 736,
+              breakpoint: 1024,
               settings: {
-                centerPadding: "50px",
+                //601px～1024pxでは3画像表示
+                centerMode: true,
+                centerPadding: "28%",
+                slidesToShow: 1,
+                autoplay: true,
               },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                //481px～600pxでは2画像表示
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              },
+            },
+            {
               breakpoint: 480,
               settings: {
-                centerMode: false,
+                //480px以下では1画像表示
+                slidesToShow: 1,
+                slidesToScroll: 1,
               },
             },
           ],

@@ -624,26 +624,44 @@
     </script>
     <script src="js/slick.js"></script>
     <script>
-      $(function () {
-        $(".slick01").slick({
-          centerMode: true,
-          centerPadding: "28%",
-          slidesToShow: 1,
-          autoplay: true,
-          responsive: [
-            {
-              breakpoint: 736,
-              settings: {
-                centerPadding: "50px",
-              },
-              breakpoint: 480,
-              settings: {
-                centerMode: false,
-              },
-            },
-          ],
-        });
-      });
+            $(function () {
+              $(".slick01").slick({
+                responsive: [{
+      breakpoint: 1024,settings: { //601px～1024pxでは3画像表示
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      }
+      },
+      {
+      breakpoint: 600,settings: { //481px～600pxでは2画像表示
+      slidesToShow: 2,
+      slidesToScroll: 2
+      }
+      },
+      {
+      breakpoint: 480,settings: {//480px以下では1画像表示
+      slidesToShow: 1,
+      slidesToScroll: 1
+      }
+      }]
+                centerMode: true,
+                centerPadding: "28%",
+                slidesToShow: 1,
+                autoplay: true,
+                responsive: [
+                  {
+                    breakpoint: 736,
+                    settings: {
+                      centerPadding: "50px",
+                    },
+                    breakpoint: 480,
+                    settings: {
+                      centerMode: false,
+                    },
+                  },
+                ],
+              });
+            });
     </script>
     <script src="js/sp_nav.js"></script>
 

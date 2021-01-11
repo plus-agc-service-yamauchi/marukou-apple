@@ -100,16 +100,21 @@ addEvent(window,'load',setRollOver2);
 
 }
 
-jQuery(function($) {
-  $('ul a img').each(function(){
-    var img = $(this);
-    var src_off = img.attr('src');
-    var src_on = src_off.replace(/^(.+)_mouseoff(\.[^\.]+)$/, '$1_mouseon$2');
-    $('<img />').attr('src', src_on);
-    $(this).parents('a').hover(function(){
-      img.attr('src', src_on);
-    },function(){
-      img.attr('src', src_off);
-    });
-  });
-  });
+$(function(){
+  $('img.rollover').each(
+    function(){
+      this.onImage = $(this).attr('src').replace(/^(.+)(\.[a-z]+)$/,"$1"+'_on'+"$2");
+      this.onHtml = $('<img src="'+this.onImage+'" alt="" style="position:absolute; opacity:0;" />');
+      $(this).before(this.onHtml);
+
+      $(this.onHtml).hover(
+        function(){
+          $(this).stop().animate({'opacity': '1'}, 600);
+        },
+        function(){
+          $(this).stop().animate({'opacity': '0'}, 400);
+        }
+      )
+    }
+  )
+});

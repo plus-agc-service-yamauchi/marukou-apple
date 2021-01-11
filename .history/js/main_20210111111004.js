@@ -113,3 +113,22 @@ jQuery(function($) {
     });
   });
   });
+
+  $(function(){
+    $('img.rollover').each(
+      function(){
+        this.onImage = $(this).attr('src').replace(/^(.+)(\.[a-z]+)$/,"$1"+'_on'+"$2");
+        this.onHtml = $('<img src="'+this.onImage+'" alt="" style="position:absolute; opacity:0;" />');
+        $(this).before(this.onHtml);
+
+        $(this.onHtml).hover(
+          function(){
+            $(this).stop().animate({'opacity': '1'}, 600);
+          },
+          function(){
+            $(this).stop().animate({'opacity': '0'}, 400);
+          }
+        )
+      }
+    )
+  });

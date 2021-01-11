@@ -101,6 +101,7 @@ addEvent(window,'load',setRollOver2);
 }
 
 jQuery(function($) {
+  //アイコン hoverアクション
   $('ul a img').each(function(){
     var img = $(this);
     var src_off = img.attr('src');

@@ -626,10 +626,6 @@
     <script>
       $(function () {
         $(".slick01").slick({
-          centerMode: true,
-          centerPadding: "28%",
-          slidesToShow: 1,
-          autoplay: true,
           responsive: [
             {
               breakpoint: 736,
@@ -638,7 +634,10 @@
               },
               breakpoint: 480,
               settings: {
-                centerMode: false,
+                centerMode: true,
+                centerPadding: "28%",
+                slidesToShow: 1,
+                autoplay: true,
               },
             },
           ],
