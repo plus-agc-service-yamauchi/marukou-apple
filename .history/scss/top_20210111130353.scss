@@ -30,7 +30,6 @@ main {
 }
 #apple {
   .title {
-    margin: 100px 0 50px 0;
     svg {
       display: block;
       margin: 0 auto;
@@ -51,7 +50,6 @@ main {
     width: 100%;
   }
   .title {
-    margin: 100px 0 50px 0;
     svg {
       display: block;
       margin: 0 auto;
@@ -192,9 +190,6 @@ ul.slick01 {
       letter-spacing: 7.2px;
       line-height: 6.2rem;
     }
-    img {
-      width: 100%;
-    }
   }
   p.one {
     line-height: 3;
@@ -234,13 +229,8 @@ ul.slick01 {
   }
 }
 #slider {
-  background: url(../img/slider_bg.svg) no-repeat;
-  background-size: auto 50%;
+  /* background: url(../img/slider_bg.svg) no-repeat; */
   background-position: bottom;
-  padding: 0 45px;
-  .title {
-    margin-bottom: 108px;
-  }
 }
 .slick-slide {
   div {
@@ -341,9 +331,6 @@ ul.slick01 {
   }
 
   #product {
-    .title {
-      margin: 200px 0 90px 0;
-    }
     img {
       width: 300px;
       height: 300px;
@@ -525,12 +512,9 @@ ul.slick01 {
     }
   }
   #slider {
-    background: url(../img/slider_bg.svg) no-repeat;
-    background-size: auto 50%;
+    /* background: url(../img/slider_bg.svg) no-repeat; */
+    background-size: 100% 537px;
     background-position: bottom;
-    .title {
-      margin-bottom: 216px;
-    }
   }
   .slick-slide {
     div {

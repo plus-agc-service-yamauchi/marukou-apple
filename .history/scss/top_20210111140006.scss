@@ -30,7 +30,6 @@ main {
 }
 #apple {
   .title {
-    margin: 100px 0 50px 0;
     svg {
       display: block;
       margin: 0 auto;
@@ -51,7 +50,6 @@ main {
     width: 100%;
   }
   .title {
-    margin: 100px 0 50px 0;
     svg {
       display: block;
       margin: 0 auto;
@@ -238,9 +236,6 @@ ul.slick01 {
   background-size: auto 50%;
   background-position: bottom;
   padding: 0 45px;
-  .title {
-    margin-bottom: 108px;
-  }
 }
 .slick-slide {
   div {
@@ -341,9 +336,6 @@ ul.slick01 {
   }
 
   #product {
-    .title {
-      margin: 200px 0 90px 0;
-    }
     img {
       width: 300px;
       height: 300px;
