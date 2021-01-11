@@ -341,11 +341,8 @@ header {
   .nav__wrapper {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: center;
-    width: 50%;
+    display: table;
+    table-layout: fixed;
   }
   .nav.active {
     -moz-transform: scale(1);
@@ -354,25 +351,25 @@ header {
     transform: scale(1);
   }
   .nav ul {
+    display: table-cell;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
   }
   .nav li {
     list-style-type: none;
     text-align: center;
+
     padding: 10px;
     font-size: 2em;
   }
   .nav li,
   .nav li a {
     color: #fff;
+    border-bottom: solid 1px #fff;
   }
   .nav li a {
     text-decoration: none;
-  }
-
-  .nav a {
-    border-bottom: solid 1px #fff;
   }
 
   header {
