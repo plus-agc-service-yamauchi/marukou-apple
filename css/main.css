@@ -292,7 +292,10 @@ header img.cart_img {
 
 /* デザインB（タブレット） */
 /* デザインC(PC) */
-@media screen and (min-width: 1025px) {
+@media screen and (max-width: 1025px) {
+  body {
+    overflow-x: hidden;
+  }
   .bg-main {
     background: #faf6e8;
     padding-bottom: 200px;
@@ -373,7 +376,7 @@ header img.cart_img {
     display: none;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background: #3e0000;
     -webkit-transform: scale(1.4);
     transform: scale(1.4);
     -webkit-transition-property: -webkit-transform;
@@ -612,6 +615,14 @@ header img.cart_img {
   }
   .mr130 {
     margin-right: 130px;
+  }
+  .animationTxt {
+    display: block;
+  }
+  .animationTxt span {
+    opacity: 0;
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
   }
 }
 /*# sourceMappingURL=main.css.map */
