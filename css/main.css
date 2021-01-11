@@ -292,7 +292,7 @@ header img.cart_img {
 
 /* デザインB（タブレット） */
 /* デザインC(PC) */
-@media screen and (max-width: 1025px) {
+@media screen and (min-width: 1025px) {
   body {
     overflow-x: hidden;
   }
