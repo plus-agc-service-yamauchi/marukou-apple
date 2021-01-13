@@ -464,8 +464,19 @@ ul.slick01 {
   .img-box {
     position: relative;
   }
-  .mb13 {
-    margin-bottom: 13px;
+  .layout_g {
+    background: #fff;
+    border: 2px solid #e5a615;
+    border-radius: 3px;
+    opacity: 1;
+    color: #e5a615;
+    display: block;
+    width: 250px;
+    padding: 17px 0;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 13px;
+    font-weight: bold;
   }
   .img-box .active {
     position: absolute;

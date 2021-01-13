@@ -463,9 +463,9 @@ ul.slick01 {
   }
   .img-box {
     position: relative;
-  }
-  .mb13 {
-    margin-bottom: 13px;
+    img {
+      width: 90%;
+    }
   }
   .img-box .active {
     position: absolute;

@@ -340,9 +340,6 @@ header {
   }
   .nav__wrapper {
     width: 100%;
-    height: 100%;
-    display: table;
-    table-layout: fixed;
   }
   .nav.active {
     -moz-transform: scale(1);
@@ -351,8 +348,6 @@ header {
     transform: scale(1);
   }
   .nav ul {
-    display: table-cell;
-    vertical-align: middle;
     margin: 0;
     padding: 0;
   }
