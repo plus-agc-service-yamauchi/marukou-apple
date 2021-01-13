@@ -424,8 +424,6 @@ header img.cart_img {
   header img.logo {
     width: 200px;
     height: 200px;
-    position: fixed;
-    z-index: 3;
   }
   header .cart {
     display: block;
@@ -625,6 +623,23 @@ header img.cart_img {
     opacity: 0;
     -webkit-transition: 0.6s ease-in-out;
     transition: 0.6s ease-in-out;
+  }
+  .img-box {
+    position: relative;
+  }
+  .mb13 {
+    margin-bottom: 13px;
+  }
+  .img-box .active {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .img-box:hover .active {
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=main.css.map */

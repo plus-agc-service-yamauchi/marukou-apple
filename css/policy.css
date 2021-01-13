@@ -451,6 +451,52 @@ main .title p {
   border-radius: 10px;
 }
 
+dt {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+dd {
+  line-height: 2.8rem;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+  border-bottom: solid 1px rgba(62, 0, 0, 0.1);
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #3e0000;
+  margin: 20px 0 0 0;
+  text-align: left;
+}
+
+table th {
+  width: 30%;
+  border: 1px solid #3e0000;
+  padding: 10px 15px;
+  background-color: #3e0000;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 1.6;
+}
+
+td,
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  padding: 10px 15px;
+  border-bottom: solid 1px;
+}
+
 /* デザインB（タブレット） */
 /* デザインC(PC) */
 @media screen and (min-width: 1025px) {

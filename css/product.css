@@ -308,6 +308,10 @@ main .title h1 {
   line-height: 3.2rem;
 }
 
+#product {
+  text-align: center;
+}
+
 #product img {
   width: 100%;
 }
