@@ -769,18 +769,18 @@
         );
       });
     </script>
-    <script>
-      if (
-        $(window).scrollTop() > position &&
-        $(window).scrollTop() < position_bottom
-      ) {
-        $(".js-scrollAnimation").addClass("animationTxt");
-      } else {
-        $(".js-scrollAnimation").removeClass("animationTxt");
-      }
-    </script>
     <script src="js/textAnimation.js"></script>
-
+    <script>
+      $(window).scroll(function () {
+        var top = $("ターゲットとなる要素").offset().top; // ターゲットの位置取得
+        var position = top - $(window).height(); // 発火させたい位置
+        if ($(window).scrollTop() > position) {
+          // 要素が見えたときの動き
+        } else {
+          // それ以外の動き
+        }
+      });
+    </script>
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
       window.ga = function () {

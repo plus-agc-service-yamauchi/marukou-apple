@@ -370,7 +370,7 @@
           <p style="margin: 90px 0 50px 0">
             青森の地で生まれた国内生産NO .1のりんご
           </p>
-          <span class="js-scrollAnimation animationTxt"
+          <span class="js-scrollAnimation"
             >ふじは青森県藤崎町にある農林省園芸試験場東北支場で誕生しました。1939年（昭和14年）に「国光」と「デリシャス」を交配して作られ始めてから1962年（昭和37年）に品種登録されました。ふじという名前は「富士山にあやかり広く普及してほしい」という意味や「生まれ育った『藤崎町』の名前の1字」という意味を込めて名付けられました。ふじの誕生は最初のうちは色に不満を持つ人もいましたが、栽培技術の進歩により色、味、保存性共にりんごの中でも抜群の品種になりました。日本だけではなく世界中で作られる品種となり一番食べられているりんごです。
           </span>
         </div>
@@ -774,9 +774,9 @@
         $(window).scrollTop() > position &&
         $(window).scrollTop() < position_bottom
       ) {
-        $(".js-scrollAnimation").addClass("animationTxt");
+        $(".js").addClass("act");
       } else {
-        $(".js-scrollAnimation").removeClass("animationTxt");
+        $(".bg_triangle").removeClass("act");
       }
     </script>
     <script src="js/textAnimation.js"></script>

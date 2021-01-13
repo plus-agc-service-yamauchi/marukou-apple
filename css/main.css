@@ -537,13 +537,9 @@ header img.cart_img {
   }
   #footer .footer_nav p:before {
     content: "";
-    /*何も入れない*/
     display: inline-block;
-    /*忘れずに！*/
     width: 22.72px;
-    /*画像の幅*/
     height: 24.49px;
-    /*画像の高さ*/
     background-image: url(../img/appleicon.svg);
     background-repeat: no-repeat;
     background-size: contain;

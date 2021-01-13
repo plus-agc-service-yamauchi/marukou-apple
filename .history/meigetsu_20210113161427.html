@@ -2,8 +2,8 @@
 <html class="no-js" lang="ja">
   <head>
     <meta charset="utf-8" />
-    <title>特定商取引法表示 | マルコウアップル</title>
-    <meta name="description" content="販売価格は、表示された金額（表示価格/消費税込/送料込）と致します。 なお、沖縄・離島に関しては別途配送料が掛かる場合もございます。配送料に関しては商品詳細ページをご確認ください。" />
+    <title>ぐんま名月 | マルコウアップル</title>
+    <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <meta property="og:title" content="株式会社マルコウアップル" />
@@ -20,7 +20,7 @@
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/destyle.css" />
     <link rel="stylesheet" href="css/main.min.css" />
-    <link rel="stylesheet" href="css/tokushoho.min.css" />
+    <link rel="stylesheet" href="css/meigetsu.min.css" />
     <link rel="stylesheet" href="css/common.min.css" />
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/slick-theme.css" />
@@ -63,48 +63,10 @@
     <main class="bg-main">
       <div class="container">
         <section id="heading">
-          <div class="title mb10">
-            <h1>特定商取引法に基づく表示</h1>
+          <div class="title">
+
+            <h1>準備中</h1>
           </div>
-          <dl>
-              <dt>販売価格について</dt>
-              <dd>販売価格は、表示された金額（表示価格/消費税込/送料込）と致します。
-                なお、沖縄・離島に関しては別途配送料が掛かる場合もございます。配送料に関しては商品詳細ページをご確認ください。</dd>
-          </dl>
-          <dl>
-            <dt>代金（対価）の支払時期と方法</dt>
-            <dd>
-                ・支払方法 <br>
-クレジットカード決済、コンビニ決済、翌月後払い、PayPal、銀行振込、キャリア決済、楽天ペイがご利用頂けます。 <br>
-・クレジットカード決済、PayPal、キャリア決済、楽天ペイ、 <br>
-商品注文時点でお支払いが確定いたします。 <br>
-・コンビニ決済、銀行振込み <br>
-商品注文時点から約3日間の期限以内にお支払いをお願いいたします。 <br>
-支払い期限を過ぎると自動でキャンセルとなります。 <br>
-・翌月後払い <br>
-Paidyを通し、1ヶ月分のご利用額をまとめて、翌月10日までにコンビニや銀行振込でお支払いをお願いいたします。
-            </dd>
-        </dl>
-        <dl>
-            <dt>返品についての特約事項</dt>
-            <dd>商品受取後、すぐに商品の状態をご確認ください。不良の場合は現品と交換させて頂きます。お手数ですが当社まで電話にてお知らせ下さい。 <br>
-                商品到着後3日以内とさせていただきます。</dd>
-        </dl>
-        <dl>
-            <dt>役務または商品の引き渡し時期</dt>
-            <dd>配送のご依頼を受けてから約3日以内に発送いたします。</dd>
-        </dl>
-        <dl>
-            <dt>その他</dt>
-<dd></dd>
-        </dl>
-        <dl>
-            <dt>事業者の名称および連絡先</dt>
-            <dd>会社名：株式会社マルコウアップル<br>
-                担当者：楠美孝志<br>
-                住所：〒0383633 青森県 北津軽郡板柳町狐森字浅井80<br>
-                TEL：0172-55-5087</dd>
-        </dl>
         </section>
     </main>
     <footer id="footer">
@@ -193,7 +155,9 @@ Paidyを通し、1ヶ月分のご利用額をまとめて、翌月10日までに
               <a href="greetings.html"><li>私たちのこだわり</li></a>
               <a href="about.html"><li>私たちについて</li></a>
               <a href="tokushoho.html"><li>特定商取引法に基づく表示</li></a>
-              <a href="policy.html"><li class="bb">個人情報の取り扱いについて</li></a>
+              <a href="policy.html"
+                ><li class="bb">個人情報の取り扱いについて</li></a
+              >
             </ul>
             <a class="js-modal-close" href="">閉じる</a>
           </div>
@@ -227,16 +191,13 @@ Paidyを通し、1ヶ月分のご利用額をまとめて、翌月10日までに
     <script>
       $(function () {
         var slider = "#slider"; // スライダー
-        var thumbnailItem = "#thumbnail-list .thumbnail-item"; // サムネイル画像アイテム
+        var thumbnailItem = "#thumbnail-list .thumbnail-item";
 
-        // サムネイル画像アイテムに data-index でindex番号を付与
         $(thumbnailItem).each(function () {
           var index = $(thumbnailItem).index(this);
           $(this).attr("data-index", index);
         });
 
-        // スライダー初期化後、カレントのサムネイル画像にクラス「thumbnail-current」を付ける
-        // 「slickスライダー作成」の前にこの記述は書いてください。
         $(slider).on("init", function (slick) {
           var index = $(".slide-item.slick-slide.slick-current").attr(
             "data-slick-index"
@@ -246,20 +207,18 @@ Paidyを通し、1ヶ月分のご利用額をまとめて、翌月10日までに
           );
         });
 
-        //slickスライダー初期化
         $(slider).slick({
           autoplay: true,
           arrows: false,
           fade: true,
-          infinite: false, //これはつけましょう。
+          infinite: false,
         });
-        //サムネイル画像アイテムをクリックしたときにスライダー切り替え
+
         $(thumbnailItem).on("click", function () {
           var index = $(this).attr("data-index");
           $(slider).slick("slickGoTo", index, false);
         });
 
-        //サムネイル画像のカレントを切り替え
         $(slider).on(
           "beforeChange",
           function (event, slick, currentSlide, nextSlide) {
