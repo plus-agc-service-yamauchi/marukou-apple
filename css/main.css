@@ -600,7 +600,7 @@ header img.cart_img {
   }
   #footer .pagetop {
     position: absolute;
-    top: -20px;
+    top: 0;
     right: 176.1px;
   }
   #footer .pagetop img {
