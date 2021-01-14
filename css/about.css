@@ -546,7 +546,7 @@ main .title h1 {
   #certificate {
     background: #e5a61558;
     border-radius: 10px;
-    width: 1220px;
+    width: 100%;
     padding: 30px;
     margin: 0 auto;
     display: -webkit-box;
@@ -595,7 +595,7 @@ main .title h1 {
   }
   #harvest .schedule {
     margin-top: 80px;
-    width: 1220px;
+    width: 100%;
     height: 1585px;
     background: #fefdf9 0% 0% no-repeat padding-box;
     border: 3px solid #653333;

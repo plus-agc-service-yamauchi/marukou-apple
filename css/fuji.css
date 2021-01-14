@@ -94,10 +94,9 @@ main p.lead {
   margin: 0 auto;
 }
 
-#fuji_data svg {
-  display: block;
-  margin: 0 auto;
+#fuji_data img {
   width: 100%;
+  margin-top: 60.5px;
 }
 
 #History_fuji {
@@ -470,9 +469,15 @@ main p.lead {
     width: 100% !important;
     margin: 0;
   }
-  #fuji_data .description .point-fuji svg {
+  #fuji_data .point-fuji {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #fuji_data img {
+    width: 461px;
     display: block;
     margin: 0 auto;
+    margin-top: 60.5px;
   }
   #History_fuji {
     height: 727px;

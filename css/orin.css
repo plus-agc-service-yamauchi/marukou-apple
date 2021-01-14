@@ -580,7 +580,7 @@ main .title h1 {
   }
   #orin_history {
     background: url(../img/orin_history_bg.png) no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center bottom;
     height: 790px;
     margin-bottom: 179px;

@@ -514,7 +514,7 @@ ul.slick01 .btn_green {
     grid-row-gap: 90px;
   }
   .grid-col-gap280 {
-    grid-column-gap: 280px;
+    grid-column-gap: 160px;
   }
   #about .title {
     margin: 200px 0 100px 0;
@@ -571,6 +571,9 @@ ul.slick01 .btn_green {
   ul.slick01 p.two {
     margin-top: 25.1px;
     text-align: center;
+  }
+  ul.slick01 p.two a:click {
+    text-decoration: none;
   }
   ul.slick01 .btn_red {
     width: 400px;

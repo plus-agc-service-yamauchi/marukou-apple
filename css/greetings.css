@@ -343,13 +343,14 @@ main .title h1 {
     font-size: 24px;
     padding: 60px 87px 20px 40px;
     font-weight: normal;
+    display: block;
   }
   #ir table tr td {
     padding: 60px 60px 0 0;
   }
   #ir .ir_bg {
     position: absolute;
-    bottom: -85px;
+    bottom: -155px;
     width: 100%;
     opacity: 1;
   }
