@@ -2,6 +2,7 @@
 /* デザインA（スマートフォン） */
 header#top {
   height: 100vh;
+  background: url(../img/top_bg_sp.jpg) no-repeat;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
