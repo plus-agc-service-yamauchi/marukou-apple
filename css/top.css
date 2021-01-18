@@ -3,6 +3,7 @@
 header#top {
   height: 100vh;
   background: url(../img/top_bg_sp.jpg) no-repeat;
+  background-position: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

@@ -322,12 +322,10 @@ main .title h1 {
     height: 312px;
   }
   #ir {
-    background-color: #fefdf9;
     position: relative;
-    background-position: right bottom;
     background-size: 100%;
+    background-position: bottom;
     height: 1132px;
-    padding-bottom: 0;
   }
   #ir table {
     font-size: 24px;
@@ -350,7 +348,7 @@ main .title h1 {
   }
   #ir .ir_bg {
     position: absolute;
-    bottom: -155px;
+    bottom: -201px;
     width: 100%;
     opacity: 1;
   }
@@ -358,7 +356,7 @@ main .title h1 {
     position: relative;
     background: url(../img/footer_bg.svg) no-repeat;
     background-size: 100%;
-    padding: 185px 0 0 0;
+    padding: 285px 0 0 0;
     color: #fff;
     margin-top: -200px;
   }

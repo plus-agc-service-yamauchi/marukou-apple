@@ -285,12 +285,10 @@ main {
   }
 
   #ir {
-    background-color: #fefdf9;
     position: relative;
-    background-position: right bottom;
     background-size: 100%;
+    background-position: bottom;
     height: 1132px;
-    padding-bottom: 0;
     table {
       font-size: 24px;
       letter-spacing: 2.88px;
@@ -312,7 +310,7 @@ main {
     }
     .ir_bg {
       position: absolute;
-      bottom: -155px;
+      bottom: -201px;
       width: 100%;
       opacity: 1;
     }
@@ -322,7 +320,7 @@ main {
     position: relative;
     background: url(../img/footer_bg.svg) no-repeat;
     background-size: 100%;
-    padding: 185px 0 0 0;
+    padding: 285px 0 0 0;
     color: #fff;
     margin-top: -200px;
     .container {
@@ -438,5 +436,25 @@ main {
         font-family: YuGothic, "Yu Gothic";
       }
     }
+  }
+  .image::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    border-image-source: repeating-linear-gradient(
+      45deg,
+      #fff,
+      #fff 3px,
+      rgba(0 0 0 / 0) 0,
+      rgba(0 0 0 / 0) 6px
+    );
+    border-image-slice: 30;
+    border-image-repeat: round;
+    border-style: solid;
+    border-width: 30px;
   }
 }
