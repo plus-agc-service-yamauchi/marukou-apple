@@ -579,9 +579,9 @@ main .title h1 {
     margin-top: 34px;
   }
   #certificate p {
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 1.2px;
-    line-height: 3.2rem;
+    line-height: 5.2rem;
     font-weight: 400;
     margin-bottom: 31px;
   }
@@ -632,10 +632,13 @@ main .title h1 {
     margin-bottom: 30px;
   }
   .description p {
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 1.2px;
-    line-height: 3.2rem;
+    line-height: 4rem;
     font-weight: 400;
+  }
+  .description div {
+    margin-bottom: 100px;
   }
   #movie {
     margin: 0 0 150px 0;

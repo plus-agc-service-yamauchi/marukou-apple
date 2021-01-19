@@ -288,38 +288,26 @@ main .title h1 {
     margin-bottom: 30px;
   }
   .description p {
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 1.2px;
-    line-height: 3.2rem;
+    line-height: 4rem;
     font-weight: 400;
     margin-bottom: 70px;
   }
   .description img {
     margin-bottom: 47px;
   }
-  .description .img_wrapper {
-    position: relative;
+  .description img.photo_1 {
+    width: 418px;
+    height: 276px;
   }
-  .description .img_wrapper img.photo_1 {
-    position: absolute;
-    top: 0;
-    left: 56px;
-    width: 354px;
-    height: 234px;
+  .description img.photo_2 {
+    width: 423px;
+    height: 278px;
   }
-  .description .img_wrapper img.photo_2 {
-    position: absolute;
-    top: 323px;
-    right: 0;
-    width: 403px;
-    height: 265px;
-  }
-  .description .img_wrapper img.photo_3 {
-    position: absolute;
-    bottom: 0;
-    left: 10%;
-    width: 560px;
-    height: 312px;
+  .description img.photo_3 {
+    width: 458px;
+    height: 214px;
   }
   #ir {
     position: relative;
