@@ -54,7 +54,7 @@ main p.lead {
   border-bottom: solid 1px #3e0000;
   text-align: center;
   margin: 0 auto;
-  /* margin-bottom: 60.5px; */
+  margin-bottom: 60.5px;
 }
 
 #fuji_data .description {
@@ -169,11 +169,11 @@ main p.lead {
   margin: 0 auto;
 }
 
-#History_fuji .title {
+#History_fuji .history_title {
   padding-top: 50px;
 }
 
-#History_fuji .title h1 {
+#History_fuji .history_title h1 {
   font-size: 42px;
   font-weight: 400;
   letter-spacing: 0.1em;
@@ -446,6 +446,10 @@ main p.lead {
   border-radius: 10px;
 }
 
+.border-radius-10 {
+  border-radius: 10px;
+}
+
 /* デザインB（タブレット） */
 /* デザインC(PC) */
 @media screen and (min-width: 1025px) {
@@ -642,7 +646,7 @@ main p.lead {
   #Marukou_fuji span {
     font-size: 14px;
     letter-spacing: 1.2px;
-    line-height: 32px;
+    line-height: 4rem;
     margin-top: 50px;
   }
   #product h1 {

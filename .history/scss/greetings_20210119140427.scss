@@ -207,9 +207,7 @@ main {
   body {
     font-size: 16px;
   }
-.bg-main{
-  padding-bottom:0 !important;
-}
+
   main {
     p.lead {
       padding: 76px 0 90px 0;
@@ -278,7 +276,7 @@ main {
     position: relative;
     background-size: 100%;
     background-position: bottom;
-    height: 1300px;
+    height: 1132px;
     table {
       font-size: 24px;
       letter-spacing: 2.88px;
@@ -300,7 +298,7 @@ main {
     }
     .ir_bg {
       position: absolute;
-      bottom: 0;
+      bottom: -201px;
       width: 100%;
       opacity: 1;
     }

@@ -253,6 +253,9 @@ main .title h1 {
   body {
     font-size: 16px;
   }
+  .bg-main {
+    padding-bottom: 0 !important;
+  }
   main p.lead {
     padding: 76px 0 90px 0;
     font-weight: 400;
@@ -313,7 +316,7 @@ main .title h1 {
     position: relative;
     background-size: 100%;
     background-position: bottom;
-    height: 1132px;
+    height: 1300px;
   }
   #ir table {
     font-size: 24px;
@@ -336,7 +339,7 @@ main .title h1 {
   }
   #ir .ir_bg {
     position: absolute;
-    bottom: -201px;
+    bottom: 0;
     width: 100%;
     opacity: 1;
   }
