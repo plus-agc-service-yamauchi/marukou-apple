@@ -89,14 +89,69 @@ main p.lead {
   margin: 0 auto;
 }
 
-#fuji_data .point-fuji {
+#fuji_data img {
+  width: 100%;
+}
+
+#fuji_data .fuji_point {
   width: 100%;
   margin: 0 auto;
 }
 
-#fuji_data img {
-  width: 100%;
-  margin-top: 60.5px;
+#fuji_data p.fuji_point_one {
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  line-height: 3.2rem;
+  margin-bottom: 30.2px;
+}
+
+#fuji_data p.fuji_point_one:before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  background-image: url(../img/fuji_point_one.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#fuji_data p.fuji_point_two {
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  line-height: 3.2rem;
+  margin-bottom: 30.2px;
+}
+
+#fuji_data p.fuji_point_two:before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  background-image: url(../img/fuji_point_two.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#fuji_data p.fuji_point_three {
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  line-height: 3.2rem;
+}
+
+#fuji_data p.fuji_point_three:before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  background-image: url(../img/fuji_point_three.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 #History_fuji {
@@ -440,6 +495,7 @@ main p.lead {
     letter-spacing: 2.4px;
     line-height: 41px;
     margin-top: 0px;
+    margin-bottom: 60.5px;
     border-bottom: 1px solid #653333;
   }
   #fuji_data .description {
@@ -453,7 +509,7 @@ main p.lead {
   }
   #fuji_data .description .grid-sp-1 .left img,
   #fuji_data .description .grid-pc-2 .left img {
-    width: 100%;
+    width: 95%;
   }
   #fuji_data .description .grid-sp-1 .right,
   #fuji_data .description .grid-pc-2 .right {
@@ -469,25 +525,98 @@ main p.lead {
     width: 100% !important;
     margin: 0;
   }
-  #fuji_data .point-fuji {
-    width: 100%;
+  #fuji_data .fuji_point {
+    width: 500px;
     margin: 0 auto;
   }
-  #fuji_data img {
-    width: 461px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 60.5px;
+  #fuji_data p.fuji_point_one {
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    line-height: 3.2rem;
+    margin-bottom: 30.2px;
+  }
+  #fuji_data p.fuji_point_one:before {
+    content: "";
+    display: inline-block;
+    width: 58.28px;
+    height: 62.82px;
+    background-image: url(../img/fuji_point_one.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 23.7px;
+  }
+  #fuji_data p.fuji_point_two {
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    line-height: 3.2rem;
+    margin-bottom: 30.2px;
+  }
+  #fuji_data p.fuji_point_two:before {
+    content: "";
+    display: inline-block;
+    width: 58.28px;
+    height: 62.82px;
+    background-image: url(../img/fuji_point_two.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 23.7px;
+  }
+  #fuji_data p.fuji_point_three {
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    line-height: 3.2rem;
+  }
+  #fuji_data p.fuji_point_three:before {
+    content: "";
+    display: inline-block;
+    width: 58.28px;
+    height: 62.82px;
+    background-image: url(../img/fuji_point_three.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 23.7px;
   }
   #History_fuji {
+    background: url(../img/fuji_history_bg.png) no-repeat;
+    background-size: cover;
+    background-position: center bottom;
     height: 727px;
+    margin-bottom: 179px;
     width: 100%;
-    background: url(../img/fuji-history.png) no-repeat;
-    background-position: center center;
-    position: relative;
-    padding-top: 115px;
-    margin: 0 auto;
+  }
+  #History_fuji svg {
     display: block;
+    margin: 0 auto;
+  }
+  #History_fuji .history_title {
+    padding-top: 100px;
+  }
+  #History_fuji .history_title h3 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #55991d;
+    margin-bottom: 96px;
+    text-align: center;
+    margin-top: 14.7px;
+  }
+  #History_fuji .history_title h4 {
+    font-size: 24px;
+    font-weight: 600px;
+    letter-spacing: 0.1em;
+    margin-bottom: 46px;
+    text-align: center;
+  }
+  #History_fuji .history_title p {
+    width: 900px;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    line-height: 3.2rem;
+    text-align: left;
+    margin: 0 auto;
   }
   #History_fuji .text p {
     text-align: center;
@@ -498,7 +627,7 @@ main p.lead {
   #History_fuji .text span {
     width: 900px;
     text-align: left;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1.2px;
     line-height: 32px;
     margin-top: 90px;
@@ -511,7 +640,7 @@ main p.lead {
     margin: 30px 0 50px 0;
   }
   #Marukou_fuji span {
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1.2px;
     line-height: 32px;
     margin-top: 50px;
@@ -716,6 +845,9 @@ main p.lead {
   .thumbnail-item img {
     width: 100%;
     margin: 0 auto;
+    border-radius: 10px;
+  }
+  .border-radius-10 {
     border-radius: 10px;
   }
 }
