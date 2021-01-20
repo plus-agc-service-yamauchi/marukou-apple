@@ -1,6 +1,11 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "YuGothM";
+  src: url(../fonts/YuGothM.woff) format("woff");
+}
+
 html {
-  font-family: "Roboto", YuGothic, "Yu Gothic";
+  font-family: "YuGothM", "Roboto", YuGothic, "Yu Gothic";
   scroll-behavior: smooth;
 }
 
