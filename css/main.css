@@ -440,6 +440,7 @@ header img.cart_img {
   header img.logo {
     width: 200px;
     height: 200px;
+    position: fixed;
   }
   header .cart {
     display: block;
@@ -652,6 +653,88 @@ header img.cart_img {
   }
   .img-box:hover .active {
     opacity: 1;
+  }
+  /*ボックス全体*/
+  .accbox {
+    padding: 0;
+    max-width: 100%;
+    /*最大幅*/
+  }
+  .accbox a {
+    color: #fff;
+  }
+  /*ラベル*/
+  .accbox label {
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 0.2rem;
+    font-family: YuGothic, "Yu Gothic";
+    position: relative;
+  }
+  .accbox label:before {
+    content: "";
+    display: inline-block;
+    width: 22.72px;
+    height: 24.49px;
+    background-image: url(../img/appleicon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: top;
+    margin-right: 10.3px;
+  }
+  .accbox span {
+    display: block;
+    margin: 1.5px 0;
+    padding: 13px 12px;
+    color: #fff;
+    font-weight: bold;
+    background: #256643;
+    cursor: pointer;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+    font-size: 16px;
+  }
+  /*アイコンを表示*/
+  .accbox label:after {
+    content: "▶";
+    font-family: "FontAwesome";
+    padding-left: 8px;
+    font-size: 12px;
+    position: absolute;
+    top: 37%;
+  }
+  /*ラベルホバー時*/
+  /*チェックは隠す*/
+  .accbox input {
+    display: none;
+  }
+  /*中身を非表示にしておく*/
+  .accbox .accshow {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+  }
+  /*クリックで中身表示*/
+  .cssacc:checked + label + .accshow {
+    height: auto;
+    margin-top: 20px;
+    opacity: 1;
+    font-size: 16px;
+  }
+  .accbox .accshow p {
+    margin: 15px 10px;
+  }
+  a.show {
+    display: block;
+    margin-bottom: 20px;
+    padding-left: 2em;
+  }
+  /*アイコンを入れ替える*/
+  .cssacc:checked + label:after {
+    content: "▼";
   }
 }
 /*# sourceMappingURL=main.css.map */

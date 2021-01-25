@@ -957,5 +957,20 @@ main .title h1 {
     margin: 0 auto;
     border-radius: 10px;
   }
+  .zoom {
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+  }
+  .zoom img {
+    -webkit-transition: 1s all;
+    transition: 1s all;
+  }
+  .zoom img:hover {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+    -webkit-transition: 1s all;
+    transition: 1s all;
+  }
 }
 /*# sourceMappingURL=about.css.map */

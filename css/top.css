@@ -352,6 +352,16 @@ ul.slick01 .btn_green {
           transform-origin: -10% 50%;
 }
 
+.aboutus {
+  background: rgba(229, 166, 21, 0.08);
+  border-radius: 10px;
+}
+
+.profile {
+  background: rgba(229, 166, 21, 0.08);
+  border-radius: 10px;
+}
+
 /* デザインB（タブレット） */
 /* デザインC(PC) */
 @media screen and (min-width: 1025px) {
@@ -620,7 +630,7 @@ ul.slick01 .btn_green {
   }
   #slider {
     background: url(../img/slider_bg.svg) no-repeat;
-    background-size: auto 53%;
+    background-size: auto 62%;
     background-position: bottom;
     padding: 40px 0;
   }
@@ -667,6 +677,36 @@ ul.slick01 .btn_green {
   .slick-current + .slick-slide {
     -webkit-transform-origin: -10% 50%;
             transform-origin: -10% 50%;
+  }
+  .aboutus {
+    background: rgba(229, 166, 21, 0.08);
+    border-radius: 10px;
+  }
+  .aboutus p {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    line-height: 41px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+  }
+  .profile {
+    background: rgba(229, 166, 21, 0.08);
+    border-radius: 10px;
+  }
+  .profile p {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    line-height: 41px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+  }
+  ul.slick01 li.slick-current,
+  ul.slick01 li.is-active-next {
+    opacity: 1;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
   }
 }
 /*# sourceMappingURL=top.css.map */
