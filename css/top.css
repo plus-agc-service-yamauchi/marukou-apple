@@ -370,16 +370,39 @@ ul.slick01 .btn_green {
   }
   header#top {
     height: 804px;
-    background: url(../img/top_bg.jpg) no-repeat;
-    background-size: 100%;
+    background: url(../img/top_bg.png) no-repeat;
+    background-size: cover;
     background-position: center center;
     position: relative;
+    /* h1 {
+      position: absolute;
+      top: 326px;
+      left: 65.26%;
+      width: 24.06%;
+      height: 83px;
+      line-height: 8rem;
+      font-size: 6rem;
+      font-weight: 100;
+      letter-spacing: 0.14rem;
+      text-align: center;
+    }
+    // サブタイトル
+    p {
+      position: absolute;
+      top: 47.4rem;
+      left: 66.77%;
+      line-height: 6rem;
+      letter-spacing: 0.58px;
+      width: 21.04%;
+      height: 9.1rem;
+      font-size: 2.4rem;
+      font-weight: 400;
+    } */
   }
-  header#top h1 {
+  header#top .headline {
     position: absolute;
     top: 326px;
-    left: 65.26%;
-    width: 24.06%;
+    left: 55%;
     height: 83px;
     line-height: 8rem;
     font-size: 6rem;
@@ -387,14 +410,16 @@ ul.slick01 .btn_green {
     letter-spacing: 0.14rem;
     text-align: center;
   }
-  header#top p {
-    position: absolute;
-    top: 47.4rem;
-    left: 66.77%;
+  header#top .headline h1 {
+    line-height: 8rem;
+    font-size: 6rem;
+    font-weight: 100;
+    letter-spacing: 0.14rem;
+    text-align: center;
+  }
+  header#top .headline p {
     line-height: 6rem;
     letter-spacing: 0.58px;
-    width: 21.04%;
-    height: 9.1rem;
     font-size: 2.4rem;
     font-weight: 400;
   }
@@ -679,8 +704,9 @@ ul.slick01 .btn_green {
             transform-origin: -10% 50%;
   }
   .aboutus {
-    background: rgba(229, 166, 21, 0.08);
+    background: #fefdf9;
     border-radius: 10px;
+    border: solid 1px #653333;
   }
   .aboutus p {
     text-align: center;
@@ -691,8 +717,9 @@ ul.slick01 .btn_green {
     padding-bottom: 40px;
   }
   .profile {
-    background: rgba(229, 166, 21, 0.08);
+    background: #fefdf9;
     border-radius: 10px;
+    border: solid 1px #653333;
   }
   .profile p {
     text-align: center;
@@ -702,11 +729,32 @@ ul.slick01 .btn_green {
     margin-top: 40px;
     padding-bottom: 40px;
   }
-  ul.slick01 li.slick-current,
-  ul.slick01 li.is-active-next {
+  .slider__item {
+    opacity: 0.34;
+    -webkit-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+  }
+  .slick-slide.slick-current .slider__item,
+  .slick-slide.is-active-next .slider__item {
     opacity: 1;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
+  }
+  .rollover_1 {
+    position: relative;
+  }
+  .rollover_1 a:hover:after {
+    content: url(../img/about.svg);
+    position: absolute;
+    top: -20px;
+    right: 10px;
+  }
+  .rollover_2 {
+    position: relative;
+  }
+  .rollover_2 a:hover:after {
+    content: url(../img/profile.svg);
+    position: absolute;
+    top: -20px;
+    right: 10px;
   }
 }
 /*# sourceMappingURL=top.css.map */

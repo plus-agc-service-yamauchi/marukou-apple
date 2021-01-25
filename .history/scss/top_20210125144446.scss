@@ -293,37 +293,11 @@ ul.slick01 {
   header#top {
     height: 804px;
     background: url(../img/top_bg.png) no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: center center;
     position: relative;
     // タイトル
-    .headline {
-      position: absolute;
-      top: 326px;
-      left: 55%;
-      height: 83px;
-      line-height: 8rem;
-      font-size: 6rem;
-      font-weight: 100;
-      letter-spacing: 0.14rem;
-      text-align: center;
-      h1 {
-        line-height: 8rem;
-        font-size: 6rem;
-        font-weight: 100;
-        letter-spacing: 0.14rem;
-        text-align: center;
-      }
-      // サブタイトル
-      p {
-        line-height: 6rem;
-        letter-spacing: 0.58px;
-
-        font-size: 2.4rem;
-        font-weight: 400;
-      }
-    }
-    /* h1 {
+    h1 {
       position: absolute;
       top: 326px;
       left: 65.26%;
@@ -346,7 +320,7 @@ ul.slick01 {
       height: 9.1rem;
       font-size: 2.4rem;
       font-weight: 400;
-    } */
+    }
   }
   main {
     .lead {
@@ -603,9 +577,9 @@ ul.slick01 {
     transform-origin: -10% 50%;
   }
   .aboutus {
-    background: #fefdf9;
+    background: #FEFDF9;
     border-radius: 10px;
-    border: solid 1px #653333;
+    border:solid 1px #653333;
     p {
       text-align: center;
       font-size: 24px;
@@ -616,9 +590,9 @@ ul.slick01 {
     }
   }
   .profile {
-    background: #fefdf9;
+    background: #FEFDF9;
     border-radius: 10px;
-    border: solid 1px #653333;
+    border:solid 1px #653333;
     p {
       text-align: center;
       font-size: 24px;
@@ -636,22 +610,5 @@ ul.slick01 {
   .slick-slide.is-active-next .slider__item {
     opacity: 1;
   }
-  .rollover_1 {
-    position: relative;
-  }
-  .rollover_1 a:hover:after {
-    content: url(../img/about.svg);
-    position: absolute;
-    top: -20px;
-    right: 10px;
-  }
-  .rollover_2 {
-    position: relative;
-  }
-  .rollover_2 a:hover:after {
-    content: url(../img/profile.svg);
-    position: absolute;
-    top: -20px;
-    right: 10px;
-  }
+  .rollover
 }

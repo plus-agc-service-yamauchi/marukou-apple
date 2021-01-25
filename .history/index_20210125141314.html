@@ -51,13 +51,11 @@
   <body>
     <!-- Add your site or application content here -->
     <header id="top">
-      <div class="headline">
-        <a href="index.html" id="logo"
-          ><img src="img/logo.svg" alt="マルコウアップル"
-        /></a>
-        <h1>Maruko Apple</h1>
-        <p>今知ってほしい青森のりんごが、ここにある。</p>
-      </div>
+      <a href="index.html" id="logo"
+        ><img src="img/logo.svg" alt="マルコウアップル"
+      /></a>
+      <h1>More Apple</h1>
+      <p>青森県はりんごの生産量が日本一ということで有名です。</p>
       <div class="nav">
         <div class="nav__wrapper">
           <ul>
@@ -502,17 +500,15 @@
             <h3>私たちについて</h3>
           </div>
           <div class="grid-pc-2 grid-col-gap280 justify-center">
-            <div class="rollover_1">
-              <a href="about.html"
-                ><div class="aboutus spHidden pcVisible">
-                  <img
-                    src="img/aboutus.png"
-                    alt="知ってほしい 私たちのこだわり"
-                  />
-                  <p>知ってほしい<br />私たちのこだわり</p>
-                </div>
-              </a>
-            </div>
+            <a href="about.html" class="mouseover"
+              ><div class="aboutus spHidden pcVisible">
+                <img
+                  src="img/aboutus_off.png"
+                  alt="知ってほしい 私たちのこだわり"
+                />
+                <p>知ってほしい<br />私たちのこだわり</p>
+              </div>
+            </a>
             <div class="spVisible pcHidden">
               <a href="about.html"
                 ><img
@@ -522,14 +518,15 @@
               /></a>
               <p>知ってほしい<br />私たちのこだわり</p>
             </div>
-            <div class="rollover_2">
-              <a href="greetings.html">
-                <div class="profile spHidden pcVisible">
-                  <img src="img/profile.png" alt="知ってほしい 私たちのこと" />
-                  <p>知ってほしい<br />私たちのこと</p>
-                </div>
-              </a>
-            </div>
+            <a href="greetings.html" class="mouseover">
+              <div class="profile spHidden pcVisible">
+                <img
+                  src="img/profile_off.png"
+                  alt="知ってほしい 私たちのこと"
+                />
+                <p>知ってほしい<br />私たちのこと</p>
+              </div>
+            </a>
             <div class="spVisible pcHidden">
               <a href="greetings.html"
                 ><img
@@ -665,11 +662,42 @@
     </script>
     <script src="js/slick.js"></script>
     <script>
+      const $slider = $("#js-slider");
+
+// 左右の透過の2周目ががたつく対応
+$slider.on("beforeChange", (event, slick, currentSlide, nextSlide) => {
+  $slider.find(".slick-slide").each((index, el) => {
+    const $this = $(el),
+      slickindex = $this.attr("data-slick-index");
+    if (nextSlide == slick.slideCount - 1 && currentSlide == 0) {
+      // 現在のスライドが最初のスライドでそこから最後のスライドに戻る場合
+      if (slickindex == "-1") {
+        // 最後のスライドに対してクラスを付与
+        $this.addClass("is-active-next");
+      } else {
+        // それ以外は削除
+        $this.removeClass("is-active-next");
+      }
+    } else if (nextSlide == 0) {
+      // 次のスライドが最初のスライドの場合
+      if (slickindex == slick.slideCount) {
+        // 最初のスライドに対してクラスを付与
+        $this.addClass("is-active-next");
+      } else {
+        // それ以外は削除
+        $this.removeClass("is-active-next");
+      }
+    } else {
+      // それ以外は削除
+      $this.removeClass("is-active-next");
+    }
+  });
+});
       $(function () {
         $(".slick01").slick({
           centerMode: true,
           centerPadding: "28%",
-          slidesToShow: 1,
+          slidesToShow: 2,
           autoplay: true,
           infinite: true,
           responsive: [
@@ -689,7 +717,6 @@
         });
       });
     </script>
-    <script src="js/slickloop.js"></script>
     <script src="js/sp_nav.js"></script>
     <script src="js/textAnimation.js"></script>
 

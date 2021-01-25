@@ -444,35 +444,23 @@ header img.cart_img {
     top: 0;
     left: 0;
     z-index: 99;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+    -webkit-transition: 1s all;
+    transition: 1s all;
   }
   header #logo img {
     width: 100%;
   }
-  @-webkit-keyframes logo_anime {
-    from {
-      width: 200px;
-    }
-    to {
-      width: 100px !important;
-    }
-  }
-  @keyframes logo_anime {
-    from {
-      width: 200px;
-    }
-    to {
-      width: 100px !important;
-    }
-  }
   header #logo.mini {
     width: 100px !important;
   }
   header #logo.mini {
     width: 100px !important;
-    -webkit-animation-name: logo_anime;
-    -webkit-animation-duration: 1s;
-    animation-name: logo_anime;
-    animation-duration: 1s;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+    -webkit-transition: 1s all;
+    transition: 1s all;
   }
   header .cart {
     display: block;

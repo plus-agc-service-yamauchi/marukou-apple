@@ -395,10 +395,24 @@ header {
       top: 0;
       left: 0;
       z-index: 99;
-      transform: scale(1, 1);
-      transition: 1s all;
       img {
         width: 100%;
+      }
+      @-webkit-keyframes logo_anime {
+        from {
+          width: 200px;
+        }
+        to {
+          width: 100px !important;
+        }
+      }
+      @keyframes logo_anime {
+        from {
+          width: 200px;
+        }
+        to {
+          width: 100px !important;
+        }
       }
     }
     #logo.mini {
@@ -406,8 +420,10 @@ header {
     }
     #logo.mini {
       width: 100px !important;
-      transform: scale(1, 1);
-      transition: 1s all;
+      -webkit-animation-name: logo_anime;
+      -webkit-animation-duration: 1s;
+      animation-name: logo_anime;
+      animation-duration: 1s;
     }
 
     .cart {
