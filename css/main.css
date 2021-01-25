@@ -182,7 +182,7 @@ header .cart {
   padding: 12px;
 }
 
-header img.logo {
+header #logo img {
   width: 20%;
   position: absolute;
   top: 0;
@@ -437,10 +437,42 @@ header img.cart_img {
   .nav a {
     border-bottom: solid 1px #fff;
   }
-  header img.logo {
+  header #logo {
     width: 200px;
     height: 200px;
     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  header #logo img {
+    width: 100%;
+  }
+  @-webkit-keyframes logo_anime {
+    from {
+      width: 200px;
+    }
+    to {
+      width: 100px !important;
+    }
+  }
+  @keyframes logo_anime {
+    from {
+      width: 200px;
+    }
+    to {
+      width: 100px !important;
+    }
+  }
+  header #logo.mini {
+    width: 100px !important;
+  }
+  header #logo.mini {
+    width: 100px !important;
+    -webkit-animation-name: logo_anime;
+    -webkit-animation-duration: 1s;
+    animation-name: logo_anime;
+    animation-duration: 1s;
   }
   header .cart {
     display: block;
@@ -735,6 +767,16 @@ header img.cart_img {
   /*アイコンを入れ替える*/
   .cssacc:checked + label:after {
     content: "▼";
+  }
+  .justify-between {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 /*# sourceMappingURL=main.css.map */
