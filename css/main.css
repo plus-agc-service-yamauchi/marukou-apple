@@ -297,9 +297,261 @@ header img.cart_img {
 
 /* デザインB（タブレット） */
 @media screen and (min-width: 600px) and (max-width: 1024px) {
+  @font-face {
+    font-family: "YuGothM";
+    src: url(../fonts/YuGothM.woff) format("woff");
+  }
   html {
-    font-family: "Roboto", YuGothic, "Yu Gothic";
+    font-family: "YuGothM", "Roboto", YuGothic, "Yu Gothic";
     scroll-behavior: smooth;
+  }
+  body {
+    color: #3e0000 !important;
+  }
+  #footer {
+    display: block;
+    position: relative;
+    background: url(../img/sp_footer_bg.svg) no-repeat;
+    background-color: #faf6e8;
+    background-size: cover;
+    background-position: top center;
+    padding: 120px 0 0 0;
+    color: #fff;
+    margin-bottom: 83px;
+  }
+  #footer .container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  #footer .footer_logo {
+    width: 10%;
+  }
+  #footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 6.1rem;
+  }
+  #footer div.ad {
+    font-family: YuGothic, "Yu Gothic";
+    text-align: left;
+  }
+  #footer div.ad p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  #footer div.ad p span {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0.94px;
+    margin-bottom: 9px;
+  }
+  #footer div.tel {
+    font-family: YuGothic, "Yu Gothic";
+  }
+  #footer div.tel p {
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 8px;
+  }
+  #footer div.tel p span {
+    margin-right: 8px;
+  }
+  #footer div.email {
+    font-family: YuGothic, "Yu Gothic";
+  }
+  #footer div.email p {
+    font-size: 14px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #footer div.email p span {
+    margin-right: 16px;
+  }
+  #footer .flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: row !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  #footer hr {
+    display: none;
+    /* background: #fff;
+      border: solid 2px #fff;
+      margin: 16.5px 0 42.5px 0; */
+  }
+  #footer .policy {
+    display: none;
+  }
+  #footer .copy {
+    background: #3e0000;
+    height: 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #footer .copy p {
+    font-size: 10px;
+    font-family: YuGothic, "Yu Gothic";
+  }
+  #footer .copy p span {
+    margin-right: 8px;
+  }
+  #footer .pagetop {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    text-align: right;
+  }
+  #footer .pagetop img {
+    width: 100%;
+  }
+  .footer_nav_wrapper {
+    display: none;
+  }
+  .container {
+    padding: 0 45px;
+  }
+  .bg-main {
+    background: #faf6e8;
+    padding-bottom: 100px;
+  }
+  header .cart {
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+    padding: 12px;
+  }
+  header #logo img {
+    width: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+  }
+  header img.cart_img {
+    width: 30px;
+  }
+  .nav {
+    display: none;
+  }
+  .sp_footer_nav {
+    display: block;
+    height: 83px;
+    background: #653333;
+    position: fixed;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    z-index: 4;
+  }
+  .align-center {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .content {
+    margin: 0 auto;
+    padding: 40px;
+  }
+  .modal {
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .modal__bg {
+    background: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+  }
+  .modal__content {
+    background: #fff;
+    left: 50%;
+    padding: 40px 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 80%;
+    color: #3e0000;
+    border-radius: 5px;
+  }
+  .modal__content ul {
+    margin-bottom: 40px;
+  }
+  .modal__content li {
+    font-size: 18px;
+    text-align: left;
+    border-top: solid 0.5px #3e0000;
+    padding: 20px 0;
+  }
+  .modal__content .bb {
+    border-bottom: solid 0.5px #3e0000;
+  }
+  .modal__content li:before {
+    content: "";
+    /*何も入れない*/
+    display: inline-block;
+    /*忘れずに！*/
+    width: 22px;
+    /*画像の幅*/
+    height: 22px;
+    /*画像の高さ*/
+    background-image: url(../img/appleicon_sp.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: bottom;
+    margin: 0 10px 0 10px;
+  }
+  .js-modal-close {
+    font-size: 18px;
+    background: #3e0000;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+  }
+  .mr130 {
+    margin-right: 75px;
   }
 }
 
