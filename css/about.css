@@ -26,13 +26,14 @@ main .title {
 main .title svg {
   display: block;
   margin: 0 auto;
+  width: 40%;
 }
 
 main .title h1 {
-  font-size: 42px;
+  font-size: 2.44rem;
   font-weight: 400;
   color: #e5a615;
-  margin-top: 27px;
+  margin-top: 15px;
   text-align: center;
   letter-spacing: 5.76px;
 }
@@ -43,7 +44,6 @@ main .title h1 {
 
 #certificate {
   background: #e5a61558;
-  border-radius: 10px;
   width: 100%;
   padding: 30px;
   margin: 0 auto;
@@ -88,12 +88,19 @@ main .title h1 {
 
 #certificate img.certificate_fuji {
   position: absolute;
-  right: -15px;
-  bottom: -15px;
+  right: 0;
+  bottom: -50px;
+  width: 50%;
 }
 
 #harvest {
   margin-bottom: 60px;
+}
+
+#harvest svg {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
 }
 
 #harvest .schedule {
@@ -130,15 +137,19 @@ main .title h1 {
 }
 
 .description h2 {
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: 2.4px;
   line-height: 4.8rem;
   font-weight: 400;
   margin-bottom: 54px;
 }
 
+.description .mt50 {
+  margin-top: 50px;
+}
+
 .description p {
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 1.2px;
   line-height: 3.2rem;
   font-weight: 400;

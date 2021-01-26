@@ -21,13 +21,14 @@ main .title {
 main .title svg {
   display: block;
   margin: 0 auto;
+  width: 70%;
 }
 
 main .title h1 {
-  font-size: 40px;
+  font-size: 2.6rem;
   font-weight: 400;
   color: #e5a615;
-  margin-top: 27px;
+  margin-top: 15px;
   text-align: center;
   letter-spacing: 5.76px;
 }
@@ -45,7 +46,7 @@ main .title h1 {
 }
 
 .description p {
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 1.2px;
   line-height: 3.2rem;
   margin-bottom: 30px;
@@ -65,6 +66,10 @@ main .title h1 {
   padding-bottom: 100px;
 }
 
+#ir .container {
+  padding: 0 30px;
+}
+
 #ir table {
   font-size: 12px;
   letter-spacing: 2.88px;
@@ -78,14 +83,15 @@ main .title h1 {
 }
 
 #ir table tr th {
-  display: none;
-  /* font-size: 9px;
-        font-weight: normal; */
+  font-size: 9px;
+  font-weight: normal;
+  padding-right: 2rem;
 }
 
 #ir .ir_bg {
   position: absolute;
   width: 100%;
+  bottom: -10px;
   opacity: 1;
 }
 
@@ -123,12 +129,12 @@ main .title h1 {
 #footer div.tel p {
   font-size: 14px;
   display: inline-block;
-  font-family: YuGothic, "Yu Gothic";
   margin-bottom: 10px;
+  margin-right: 8px;
 }
 
 #footer div.tel p span {
-  margin-right: 16px;
+  margin-right: 8px;
 }
 
 #footer div.email p {
@@ -157,6 +163,11 @@ main .title h1 {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #footer hr {

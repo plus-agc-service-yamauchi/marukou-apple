@@ -26,13 +26,14 @@ main .title {
 main .title svg {
   display: block;
   margin: 0 auto;
+  width: 70%;
 }
 
 main .title h1 {
-  font-size: 42px;
+  font-size: 2.6rem;
   font-weight: 400;
   color: #e5a615;
-  margin-top: 27px;
+  margin-top: 15px;
   text-align: center;
   letter-spacing: 5.76px;
 }
@@ -338,7 +339,7 @@ main .title h1 {
 }
 
 #product p {
-  font-size: 2rem;
+  font-size: 1.2rem;
   text-align: center;
   margin-top: 30px;
   font-weight: bold;
@@ -364,16 +365,15 @@ main .title h1 {
   text-align: center;
   margin: 0 auto;
   margin-top: 13px;
-  margin-bottom: 50px;
   font-weight: bold;
   font-size: 1.6rem;
 }
 
 #product a.btn_l {
-  width: 50%;
+  width: 100%;
   display: block;
   margin: 0 auto;
-  margin-top: 90px;
+  margin-top: 50px;
   -webkit-box-shadow: 0px 3px 6px #00000029;
           box-shadow: 0px 3px 6px #00000029;
   border: 2px solid #e5a615;
@@ -400,7 +400,7 @@ main .title h1 {
 }
 
 .grid-row-gap90 {
-  grid-row-gap: 90px;
+  grid-row-gap: 50px !important;
 }
 
 .grid-col-gap280 {

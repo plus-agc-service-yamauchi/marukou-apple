@@ -30,14 +30,16 @@ main .title {
 main .title svg {
   display: block;
   margin: 0 auto;
+  width: 40%;
 }
 
 main .title h1 {
-  font-size: 42px;
+  font-size: 2.6rem;
   font-weight: 400;
   color: #55991d;
-  margin-top: 27px;
+  margin-top: 15px;
   text-align: center;
+  letter-spacing: 1.2rem;
 }
 
 #movie {
@@ -49,7 +51,7 @@ main .title h1 {
 }
 
 #orin_data h3 {
-  font-size: 20px;
+  font-size: 2rem;
   letter-spacing: 0.1em;
   line-height: 41px;
   font-weight: 400;
@@ -103,6 +105,8 @@ main .title h1 {
   letter-spacing: 0.2em;
   line-height: 3.2rem;
   margin-bottom: 30.2px;
+  padding-left: 35px;
+  text-indent: -35px;
 }
 
 #orin_data p.orin_point_one:before {
@@ -122,6 +126,8 @@ main .title h1 {
   letter-spacing: 0.2em;
   line-height: 3.2rem;
   margin-bottom: 30.2px;
+  padding-left: 35px;
+  text-indent: -35px;
 }
 
 #orin_data p.orin_point_two:before {
@@ -140,6 +146,8 @@ main .title h1 {
   font-size: 14px;
   letter-spacing: 0.2em;
   line-height: 3.2rem;
+  padding-left: 35px;
+  text-indent: -35px;
 }
 
 #orin_data p.orin_point_three:before {
@@ -158,7 +166,7 @@ main .title h1 {
   background: url(../img/orin_history_bg_sp.png) no-repeat;
   background-size: cover;
   background-position: center bottom;
-  height: 790px;
+  height: 900px;
   margin-bottom: 90px;
   padding: 0 45px;
   width: 100%;
@@ -167,6 +175,7 @@ main .title h1 {
 #orin_history svg {
   display: block;
   margin: 0 auto;
+  width: 70%;
 }
 
 #orin_history .history_title {
@@ -174,7 +183,7 @@ main .title h1 {
 }
 
 #orin_history .history_title h3 {
-  font-size: 42px;
+  font-size: 2.6rem;
   font-weight: 400;
   letter-spacing: 0.1em;
   color: #55991d;
@@ -184,7 +193,7 @@ main .title h1 {
 }
 
 #orin_history .history_title h4 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600px;
   letter-spacing: 0.1em;
   margin-bottom: 46px;
@@ -207,10 +216,11 @@ main .title h1 {
 #marukou_orin svg {
   margin: 0 auto;
   display: block;
+  width: 70%;
 }
 
 #marukou_orin h3 {
-  font-size: 42px;
+  font-size: 2.6rem;
   font-weight: 400;
   color: #55991d;
   margin-top: 14.9px;
@@ -220,7 +230,7 @@ main .title h1 {
 }
 
 #marukou_orin .marukou_orin_lead {
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: 2.4px;
   line-height: 4.8rem;
   margin-bottom: 40px;
@@ -233,11 +243,11 @@ main .title h1 {
 }
 
 #product h3 {
-  font-size: 32px;
+  font-size: 2.6rem;
   letter-spacing: 3.6px;
   line-height: 6.1rem;
   color: #55991d;
-  font-weight: 800;
+  font-weight: 400;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -252,7 +262,7 @@ main .title h1 {
   font-weight: bold;
   line-height: 2.7rem;
   text-align: center;
-  font-size: 16px;
+  font-size: 1.2rem;
 }
 
 #product span {
@@ -281,7 +291,7 @@ main .title h1 {
   width: 100%;
   display: block;
   margin: 0 auto;
-  margin-top: 90px;
+  margin-top: 50px;
   -webkit-box-shadow: 0px 3px 6px #00000029;
           box-shadow: 0px 3px 6px #00000029;
   border: 2px solid #e5a615;
