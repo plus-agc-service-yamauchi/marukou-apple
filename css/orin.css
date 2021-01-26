@@ -441,7 +441,7 @@ main .title h1 {
     margin: 0 auto;
   }
   main .title h1 {
-    font-size: 48px;
+    font-size: 3.6rem;
     font-weight: 400;
     color: #55991d;
     margin-top: 27px;
@@ -471,6 +471,7 @@ main .title h1 {
   #orin_data .description .grid-sp-1 .left {
     z-index: 2;
     margin: 0 auto;
+    width: 100%;
   }
   #orin_data .description .grid-pc-2 .left img,
   #orin_data .description .grid-sp-1 .left img {
@@ -563,7 +564,7 @@ main .title h1 {
     padding-top: 100px;
   }
   #orin_history .history_title h3 {
-    font-size: 48px;
+    font-size: 3.6rem;
     font-weight: 400;
     letter-spacing: 0.1em;
     color: #55991d;
@@ -572,7 +573,7 @@ main .title h1 {
     margin-top: 14.7px;
   }
   #orin_history .history_title h4 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600px;
     letter-spacing: 0.1em;
     margin-bottom: 46px;
@@ -593,7 +594,7 @@ main .title h1 {
     display: block;
   }
   #marukou_orin h3 {
-    font-size: 48px;
+    font-size: 3.6rem;
     font-weight: 400;
     color: #55991d;
     margin-top: 14.9px;
@@ -605,7 +606,8 @@ main .title h1 {
     font-size: 24px;
     letter-spacing: 2.4px;
     line-height: 4.8rem;
-    margin-bottom: 40px;
+    margin: 30px 0 50px 0;
+    text-align: center;
   }
   #marukou_orin p {
     font-size: 14px;
@@ -613,17 +615,16 @@ main .title h1 {
     line-height: 4rem;
   }
   #product h3 {
-    font-size: 36px;
+    font-size: 3.6rem;
     letter-spacing: 3.6px;
     line-height: 6.1rem;
     color: #55991d;
-    font-weight: 800;
+    font-weight: 400;
     text-align: center;
     margin-bottom: 100px;
   }
   #product img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
     border-radius: 10px;
     margin-bottom: 30px;
   }
@@ -631,7 +632,7 @@ main .title h1 {
     font-weight: bold;
     line-height: 2.7rem;
     text-align: center;
-    font-size: 16px;
+    font-size: 1.2rem;
   }
   #product span {
     display: block;
@@ -646,7 +647,7 @@ main .title h1 {
     opacity: 1;
     color: #e5a615;
     display: block;
-    width: 250px;
+    width: 100%;
     padding: 17px 0;
     text-align: center;
     margin: 0 auto;
@@ -685,6 +686,9 @@ main .title h1 {
   }
   .grid-col-gap280 {
     grid-column-gap: 280px;
+  }
+  .grid-col-gap30 {
+    grid-column-gap: 100px !important;
   }
   #about img {
     width: 500px;

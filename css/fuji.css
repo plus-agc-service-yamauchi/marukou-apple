@@ -428,7 +428,7 @@ main p.lead {
     height: 200px;
   }
   main h1 {
-    font-size: 48px;
+    font-size: 3.6rem;
     letter-spacing: 1.2rem;
     line-height: 6rem;
     color: #98231d;
@@ -437,6 +437,7 @@ main p.lead {
   }
   main .title {
     text-align: center;
+    padding-top: 100px;
   }
   #fuji p {
     font-size: 16px;
@@ -560,6 +561,15 @@ main p.lead {
   #History_fuji .history_title {
     padding-top: 100px;
   }
+  #History_fuji .history_title h1 {
+    font-size: 3.6rem;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #98231d;
+    margin-bottom: 96px;
+    text-align: center;
+    margin-top: 14.7px;
+  }
   #History_fuji .history_title h3 {
     font-size: 48px;
     font-weight: 400;
@@ -599,11 +609,24 @@ main p.lead {
     margin-top: 90px;
     margin: 0 auto;
   }
+  #Marukou_fuji .title {
+    padding: 0;
+  }
+  #Marukou_fuji h1 {
+    font-size: 3.6rem;
+    font-weight: 400;
+    color: #98231d;
+    margin-top: 14.9px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-bottom: 75px;
+  }
   #Marukou_fuji P {
     letter-spacing: 2.4px;
     font-size: 24px;
     font-weight: 400;
     margin: 30px 0 50px 0;
+    text-align: center;
   }
   #Marukou_fuji span {
     font-size: 14px;
@@ -612,7 +635,7 @@ main p.lead {
     margin-top: 50px;
   }
   #product h1 {
-    font-size: 36px;
+    font-size: 3.6rem;
     letter-spacing: 3.6px;
     line-height: 6rem;
     color: #98231d;
@@ -628,7 +651,7 @@ main p.lead {
     font-weight: bold;
     line-height: 2.7rem;
     text-align: center;
-    font-size: 16px;
+    font-size: 1.2rem;
   }
   #product span {
     display: block;

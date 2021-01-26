@@ -248,6 +248,252 @@ main .title h1 {
 }
 
 /* デザインB（タブレット） */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+  .bg-main {
+    padding-bottom: 0 !important;
+  }
+  main p.lead {
+    padding: 76px 0 90px 0;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    line-height: 3.2rem;
+    font-size: 16px;
+    text-align: left;
+  }
+  main .title {
+    padding-top: 100px;
+    margin-bottom: 76px;
+  }
+  main .title svg {
+    display: block;
+    margin: 0 auto;
+  }
+  main .title h1 {
+    font-size: 3.6rem;
+    font-weight: 400;
+    color: #e5a615;
+    margin-top: 27px;
+    text-align: center;
+    letter-spacing: 5.76px;
+  }
+  #heading {
+    margin-bottom: 90.5px;
+  }
+  .description h2 {
+    font-size: 24px;
+    letter-spacing: 2.4px;
+    line-height: 4.8rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  .description p {
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    line-height: 4rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+  .description img {
+    margin-bottom: 47px;
+  }
+  .description img.photo_1 {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+  .description img.photo_2 {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+  .description img.photo_3 {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+  #ir {
+    position: relative;
+    background-size: 100%;
+    background-position: bottom;
+    height: 1100px;
+  }
+  #ir table {
+    font-size: 24px;
+    letter-spacing: 2.88px;
+    line-height: 4.1rem;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  #ir table tr {
+    border-bottom: solid 0.75px #3e0000;
+  }
+  #ir table tr th {
+    font-size: 16px;
+    padding: 60px 87px 20px 40px;
+    font-weight: normal;
+    display: block;
+  }
+  #ir table tr td {
+    font-size: 16px;
+    padding: 60px 60px 0 0;
+  }
+  #ir .ir_bg {
+    position: absolute;
+    bottom: 33px;
+    width: 100%;
+    opacity: 1;
+  }
+  #footer {
+    display: block;
+    position: relative;
+    background: url(../img/sp_footer_bg.svg) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 120px 0 0 0;
+    color: #fff;
+    margin-bottom: 83px;
+  }
+  #footer .container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  #footer .footer_logo {
+    width: 10%;
+  }
+  #footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 6.1rem;
+  }
+  #footer div.ad {
+    font-family: YuGothic, "Yu Gothic";
+    text-align: left;
+  }
+  #footer div.ad p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  #footer div.ad p span {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0.94px;
+    margin-bottom: 9px;
+  }
+  #footer div.tel {
+    font-family: YuGothic, "Yu Gothic";
+  }
+  #footer div.tel p {
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 8px;
+  }
+  #footer div.tel p span {
+    margin-right: 8px;
+  }
+  #footer div.email {
+    font-family: YuGothic, "Yu Gothic";
+  }
+  #footer div.email p {
+    font-size: 14px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #footer div.email p span {
+    margin-right: 16px;
+  }
+  #footer .flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: row !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  #footer hr {
+    display: none;
+  }
+  #footer .policy {
+    display: none;
+  }
+  #footer .footer_nav p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 0.2rem;
+    font-family: YuGothic, "Yu Gothic";
+  }
+  #footer .footer_nav p:before {
+    content: "";
+    /*何も入れない*/
+    display: inline-block;
+    /*忘れずに！*/
+    width: 22.72px;
+    /*画像の幅*/
+    height: 24.49px;
+    /*画像の高さ*/
+    background-image: url(../img/appleicon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: top;
+    margin-right: 10.3px;
+  }
+  #footer .footer_nav ul {
+    margin-left: 2em;
+  }
+  #footer .footer_nav li {
+    margin-bottom: 20px;
+    font-size: 16px;
+    letter-spacing: 0.3rem;
+  }
+  #footer .footer_nav li:first-line {
+    margin-left: -1em;
+  }
+  #footer .copy {
+    background: #3e0000;
+    height: 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #footer .copy p {
+    font-size: 10px;
+    font-family: YuGothic, "Yu Gothic";
+  }
+  #footer .copy p span {
+    margin-right: 8px;
+  }
+}
+
 /* デザインC(PC) */
 @media screen and (min-width: 1025px) {
   body {

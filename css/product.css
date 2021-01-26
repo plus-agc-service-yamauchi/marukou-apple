@@ -510,7 +510,7 @@ main .title h1 {
     margin: 0 auto;
   }
   main .title h1 {
-    font-size: 48px;
+    font-size: 3.6rem;
     font-weight: 400;
     color: #e5a615;
     margin-top: 27px;
@@ -770,7 +770,7 @@ main .title h1 {
     font-weight: bold;
     line-height: 2.7rem;
     text-align: center;
-    font-size: 16px;
+    font-size: 1.2rem;
   }
   #product span {
     display: block;
