@@ -9,9 +9,11 @@ header#top {
   align-items: flex-end;
   position: relative;
   .headline {
-    position: absolute;
-    top: 60%;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
     h1 {
       line-height: 8rem;
       font-size: 4.2rem;
@@ -269,12 +271,11 @@ ul.slick01 {
     background: url(../img/top_bg.png) no-repeat;
     background-size: cover;
     background-position: 55% 45%;
-    position: relative;
     .headline {
-      position: absolute;
-      top: 50%;
-      right: 0;
-      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
       h1 {
         line-height: 8rem;
         font-size: 5rem;
@@ -580,8 +581,7 @@ ul.slick01 {
     .headline {
       position: absolute;
       top: 326px;
-      right: 0;
-      width: 50%;
+      left: 55.42%;
       height: 83px;
       line-height: 8rem;
       font-size: 6rem;

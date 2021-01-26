@@ -347,6 +347,7 @@ ul.slick01 .btn_green {
     background: url(../img/top_bg.png) no-repeat;
     background-size: cover;
     background-position: 55% 45%;
+    position: relative;
     /* h1 {
       line-height: 8rem;
       font-size: 5rem;
@@ -362,23 +363,10 @@ ul.slick01 .btn_green {
     } */
   }
   header#top .headline {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 50%;
   }
   header#top .headline h1 {
     line-height: 8rem;
@@ -691,7 +679,8 @@ ul.slick01 .btn_green {
   header#top .headline {
     position: absolute;
     top: 326px;
-    left: 55.42%;
+    right: 0;
+    width: 50%;
     height: 83px;
     line-height: 8rem;
     font-size: 6rem;
