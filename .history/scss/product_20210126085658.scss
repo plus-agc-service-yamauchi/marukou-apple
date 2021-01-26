@@ -450,7 +450,7 @@ main {
       }
       // タイトル
       h1 {
-        font-size: 48px;
+        font-size: 42px;
         font-weight: 400;
         color: #e5a615;
         margin-top: 27px;
@@ -701,30 +701,42 @@ main {
   }
 
   #product {
-    h3 {
-      font-size: 36px;
-      letter-spacing: 3.6px;
-      line-height: 6.1rem;
-      color: #55991d;
-      font-weight: 800;
-      text-align: center;
-      margin-bottom: 100px;
-    }
+    text-align: center;
     img {
       width: 100%;
-      border-radius: 10px;
-      margin-bottom: 30px;
+    }
+    .title {
+      svg {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-size: 2.8rem;
+        letter-spacing: 2.88px;
+        color: #e5a615;
+        text-align: center;
+      }
+      .grid-sp-2 {
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .grid-col-gap160 {
+      grid-column-gap: 30px;
     }
     p {
-      font-weight: bold;
-      line-height: 2.7rem;
+      font-size: 2rem;
       text-align: center;
-      font-size: 16px;
+      margin-top: 30px;
+      font-weight: bold;
+      margin-bottom: 10px;
     }
     span {
       display: block;
       text-align: center;
-      font-size: 16px;
+      font-size: 1.6rem;
       line-height: 2.7rem;
     }
     .btn {
@@ -739,11 +751,13 @@ main {
       text-align: center;
       margin: 0 auto;
       margin-top: 13px;
+      margin-bottom: 50px;
       font-weight: bold;
+      font-size: 1.6rem;
     }
 
     a.btn_l {
-      width: 400px;
+      width: 50%;
       display: block;
       margin: 0 auto;
       margin-top: 90px;
@@ -754,8 +768,8 @@ main {
       color: #fff;
       text-align: center;
       background: #e5a615;
-      padding: 34.31px 0;
-      font-size: 24px;
+      padding: 20px 0;
+      font-size: 2rem;
       font-weight: bold;
       letter-spacing: 9.6px;
     }
@@ -832,7 +846,6 @@ main {
       margin: 0 auto;
       border-radius: 10px;
     }
-  }
 }
 
 /* デザインC(PC) */

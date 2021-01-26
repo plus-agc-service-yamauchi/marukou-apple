@@ -348,6 +348,7 @@ main {
     font-weight: bold;
     letter-spacing: 9.6px;
   }
+
 }
 
 .justify-center {
@@ -711,7 +712,8 @@ main {
       margin-bottom: 100px;
     }
     img {
-      width: 100%;
+      width: 300px;
+      height: 300px;
       border-radius: 10px;
       margin-bottom: 30px;
     }
@@ -734,7 +736,7 @@ main {
       opacity: 1;
       color: #e5a615;
       display: block;
-      width: 100%;
+      width: 250px;
       padding: 17px 0;
       text-align: center;
       margin: 0 auto;
@@ -759,6 +761,7 @@ main {
       font-weight: bold;
       letter-spacing: 9.6px;
     }
+
   }
 
   .justify-center {
@@ -1148,13 +1151,12 @@ main {
       opacity: 1;
       color: #e5a615;
       display: block;
-      width: 100%;
+      width: 250px;
       padding: 17px 0;
       text-align: center;
       margin: 0 auto;
       margin-top: 13px;
       font-weight: bold;
-      font-size: 1.6rem;
     }
     .btn:hover {
       background: #e5a615;

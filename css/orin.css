@@ -277,23 +277,6 @@ main .title h1 {
   font-weight: bold;
 }
 
-#product .btn:hover {
-  background: #e5a615;
-  border: 2px solid #fff;
-  border-radius: 10px;
-  opacity: 1;
-  color: #fff;
-  display: block;
-  width: 100%;
-  padding: 17px 0;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 13px;
-  font-weight: bold;
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
-}
-
 #product a.btn_l {
   width: 100%;
   display: block;
@@ -311,27 +294,6 @@ main .title h1 {
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 9.6px;
-}
-
-#product a.btn_l:hover {
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-  margin-top: 90px;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
-  border: 2px solid #fff;
-  border-radius: 10px;
-  opacity: 1;
-  color: #e5a615;
-  text-align: center;
-  background: #fff;
-  padding: 34.31px 0;
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 9.6px;
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
 }
 
 .justify-center {
@@ -691,22 +653,6 @@ main .title h1 {
     margin-top: 13px;
     font-weight: bold;
   }
-  #product .btn:hover {
-    background: #e5a615;
-    border: 2px solid #fff;
-    border-radius: 10px;
-    opacity: 1;
-    color: #fff;
-    display: block;
-    width: 250px;
-    padding: 17px 0;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 13px;
-    font-weight: bold;
-    -webkit-transition: 0.1s;
-    transition: 0.1s;
-  }
   #product a.btn_l {
     width: 400px;
     display: block;
@@ -724,26 +670,6 @@ main .title h1 {
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 9.6px;
-  }
-  #product a.btn_l:hover {
-    width: 400px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 90px;
-    -webkit-box-shadow: 0px 3px 6px #00000029;
-            box-shadow: 0px 3px 6px #00000029;
-    border: 2px solid #fff;
-    border-radius: 10px;
-    opacity: 1;
-    color: #e5a615;
-    text-align: center;
-    background: #fff;
-    padding: 34.31px 0;
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 9.6px;
-    -webkit-transition: 0.1s;
-    transition: 0.1s;
   }
   .justify-center {
     -webkit-box-pack: center;
