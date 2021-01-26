@@ -465,6 +465,9 @@ main p.lead {
   #movie {
     margin: 0 0 150px 0;
   }
+  #fuji_data {
+    margin-bottom: 190px;
+  }
   #fuji_data h3 {
     width: 336px;
     margin: 0 auto;
@@ -856,6 +859,9 @@ main p.lead {
   }
   #movie {
     margin: 0 0 150px 0;
+  }
+  #fuji_data {
+    margin-bottom: 190px;
   }
   #fuji_data h3 {
     width: 336px;

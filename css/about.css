@@ -1019,12 +1019,12 @@ main .title h1 {
     letter-spacing: 5.76px;
   }
   #heading {
-    margin-bottom: 90.5px;
+    margin-bottom: 120px;
   }
   #certificate {
     background: #e5a61558;
     border-radius: 10px;
-    width: 100%;
+    width: 1160px !important;
     padding: 30px;
     margin: 0 auto;
     display: -webkit-box;
@@ -1035,7 +1035,7 @@ main .title h1 {
     margin-bottom: 200px;
   }
   #certificate div {
-    width: 1160px;
+    width: 1160px !important;
     margin: 0 auto;
     border: 0.5px solid #653333;
     border-radius: 10px;
@@ -1067,6 +1067,8 @@ main .title h1 {
     position: absolute;
     right: -15px;
     bottom: -15px;
+    width: 148px;
+    height: 98.74px;
   }
   #harvest {
     margin-bottom: 121px;

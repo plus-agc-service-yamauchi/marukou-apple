@@ -25,6 +25,7 @@ main p.lead {
 
 main .title {
   padding-top: 100px;
+  text-align: center !important;
 }
 
 main .title svg {
@@ -211,6 +212,26 @@ main .title h1 {
 
 #marukou_orin {
   margin-bottom: 120px;
+}
+
+#marukou_orin .text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #marukou_orin svg {
@@ -992,7 +1013,7 @@ main .title h1 {
     letter-spacing: 3.6px;
     line-height: 6.1rem;
     color: #55991d;
-    font-weight: 800;
+    font-weight: 400;
     text-align: center;
     margin-bottom: 100px;
   }

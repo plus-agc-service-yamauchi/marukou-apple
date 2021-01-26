@@ -55,7 +55,6 @@ main .lead {
   font-size: 1.6rem;
   line-height: 3rem;
   letter-spacing: 0.58px;
-  margin-bottom: 60px;
 }
 
 #apple .title {
@@ -388,7 +387,6 @@ ul.slick01 .btn_green {
     font-size: 1.6rem;
     line-height: 3rem;
     letter-spacing: 0.58px;
-    margin-bottom: 60px;
     text-align: center;
   }
   #apple .title {
@@ -706,10 +704,9 @@ ul.slick01 .btn_green {
     font-size: 2.4rem;
     letter-spacing: 0.58px;
     line-height: 6rem;
-    margin-bottom: 60px;
   }
   main h2 {
-    padding: 90px 0 216px 0;
+    padding: 90px 0 200px 0;
     font-weight: 400;
     letter-spacing: 0.58px;
     line-height: 6rem;
@@ -729,6 +726,20 @@ ul.slick01 .btn_green {
   }
   #product .title {
     margin: 200px 0 90px 0;
+  }
+  #product .title svg {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  #product .title h3 {
+    font-size: 3.6rem;
+    letter-spacing: 2.88px;
+    color: #e5a615;
+    text-align: center;
+  }
+  #product .title .grid-sp-2 img {
+    width: 100%;
   }
   #product img {
     width: 300px;
@@ -835,7 +846,8 @@ ul.slick01 .btn_green {
     margin: 200px 0 100px 0;
   }
   #about img {
-    width: 500px;
+    width: 503px;
+    height: 330px;
     border-radius: 10px;
     padding: 0 10px 0 40px;
   }
@@ -1025,6 +1037,8 @@ ul.slick01 .btn_green {
     position: absolute;
     bottom: 95px;
     right: -40px;
+    -webkit-filter: drop-shadow(0 0 5px #ccc);
+            filter: drop-shadow(0 0 5px #ccc);
   }
   .rollover_2 {
     position: relative;
@@ -1034,6 +1048,22 @@ ul.slick01 .btn_green {
     position: absolute;
     bottom: 95px;
     right: -40px;
+    -webkit-filter: drop-shadow(0 0 5px #ccc);
+            filter: drop-shadow(0 0 5px #ccc);
+  }
+  #apple .title {
+    margin: 0 0 50px 0;
+  }
+  #apple .title svg {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  #apple .title h3 {
+    font-size: 3.6rem;
+    letter-spacing: 2.88px;
+    color: #e5a615;
+    text-align: center;
   }
 }
 
