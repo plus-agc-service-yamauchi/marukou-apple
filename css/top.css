@@ -3,7 +3,7 @@
 header#top {
   height: 100vh;
   background: url(../img/top_bg_sp.jpg) no-repeat;
-  background-position: center;
+  background-position: 50% 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -17,10 +17,16 @@ header#top {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+}
+
+header#top .headline {
+  position: absolute;
+  top: 60%;
 }
 
 header#top .headline h1 {
@@ -1032,5 +1038,9 @@ ul.slick01 .btn_green {
     bottom: 95px;
     right: -40px;
   }
+}
+
+.mr1 {
+  margin-right: 15px;
 }
 /*# sourceMappingURL=top.css.map */

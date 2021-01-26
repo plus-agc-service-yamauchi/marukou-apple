@@ -2,7 +2,7 @@
 header#top {
   height: 100vh;
   background: url(../img/top_bg_sp.jpg) no-repeat;
-  background-position: 50% 0;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,7 +10,7 @@ header#top {
   position:relative;
   .headline {
     position:absolute;
-    top:60%;
+    bottom:0;
     h1 {
       line-height: 8rem;
       font-size: 5rem;
@@ -905,7 +905,4 @@ ul.slick01 {
     bottom: 95px;
     right: -40px;
   }
-}
-.mr1{
-  margin-right:15px;
 }
