@@ -34,7 +34,7 @@ main .title h1 {
 }
 
 #heading {
-  margin-bottom: 90.5px;
+  margin-bottom: 90px;
 }
 
 .description h2 {
@@ -54,7 +54,6 @@ main .title h1 {
 }
 
 .description img {
-  margin-bottom: 87px;
   width: 100%;
 }
 
@@ -67,7 +66,8 @@ main .title h1 {
 }
 
 #ir .title {
-  margin: 70px 0;
+  padding: 70px 0;
+  margin: 0;
 }
 
 #ir .container {
@@ -339,7 +339,8 @@ main .title h1 {
     height: 1100px;
   }
   #ir .title {
-    margin: 70px 0;
+    padding: 70px 0;
+    margin: 0;
   }
   #ir table {
     font-size: 24px;
@@ -583,8 +584,8 @@ main .title h1 {
     height: 1300px;
   }
   #ir .title {
-    padding-top: 120px;
-    margin-bottom: 120px;
+    padding: 120px 0;
+    margin: 0;
   }
   #ir table {
     font-size: 24px;
@@ -607,21 +608,24 @@ main .title h1 {
   }
   #ir .ir_bg {
     position: absolute;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     opacity: 1;
   }
   #footer {
+    display: block;
     position: relative;
     background: url(../img/footer_bg.svg) no-repeat;
     background-size: 100%;
     padding: 285px 0 0 0;
     color: #fff;
-    margin-top: -200px;
+    height: 700px;
   }
   #footer .container {
     width: 1350px;
+    height: 100%;
     margin: 0 auto;
+    padding: 0;
   }
   #footer .footer_logo {
     width: 113.59px !important;
@@ -677,6 +681,11 @@ main .title h1 {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   #footer hr {
     background: #fff;

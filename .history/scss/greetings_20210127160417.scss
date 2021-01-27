@@ -33,7 +33,7 @@ main {
 }
 
 #heading {
-  margin-bottom: 90px;
+  margin-bottom: 90.5px;
 }
 
 .description {
@@ -52,6 +52,7 @@ main {
     font-weight: 400;
   }
   img {
+    margin-bottom: 87px;
     width: 100%;
   }
 }
@@ -64,7 +65,7 @@ main {
   padding-bottom: 100px;
   .title {
     padding: 70px 0;
-    margin:0;
+    margin-bottom: 0;
   }
   .container {
     padding: 0 30px;
@@ -291,8 +292,7 @@ main {
     background-position: bottom;
     height: 1100px;
     .title {
-      padding: 70px 0;
-      margin:0;
+      margin: 70px 0;
     }
     table {
       font-size: 24px;
@@ -519,8 +519,8 @@ main {
     background-position: bottom;
     height: 1300px;
     .title {
-      padding: 120px 0;
-      margin:0;
+      padding-top: 120px;
+      margin-bottom: 120px;
     }
     table {
       font-size: 24px;
@@ -543,25 +543,22 @@ main {
     }
     .ir_bg {
       position: absolute;
-      bottom: -20px;
+      bottom: 0;
       width: 100%;
       opacity: 1;
     }
   }
 
   #footer {
-    display: block;
     position: relative;
     background: url(../img/footer_bg.svg) no-repeat;
     background-size: 100%;
     padding: 285px 0 0 0;
     color: #fff;
-    height: 700px;
+    margin-top: -200px;
     .container {
       width: 1350px;
-      height: 100%;
       margin: 0 auto;
-      padding: 0;
     }
     .footer_logo {
       width: 113.59px !important;
@@ -611,7 +608,6 @@ main {
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: row;
     }
     hr {
       background: #fff;

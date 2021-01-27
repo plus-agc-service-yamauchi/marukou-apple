@@ -33,7 +33,7 @@ main {
 }
 
 #heading {
-  margin-bottom: 90px;
+  margin-bottom: 90.5px;
 }
 
 .description {
@@ -52,6 +52,7 @@ main {
     font-weight: 400;
   }
   img {
+    margin-bottom: 87px;
     width: 100%;
   }
 }
@@ -543,7 +544,7 @@ main {
     }
     .ir_bg {
       position: absolute;
-      bottom: -20px;
+      bottom: 0;
       width: 100%;
       opacity: 1;
     }
@@ -553,6 +554,7 @@ main {
     display: block;
     position: relative;
     background: url(../img/footer_bg.svg) no-repeat;
+    background-color: #faf6e8;
     background-size: 100%;
     padding: 285px 0 0 0;
     color: #fff;
