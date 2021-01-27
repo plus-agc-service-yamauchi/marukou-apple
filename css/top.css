@@ -268,7 +268,7 @@ ul.slick01 .btn_green {
   background: url(../img/slider_bg.svg) no-repeat;
   background-size: auto 60%;
   background-position: bottom;
-  padding: 40px 45px;
+  padding: 0 45px;
 }
 
 #slider .title {
@@ -845,18 +845,24 @@ ul.slick01 .btn_green {
   #about .title {
     margin: 200px 0 100px 0;
   }
-  #about img {
-    width: 503px;
-    height: 330px;
-    border-radius: 10px;
-    padding: 0 10px 0 40px;
+  #about .title h3 {
+    font-size: 3.6rem;
+    letter-spacing: 2.88px;
+    color: #e5a615;
+    text-align: center;
   }
-  #about p {
+  #about .title p {
     text-align: center;
     font-size: 24px;
     letter-spacing: 1.2px;
     line-height: 41px;
     margin-top: 40px;
+  }
+  #about img {
+    width: 503px;
+    height: 330px;
+    border-radius: 10px;
+    padding: 0 10px 0 40px;
   }
   .img-box {
     position: relative;

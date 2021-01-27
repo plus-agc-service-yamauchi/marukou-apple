@@ -15,7 +15,7 @@ main p.lead {
 
 main .title {
   padding-top: 100px;
-  margin-bottom: 76px;
+  margin-bottom: 70px;
 }
 
 main .title svg {
@@ -64,6 +64,10 @@ main .title h1 {
   background-position: right bottom;
   background-size: 100%;
   padding-bottom: 100px;
+}
+
+#ir .title {
+  margin: 70px 0;
 }
 
 #ir .container {
@@ -334,6 +338,9 @@ main .title h1 {
     background-position: bottom;
     height: 1100px;
   }
+  #ir .title {
+    margin: 70px 0;
+  }
   #ir table {
     font-size: 24px;
     letter-spacing: 2.88px;
@@ -574,6 +581,10 @@ main .title h1 {
     background-size: 100%;
     background-position: bottom;
     height: 1300px;
+  }
+  #ir .title {
+    padding-top: 120px;
+    margin-bottom: 120px;
   }
   #ir table {
     font-size: 24px;

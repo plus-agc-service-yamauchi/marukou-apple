@@ -20,7 +20,7 @@ main p.lead {
 
 main .title {
   padding-top: 100px;
-  margin-bottom: 76px;
+  margin-bottom: 70px;
 }
 
 main .title svg {
@@ -89,8 +89,8 @@ main .title h1 {
 #certificate img.certificate_fuji {
   position: absolute;
   right: 0;
-  bottom: -50px;
-  width: 50%;
+  bottom: 0;
+  width: 30%;
 }
 
 #harvest {
@@ -130,6 +130,7 @@ main .title h1 {
   letter-spacing: 2.4px;
   text-align: left;
   margin-bottom: 40px;
+  line-height: 3.2rem;
 }
 
 #banner img {
@@ -141,11 +142,7 @@ main .title h1 {
   letter-spacing: 2.4px;
   line-height: 4.8rem;
   font-weight: 400;
-  margin-bottom: 54px;
-}
-
-.description .mt50 {
-  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .description p {
@@ -154,6 +151,10 @@ main .title h1 {
   line-height: 3.2rem;
   font-weight: 400;
   margin-bottom: 20px;
+}
+
+.description div.colone {
+  margin-bottom: 0;
 }
 
 #movie {
@@ -517,6 +518,10 @@ main .title h1 {
   border-radius: 10px;
 }
 
+.spmb50 {
+  margin-bottom: 50px !important;
+}
+
 /* デザインB（タブレット） */
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   body {
@@ -555,7 +560,6 @@ main .title h1 {
   }
   #certificate {
     background: #e5a61558;
-    border-radius: 10px;
     width: 100%;
     padding: 30px;
     margin: 0 auto;
@@ -597,8 +601,9 @@ main .title h1 {
   }
   #certificate img.certificate_fuji {
     position: absolute;
-    right: -15px;
+    right: 0;
     bottom: -15px;
+    width: 25%;
   }
   #harvest {
     margin-bottom: 121px;
@@ -640,6 +645,7 @@ main .title h1 {
     letter-spacing: 2.4px;
     text-align: center;
     margin-bottom: 83px;
+    line-height: 3.2rem;
   }
   .description h2 {
     font-size: 24px;
@@ -654,7 +660,7 @@ main .title h1 {
     line-height: 4rem;
     font-weight: 400;
   }
-  .description div {
+  .description div.colone {
     margin-bottom: 100px;
   }
   #movie {
@@ -1011,7 +1017,7 @@ main .title h1 {
     margin: 0 auto;
   }
   main .title h1 {
-    font-size: 48px;
+    font-size: 3.6rem;
     font-weight: 400;
     color: #e5a615;
     margin-top: 27px;
@@ -1024,7 +1030,7 @@ main .title h1 {
   #certificate {
     background: #e5a61558;
     border-radius: 10px;
-    width: 1160px !important;
+    width: 1130px !important;
     padding: 30px;
     margin: 0 auto;
     display: -webkit-box;
@@ -1071,7 +1077,10 @@ main .title h1 {
     height: 98.74px;
   }
   #harvest {
-    margin-bottom: 121px;
+    margin-bottom: 120px;
+  }
+  #harvest .title {
+    padding-top: 0;
   }
   #harvest .schedule {
     margin-top: 80px;
@@ -1103,6 +1112,10 @@ main .title h1 {
     letter-spacing: 2.4px;
     text-align: center;
     margin-bottom: 83px;
+    line-height: 3.2rem;
+  }
+  .description {
+    margin-bottom: 120px;
   }
   .description h2 {
     font-size: 24px;
@@ -1116,8 +1129,9 @@ main .title h1 {
     letter-spacing: 1.2px;
     line-height: 4rem;
     font-weight: 400;
+    margin: 0;
   }
-  .description div {
+  .description div.colone {
     margin-bottom: 100px;
   }
   #movie {
