@@ -54,7 +54,28 @@ main .title h1 {
 }
 
 .description img {
+  margin-bottom: 70px;
+}
+
+.description img.photo_1 {
   width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.description img.photo_2 {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.description img.photo_3 {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 70px;
 }
 
 #ir {

@@ -52,22 +52,22 @@ main {
     font-weight: 400;
   }
   img {
-    margin-bottom: 70px;
+    width: 100%;
   }
   img.photo_1 {
-    width: 100%;
+    width: 70%;
     display: block;
     margin: 0 auto;
     margin-bottom: 70px;
   }
   img.photo_2 {
-    width: 100%;
+    width: 70%;
     display: block;
     margin: 0 auto;
     margin-bottom: 70px;
   }
   img.photo_3 {
-    width: 100%;
+    width: 70%;
     display: block;
     margin: 0 auto;
     margin-bottom: 70px;
@@ -82,7 +82,7 @@ main {
   padding-bottom: 100px;
   .title {
     padding: 70px 0;
-    margin: 0;
+    margin:0;
   }
   .container {
     padding: 0 30px;
@@ -310,7 +310,7 @@ main {
     height: 1100px;
     .title {
       padding: 70px 0;
-      margin: 0;
+      margin:0;
     }
     table {
       font-size: 24px;
@@ -538,7 +538,7 @@ main {
     height: 1300px;
     .title {
       padding: 120px 0;
-      margin: 0;
+      margin:0;
     }
     table {
       font-size: 24px;

@@ -670,7 +670,7 @@ ul.slick01 .btn_green {
   header#top {
     height: 804px;
     background: url(../img/top_bg.png) no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center center;
     position: relative;
   }
