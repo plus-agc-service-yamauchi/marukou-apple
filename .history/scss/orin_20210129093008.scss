@@ -8,27 +8,11 @@ body {
   font-size: 16px;
 }
 //   ヘッダー
-header#top {
+header#orin {
   background: #faf6e8;
   position: relative;
 }
-main h1 {
-  font-size: 2.6rem;
-  letter-spacing: 1.2rem;
-  line-height: 3rem;
-  color: #98231d;
-  font-weight: 400;
-  margin-top: 15px;
-  text-align: center;
-}
 main {
-  .title {
-    text-align: center;
-    padding-top: 100px;
-    svg {
-      width: 40%;
-    }
-  }
   p.lead {
     padding: 70px 0 45px 0;
     font-weight: 400;
@@ -37,13 +21,31 @@ main {
     font-size: 16px;
     text-align: left;
   }
+  .title {
+    padding-top: 100px;
+    text-align: center !important;
+    svg {
+      display: block;
+      margin: 0 auto;
+      width: 40%;
+    }
+    // タイトル
+    h1 {
+      font-size: 2.6rem;
+      font-weight: 400;
+      color: #55991d;
+      margin-top: 15px;
+      text-align: center;
+      letter-spacing: 1.2rem;
+    }
+  }
 }
 
 #movie {
   margin: 0 0 75px 0;
 }
 
-#fuji_data {
+#orin_data {
   margin-bottom: 80px;
   h3 {
     font-size: 2rem;
@@ -58,13 +60,13 @@ main {
   }
   .description {
     margin-bottom: 80px;
-    .grid-sp-1,
-    .grid-pc-2 {
+    .grid-pc-2,
+    .grid-sp-1 {
       .left {
         z-index: 2;
         margin-bottom: -20px;
-        width: 100%;
         img {
+          box-shadow: 0px 3px 6px #00000029;
           width: 100%;
         }
       }
@@ -82,14 +84,11 @@ main {
       }
     }
   }
-  img {
-    width: 100%;
-  }
-  .fuji_point {
+  .orin_point {
     width: 100%;
     margin: 0 auto;
   }
-  p.fuji_point_one {
+  p.orin_point_one {
     font-size: 14px;
     letter-spacing: 0.2em;
     line-height: 3.2rem;
@@ -97,18 +96,18 @@ main {
     padding-left: 35px;
     text-indent: -35px;
   }
-  p.fuji_point_one:before {
+  p.orin_point_one:before {
     content: "";
     display: inline-block;
     width: 25px;
     height: 30px;
-    background-image: url(../img/fuji_point_one.svg);
+    background-image: url(../img/orin_point_one.svg);
     background-repeat: no-repeat;
     background-size: contain;
     vertical-align: middle;
     margin-right: 10px;
   }
-  p.fuji_point_two {
+  p.orin_point_two {
     font-size: 14px;
     letter-spacing: 0.2em;
     line-height: 3.2rem;
@@ -116,30 +115,30 @@ main {
     padding-left: 35px;
     text-indent: -35px;
   }
-  p.fuji_point_two:before {
+  p.orin_point_two:before {
     content: "";
     display: inline-block;
     width: 25px;
     height: 30px;
-    background-image: url(../img/fuji_point_two.svg);
+    background-image: url(../img/orin_point_two.svg);
     background-repeat: no-repeat;
     background-size: contain;
     vertical-align: middle;
     margin-right: 10px;
   }
-  p.fuji_point_three {
+  p.orin_point_three {
     font-size: 14px;
     letter-spacing: 0.2em;
     line-height: 3.2rem;
     padding-left: 35px;
     text-indent: -35px;
   }
-  p.fuji_point_three:before {
+  p.orin_point_three:before {
     content: "";
     display: inline-block;
     width: 25px;
     height: 30px;
-    background-image: url(../img/fuji_point_three.svg);
+    background-image: url(../img/orin_point_three.svg);
     background-repeat: no-repeat;
     background-size: contain;
     vertical-align: middle;
@@ -147,8 +146,8 @@ main {
   }
 }
 
-#History_fuji {
-  background: url(../img/fuji_history_bg_sp.png) no-repeat;
+#orin_history {
+  background: url(../img/orin_history_bg_sp.png) no-repeat;
   background-size: cover;
   background-position: center bottom;
   height: 900px;
@@ -162,17 +161,16 @@ main {
   }
   .history_title {
     padding-top: 50px;
-    h1 {
+    h3 {
       font-size: 2.6rem;
       font-weight: 400;
       letter-spacing: 0.1em;
-      color: #98231d;
+      color: #55991d;
       margin-bottom: 70px;
       text-align: center;
+      margin-top: 14.7px;
     }
-  }
-  .text {
-    p {
+    h4 {
       font-size: 20px;
       font-weight: 600px;
       letter-spacing: 0.1em;
@@ -180,7 +178,7 @@ main {
       line-height: 4.8rem;
       text-align: left;
     }
-    span {
+    p {
       font-size: 12px;
       letter-spacing: 0.1em;
       line-height: 3.2rem;
@@ -190,29 +188,29 @@ main {
   }
 }
 
-#Marukou_fuji {
+#marukou_orin {
   margin-bottom: 90px;
   svg {
     margin: 0 auto;
     display: block;
     width: 70%;
   }
-  h1 {
+  h3 {
     font-size: 2.6rem;
     font-weight: 400;
-    color: #98231d;
+    color: #55991d;
     margin-top: 14.9px;
     letter-spacing: 0.1em;
     text-align: center;
     margin-bottom: 70px;
   }
-  p {
+  .marukou_orin_lead {
     font-size: 20px;
     letter-spacing: 2.4px;
     line-height: 4.8rem;
-    margin-bottom: 30px;
+    margin: 20px 0 30px 0;
   }
-  span {
+  p {
     font-size: 12px;
     letter-spacing: 1.2px;
     line-height: 3.2rem;
@@ -220,11 +218,11 @@ main {
 }
 
 #product {
-  h1 {
+  h3 {
     font-size: 2.6rem;
     letter-spacing: 3.6px;
     line-height: 6.1rem;
-    color: #98231d;
+    color: #55991d;
     font-weight: 400;
     text-align: center;
     margin-bottom: 50px;
@@ -289,7 +287,7 @@ main {
 }
 
 .grid-row-gap90 {
-  grid-row-gap: 50px !important;
+  grid-row-gap: 90px;
 }
 
 .grid-col-gap280 {
@@ -371,68 +369,72 @@ main {
 .border-radius-10 {
   border-radius: 10px;
 }
+
 /* デザインB（タブレット） */
 @media screen and (min-width: 600px) and (max-width: 1024px) {
+  html {
+    font-family: "Roboto", YuGothic, "Yu Gothic";
+    scroll-behavior: smooth;
+  }
   body {
     font-size: 16px;
   }
-  header#top {
-    height: 100px;
-    background-color: #faf6e8;
-    background-size: 1920px;
-    background-position: center center;
+  //   ヘッダー
+  header#orin {
+    background: #faf6e8;
     position: relative;
   }
-  header#top img {
-    width: 200px;
-    height: 200px;
+  main {
+    p.lead {
+      padding: 76px 0 90px 0;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      line-height: 4rem;
+      font-size: 16px;
+      text-align: left;
+    }
+    .title {
+      padding-top: 100px;
+      svg {
+        display: block;
+        margin: 0 auto;
+      }
+      // タイトル
+      h1 {
+        font-size: 3.6rem;
+        font-weight: 400;
+        color: #55991d;
+        margin-top: 27px;
+        text-align: center;
+      }
+    }
   }
 
-  main h1 {
-    font-size: 3.6rem;
-    letter-spacing: 1.2rem;
-    line-height: 6rem;
-    color: #98231d;
-    font-weight: 400;
-    text-align: center;
-  }
-  main .title {
-    text-align: center;
-    padding-top: 100px;
-  }
-  #fuji p {
-    font-size: 16px;
-    letter-spacing: 1.6px;
-    line-height: 41px;
-    margin-top: 0px;
-    display: block;
-    text-align: left;
-    margin: 0 auto;
-    padding: 76px 0 90px 0;
-  }
   #movie {
     margin: 0 0 150px 0;
   }
-  #fuji_data {
+
+  #orin_data {
     margin-bottom: 190px;
     h3 {
-      width: 336px;
-      margin: 0 auto;
-      text-align: center;
       font-size: 24px;
-      letter-spacing: 2.4px;
+      letter-spacing: 0.1em;
       line-height: 41px;
-      margin-top: 0px;
+      font-weight: 400;
+      width: 336px;
+      border-bottom: solid 1px #3e0000;
+      text-align: center;
+      margin: 0 auto;
       margin-bottom: 60.5px;
-      border-bottom: 1px solid #653333;
     }
     .description {
       margin-bottom: 160px;
-      .grid-sp-1,
-      .grid-pc-2 {
+      .grid-pc-2,
+      .grid-sp-1 {
         .left {
           z-index: 2;
           margin: 0 auto;
+          width: 100%;
           img {
             width: 70%;
             display: block;
@@ -454,55 +456,55 @@ main {
         }
       }
     }
-    .fuji_point {
-      width: 500px;
+    .orin_point {
+      width: 400px;
       margin: 0 auto;
     }
-    p.fuji_point_one {
+    p.orin_point_one {
       font-size: 16px;
       letter-spacing: 0.2em;
       line-height: 3.2rem;
       margin-bottom: 30.2px;
     }
-    p.fuji_point_one:before {
+    p.orin_point_one:before {
       content: "";
       display: inline-block;
       width: 58.28px;
       height: 62.82px;
-      background-image: url(../img/fuji_point_one.svg);
+      background-image: url(../img/orin_point_one.svg);
       background-repeat: no-repeat;
       background-size: contain;
       vertical-align: middle;
       margin-right: 23.7px;
     }
-    p.fuji_point_two {
+    p.orin_point_two {
       font-size: 16px;
       letter-spacing: 0.2em;
       line-height: 3.2rem;
       margin-bottom: 30.2px;
     }
-    p.fuji_point_two:before {
+    p.orin_point_two:before {
       content: "";
       display: inline-block;
       width: 58.28px;
       height: 62.82px;
-      background-image: url(../img/fuji_point_two.svg);
+      background-image: url(../img/orin_point_two.svg);
       background-repeat: no-repeat;
       background-size: contain;
       vertical-align: middle;
       margin-right: 23.7px;
     }
-    p.fuji_point_three {
+    p.orin_point_three {
       font-size: 16px;
       letter-spacing: 0.2em;
       line-height: 3.2rem;
     }
-    p.fuji_point_three:before {
+    p.orin_point_three:before {
       content: "";
       display: inline-block;
       width: 58.28px;
       height: 62.82px;
-      background-image: url(../img/fuji_point_three.svg);
+      background-image: url(../img/orin_point_three.svg);
       background-repeat: no-repeat;
       background-size: contain;
       vertical-align: middle;
@@ -510,8 +512,8 @@ main {
     }
   }
 
-  #History_fuji {
-    background: url(../img/fuji_history_bg.png) no-repeat;
+  #orin_history {
+    background: url(../img/orin_history_bg.png) no-repeat;
     background-size: cover;
     background-position: center bottom;
     height: 727px;
@@ -523,17 +525,8 @@ main {
     }
     .history_title {
       padding-top: 100px;
-      h1 {
-        font-size: 3.6rem;
-        font-weight: 400;
-        letter-spacing: 0.1em;
-        color: #98231d;
-        margin-bottom: 96px;
-        text-align: center;
-        margin-top: 14.7px;
-      }
       h3 {
-        font-size: 48px;
+        font-size: 3.6rem;
         font-weight: 400;
         letter-spacing: 0.1em;
         color: #55991d;
@@ -542,15 +535,14 @@ main {
         margin-top: 14.7px;
       }
       h4 {
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 600px;
         letter-spacing: 0.1em;
         margin-bottom: 46px;
         text-align: center;
       }
       p {
-        width: 900px;
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: 0.1em;
         line-height: 3.2rem;
         text-align: left;
@@ -558,144 +550,129 @@ main {
       }
     }
   }
-  #History_fuji .text p {
-    text-align: center;
-    letter-spacing: 2.4px;
-    font-size: 24px;
-    font-weight: 400;
-  }
-  #History_fuji .text span {
-    width: 900px;
-    text-align: left;
-    font-size: 14px;
-    letter-spacing: 1.2px;
-    line-height: 32px;
-    margin-top: 90px;
-    margin: 0 auto;
-  }
-  #Marukou_fuji {
-    .title {
-      padding: 0;
+
+  #marukou_orin {
+    margin-bottom: 100px;
+    svg {
+      margin: 0 auto;
+      display: block;
+    }
+    h3 {
+      font-size: 3.6rem;
+      font-weight: 400;
+      color: #55991d;
+      margin-top: 14.9px;
+      letter-spacing: 0.1em;
+      text-align: center;
+      margin-bottom: 150px;
+    }
+    .marukou_orin_lead {
+      font-size: 24px;
+      letter-spacing: 2.4px;
+      line-height: 4.8rem;
+      margin: 30px 0 50px 0;
+      text-align: center;
+    }
+    p {
+      font-size: 14px;
+      letter-spacing: 1.2px;
+      line-height: 4rem;
     }
   }
-  #Marukou_fuji h1 {
-    font-size: 3.6rem;
-    font-weight: 400;
-    color: #98231d;
-    margin-top: 14.9px;
-    letter-spacing: 0.1em;
-    text-align: center;
-    margin-bottom: 75px;
-  }
-  #Marukou_fuji P {
-    letter-spacing: 2.4px;
-    font-size: 24px;
-    font-weight: 400;
-    margin: 30px 0 50px 0;
-    text-align: center;
-  }
-  #Marukou_fuji span {
-    font-size: 14px;
-    letter-spacing: 1.2px;
-    line-height: 4rem;
-    margin-top: 50px;
-  }
-  #product h1 {
-    font-size: 3.6rem;
-    letter-spacing: 3.6px;
-    line-height: 6rem;
-    color: #98231d;
-    font-weight: 400;
-    text-align: center;
-  }
-  #product img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-  }
-  #product p {
-    font-weight: bold;
-    line-height: 2.7rem;
-    text-align: center;
-    font-size: 1.2rem;
-  }
-  #product span {
-    display: block;
-    text-align: center;
-    font-size: 16px;
-    line-height: 2.7rem;
-  }
-  #product .btn {
-    background: #fff;
-    border: 2px solid #e5a615;
-    border-radius: 10px;
-    opacity: 1;
-    color: #e5a615;
-    display: block;
-    width: 100%;
-    padding: 17px 0;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 13px;
-    font-weight: bold;
-  }
 
-  #product a.btn_l {
-    width: 400px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 90px;
-    -webkit-box-shadow: 0px 3px 6px #00000029;
-    box-shadow: 0px 3px 6px #00000029;
-    border: 2px solid #e5a615;
-    border-radius: 10px;
-    opacity: 1;
-    color: #fff;
-    text-align: center;
-    background: #e5a615;
-    padding: 34.31px 0;
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 9.6px;
+  #product {
+    h3 {
+      font-size: 3.6rem;
+      letter-spacing: 3.6px;
+      line-height: 6.1rem;
+      color: #55991d;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 100px;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    p {
+      font-weight: bold;
+      line-height: 2.7rem;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+    span {
+      display: block;
+      text-align: center;
+      font-size: 16px;
+      line-height: 2.7rem;
+    }
+    .btn {
+      background: #fff;
+      border: 2px solid #e5a615;
+      border-radius: 10px;
+      opacity: 1;
+      color: #e5a615;
+      display: block;
+      width: 100%;
+      padding: 17px 0;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 13px;
+      font-weight: bold;
+    }
+
+    a.btn_l {
+      width: 400px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 90px;
+      box-shadow: 0px 3px 6px #00000029;
+      border: 2px solid #e5a615;
+      border-radius: 10px;
+      opacity: 1;
+      color: #fff;
+      text-align: center;
+      background: #e5a615;
+      padding: 34.31px 0;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 9.6px;
+    }
   }
 
   .justify-center {
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
   }
+
   .grid-col-gap160 {
     grid-column-gap: 160px;
   }
+
   .grid-row-gap90 {
     grid-row-gap: 90px;
   }
+
   .grid-col-gap280 {
     grid-column-gap: 280px;
   }
-  #about img {
-    width: 500px;
-    border-radius: 10px;
-    padding-left: 30px;
+
+  .grid-col-gap30 {
+    grid-column-gap: 100px !important;
   }
-  #about p {
-    text-align: center;
-    font-size: 24px;
-    letter-spacing: 1.2px;
-    line-height: 41px;
-    margin-top: 40px;
-  }
-  .left {
-    margin-right: -100px;
-    z-index: 2;
-    width: 610px;
-  }
-  .right {
-    margin-top: 100px;
-    margin-left: -100px;
+
+  #about {
     img {
-      width: 100%;
+      width: 500px;
+      border-radius: 10px;
+      padding-left: 30px;
+    }
+    p {
+      text-align: center;
+      font-size: 24px;
+      letter-spacing: 1.2px;
+      line-height: 41px;
+      margin-top: 40px;
     }
   }
   .img-box {
@@ -763,67 +740,71 @@ main {
 
 /* デザインC(PC) */
 @media screen and (min-width: 1025px) {
+  html {
+    font-family: "Roboto", YuGothic, "Yu Gothic";
+    scroll-behavior: smooth;
+  }
   body {
     font-size: 16px;
   }
-  header#top {
-    height: 100px;
-    background-color: #faf6e8;
-    background-size: 1920px;
-    background-position: center center;
+  //   ヘッダー
+  header#orin {
+    background: #faf6e8;
     position: relative;
   }
-  header#top img {
-    width: 200px;
-    height: 200px;
+  main {
+    p.lead {
+      padding: 76px 0 90px 0;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      line-height: 4rem;
+      font-size: 16px;
+      text-align: left;
+    }
+    .title {
+      padding-top: 100px;
+      svg {
+        display: block;
+        margin: 0 auto;
+      }
+      // タイトル
+      h1 {
+        font-size: 3.6rem;
+        font-weight: 400;
+        color: #55991d;
+        margin-top: 27px;
+        text-align: center;
+      }
+    }
   }
 
-  main h1 {
-    font-size: 48px;
-    letter-spacing: 1.2rem;
-    line-height: 6rem;
-    color: #98231d;
-    font-weight: 400;
-    text-align: center;
-  }
-  main .title {
-    text-align: center;
-  }
-  #fuji p {
-    font-size: 16px;
-    letter-spacing: 1.6px;
-    line-height: 41px;
-    margin-top: 0px;
-    display: block;
-    text-align: left;
-    margin: 0 auto;
-    padding: 76px 0 90px 0;
-  }
   #movie {
     margin: 0 0 150px 0;
   }
-  #fuji_data {
+
+  #orin_data {
     margin-bottom: 190px;
     h3 {
-      width: 336px;
-      margin: 0 auto;
-      text-align: center;
       font-size: 24px;
-      letter-spacing: 2.4px;
+      letter-spacing: 0.1em;
       line-height: 41px;
-      margin-top: 0px;
+      font-weight: 400;
+      width: 336px;
+      border-bottom: solid 1px #3e0000;
+      text-align: center;
+      margin: 0 auto;
       margin-bottom: 60.5px;
-      border-bottom: 1px solid #653333;
     }
     .description {
       margin-bottom: 160px;
-      .grid-sp-1,
-      .grid-pc-2 {
+      .grid-pc-2,
+      .grid-sp-1 {
         .left {
           margin-right: -100px;
           z-index: 2;
           width: 610px;
           img {
+            box-shadow: 0px 3px 6px #00000029;
             width: 95%;
           }
         }
@@ -841,253 +822,252 @@ main {
         }
       }
     }
-    .fuji_point {
-      width: 500px;
+    .orin_point {
+      width: 400px;
       margin: 0 auto;
     }
-    p.fuji_point_one {
+    p.orin_point_one {
       font-size: 16px;
       letter-spacing: 0.2em;
       line-height: 3.2rem;
       margin-bottom: 30.2px;
     }
-    p.fuji_point_one:before {
+    p.orin_point_one:before {
       content: "";
       display: inline-block;
       width: 58.28px;
       height: 62.82px;
-      background-image: url(../img/fuji_point_one.svg);
+      background-image: url(../img/orin_point_one.svg);
       background-repeat: no-repeat;
       background-size: contain;
       vertical-align: middle;
       margin-right: 23.7px;
     }
-    p.fuji_point_two {
+    p.orin_point_two {
       font-size: 16px;
       letter-spacing: 0.2em;
       line-height: 3.2rem;
       margin-bottom: 30.2px;
     }
-    p.fuji_point_two:before {
+    p.orin_point_two:before {
       content: "";
       display: inline-block;
       width: 58.28px;
       height: 62.82px;
-      background-image: url(../img/fuji_point_two.svg);
+      background-image: url(../img/orin_point_two.svg);
       background-repeat: no-repeat;
       background-size: contain;
       vertical-align: middle;
       margin-right: 23.7px;
     }
-    p.fuji_point_three {
+    p.orin_point_three {
       font-size: 16px;
       letter-spacing: 0.2em;
       line-height: 3.2rem;
     }
-    p.fuji_point_three:before {
+    p.orin_point_three:before {
       content: "";
       display: inline-block;
       width: 58.28px;
       height: 62.82px;
-      background-image: url(../img/fuji_point_three.svg);
+      background-image: url(../img/orin_point_three.svg);
       background-repeat: no-repeat;
       background-size: contain;
       vertical-align: middle;
       margin-right: 23.7px;
     }
   }
-  #History_fuji {
-    background: url(../img/fuji_history_bg.png) no-repeat;
+
+  #orin_history {
+    background: url(../img/orin_history_bg.png) no-repeat;
     background-size: cover;
     background-position: center bottom;
     height: 727px;
     margin-bottom: 179px;
     width: 100%;
+    svg {
+      display: block;
+      margin: 0 auto;
+    }
     .history_title {
-      padding-top:100px;
-      h1 {
+      padding-top: 100px;
+      h3 {
         font-size: 3.6rem;
         font-weight: 400;
         letter-spacing: 0.1em;
-        color: #98231d;
+        color: #55991d;
         margin-bottom: 90px;
         text-align: center;
+        margin-top: 14.7px;
+      }
+      h4 {
+        font-size: 24px;
+        font-weight: 600px;
+        letter-spacing: 0.1em;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+      p {
+        width: 900px;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        line-height: 3.2rem;
+        text-align: left;
+        margin: 0 auto;
       }
     }
   }
 
-  #History_fuji .text p {
-    text-align: center;
-    letter-spacing: 2.4px;
-    font-size: 24px;
-    font-weight: 400;
-    margin-bottom: 50px;
+  #marukou_orin {
+    margin-bottom: 239px;
+    svg {
+      margin: 0 auto;
+      display: block;
+    }
+    h3 {
+      font-size: 3.6rem;
+      font-weight: 400;
+      color: #55991d;
+      margin-top: 14.9px;
+      letter-spacing: 0.1em;
+      text-align: center;
+      margin-bottom: 150px;
+    }
+    .marukou_orin_lead {
+      font-size: 24px;
+      letter-spacing: 2.4px;
+      line-height: 4.8rem;
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 14px;
+      letter-spacing: 1.2px;
+      line-height: 4rem;
+    }
   }
-  #History_fuji .text span {
-    width: 900px;
-    text-align: left;
-    font-size: 14px;
-    letter-spacing: 1.2px;
-    line-height: 32px;
-    margin-top: 90px;
-    margin: 0 auto;
+
+  #product {
+    h3 {
+      font-size: 3.6rem;
+      letter-spacing: 3.6px;
+      line-height: 6.1rem;
+      color: #55991d;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 100px;
+    }
+    img {
+      width: 300px;
+      height: 300px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    p {
+      font-weight: bold;
+      line-height: 2.7rem;
+      text-align: center;
+      font-size: 16px;
+    }
+    span {
+      display: block;
+      text-align: center;
+      font-size: 16px;
+      line-height: 2.7rem;
+    }
+    .btn {
+      background: #fff;
+      border: 2px solid #e5a615;
+      border-radius: 10px;
+      opacity: 1;
+      color: #e5a615;
+      display: block;
+      width: 250px;
+      padding: 17px 0;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 13px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #e5a615;
+      border: 2px solid #fff;
+      border-radius: 10px;
+      opacity: 1;
+      color: #fff;
+      display: block;
+      width: 250px;
+      padding: 17px 0;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 13px;
+      font-weight: bold;
+      transition: 0.1s;
+    }
+    a.btn_l {
+      width: 400px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 90px;
+      box-shadow: 0px 3px 6px #00000029;
+      border: 2px solid #e5a615;
+      border-radius: 10px;
+      opacity: 1;
+      color: #fff;
+      text-align: center;
+      background: #e5a615;
+      padding: 34.31px 0;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 9.6px;
+    }
+    a.btn_l:hover {
+      width: 400px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 90px;
+      box-shadow: 0px 3px 6px #00000029;
+      border: 2px solid #fff;
+      border-radius: 10px;
+      opacity: 1;
+      color: #e5a615;
+      text-align: center;
+      background: #fff;
+      padding: 34.31px 0;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 9.6px;
+      transition: 0.1s;
+    }
   }
-  #Marukou_fuji{
-    margin-bottom:150px;
-  }
-  #Marukou_fuji h1 {
-    font-size: 3.6rem;
-    font-weight: 400;
-    color: #98231d;
-    margin-top: 14.9px;
-    letter-spacing: 0.1em;
-    text-align: center;
-    margin-bottom: 150px;
-  }
-  #Marukou_fuji P {
-    letter-spacing: 2.4px;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 4.8rem;
-    margin: 30px 0 50px 0;
-  }
-  #Marukou_fuji span {
-    font-size: 14px;
-    letter-spacing: 1.2px;
-    line-height: 4rem;
-    margin-top: 50px;
-  }
-  #product h1 {
-    font-size: 36px;
-    letter-spacing: 3.6px;
-    line-height: 6rem;
-    color: #98231d;
-    font-weight: 400;
-    text-align: center;
-  }
-  #product img {
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-  }
-  #product p {
-    font-weight: bold;
-    line-height: 2.7rem;
-    text-align: center;
-    font-size: 16px;
-  }
-  #product span {
-    display: block;
-    text-align: center;
-    font-size: 16px;
-    line-height: 2.7rem;
-  }
-  #product .btn {
-    background: #fff;
-    border: 2px solid #e5a615;
-    border-radius: 10px;
-    opacity: 1;
-    color: #e5a615;
-    display: block;
-    width: 250px;
-    padding: 17px 0;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 13px;
-    font-weight: bold;
-  }
-  #product .btn:hover {
-    background: #e5a615;
-    border: 2px solid #fff;
-    border-radius: 10px;
-    opacity: 1;
-    color: #fff;
-    display: block;
-    width: 250px;
-    padding: 17px 0;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 13px;
-    font-weight: bold;
-    -webkit-transition: 0.1s;
-    transition: 0.1s;
-  }
-  #product a.btn_l {
-    width: 400px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 90px;
-    -webkit-box-shadow: 0px 3px 6px #00000029;
-    box-shadow: 0px 3px 6px #00000029;
-    border: 2px solid #e5a615;
-    border-radius: 10px;
-    opacity: 1;
-    color: #fff;
-    text-align: center;
-    background: #e5a615;
-    padding: 34.31px 0;
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 9.6px;
-  }
-  #product a.btn_l:hover {
-    width: 400px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 90px;
-    -webkit-box-shadow: 0px 3px 6px #00000029;
-    box-shadow: 0px 3px 6px #00000029;
-    border: 2px solid #fff;
-    border-radius: 10px;
-    opacity: 1;
-    color: #e5a615;
-    text-align: center;
-    background: #fff;
-    padding: 34.31px 0;
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 9.6px;
-    -webkit-transition: 0.1s;
-    transition: 0.1s;
-  }
+
   .justify-center {
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
   }
+
   .grid-col-gap160 {
     grid-column-gap: 160px;
   }
+
   .grid-row-gap90 {
     grid-row-gap: 90px;
   }
+
   .grid-col-gap280 {
     grid-column-gap: 280px;
   }
-  #about img {
-    width: 500px;
-    border-radius: 10px;
-    padding-left: 30px;
-  }
-  #about p {
-    text-align: center;
-    font-size: 24px;
-    letter-spacing: 1.2px;
-    line-height: 41px;
-    margin-top: 40px;
-  }
-  .left {
-    margin-right: -100px;
-    z-index: 2;
-    width: 610px;
-  }
-  .right {
-    margin-top: 100px;
-    margin-left: -100px;
+
+  #about {
     img {
-      width: 100%;
+      width: 500px;
+      border-radius: 10px;
+      padding-left: 30px;
+    }
+    p {
+      text-align: center;
+      font-size: 24px;
+      letter-spacing: 1.2px;
+      line-height: 41px;
+      margin-top: 40px;
     }
   }
   .img-box {

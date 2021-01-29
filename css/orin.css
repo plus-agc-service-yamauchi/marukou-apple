@@ -214,26 +214,6 @@ main .title h1 {
   margin-bottom: 90px;
 }
 
-#marukou_orin .text {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 #marukou_orin svg {
   margin: 0 auto;
   display: block;
@@ -254,7 +234,7 @@ main .title h1 {
   font-size: 20px;
   letter-spacing: 2.4px;
   line-height: 4.8rem;
-  margin-bottom: 30px;
+  margin: 20px 0 30px 0;
 }
 
 #marukou_orin p {
@@ -1001,7 +981,7 @@ main .title h1 {
     font-size: 24px;
     letter-spacing: 2.4px;
     line-height: 4.8rem;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
   #marukou_orin p {
     font-size: 14px;
