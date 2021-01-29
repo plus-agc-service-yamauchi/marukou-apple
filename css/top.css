@@ -3,7 +3,7 @@
 header#top {
   height: 100vh;
   background: url(../img/top_bg_sp.jpg) no-repeat;
-  background-position: 50% 0;
+  background-position: 50% -30%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -26,7 +26,7 @@ header#top {
 
 header#top .headline {
   position: absolute;
-  top: 60%;
+  top: 55%;
   width: 100%;
 }
 
@@ -268,7 +268,7 @@ ul.slick01 .btn_green {
   background: url(../img/slider_bg.svg) no-repeat;
   background-size: auto 60%;
   background-position: bottom;
-  padding: 0 45px;
+  padding: 0 45px 30px;
 }
 
 #slider .title {

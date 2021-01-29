@@ -3,21 +3,29 @@
   <head>
     <meta charset="utf-8" />
     <title>商品一覧 | マルコウアップル</title>
-    <meta name="description" content="" />
+    <meta
+      name="description"
+      content="私たちマルコウアップルは、津軽平野の中央に位置する青森県板柳町で
+    りんごを栽培しています。寒暖の差がありりんご栽培に適したこの地から、
+    まごころ込めて育てたりんごを厳選してお届けします。"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
+    <meta property="og:title" content="株式会社マルコウアップル" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:url"
+      content="https://www.facebook.com/株式会社マルコウアップル-755849294755214/"
+    />
+    <meta property="og:image" content="img/logo.svg" />
 
     <link rel="manifest" href="site.webmanifest" />
     <link rel="apple-touch-icon" href="icon.png" />
     <!-- Place favicon.ico in the root directory -->
-
+    <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/destyle.css" />
     <link rel="stylesheet" href="css/main.min.css" />
-    <link rel="stylesheet" href="css/about.min.css" />
+    <link rel="stylesheet" href="css/product.min.css" />
     <link rel="stylesheet" href="css/common.min.css" />
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/slick-theme.css" />
@@ -35,8 +43,8 @@
   <body>
     <!-- Add your site or application content here -->
     <header id="about">
-      <a href="index.html"
-        ><img src="img/logo.svg" alt="マルコウアップル" class="logo"
+      <a href="index.html" id="logo"
+        ><img src="img/logo.svg" alt="マルコウアップル"
       /></a>
       <div class="nav">
         <div class="nav__wrapper">
@@ -44,18 +52,22 @@
             <li><a href="index.html">トップページ</a></li>
             <li><a href="fuji.html">サンふじ</a></li>
             <li><a href="orin.html">王林</a></li>
+            <li><a href="meigetsu.html">ぐんま名月</a></li>
+            <li><a href="product.html">商品一覧</a></li>
             <li><a href="about.html">私たちのこだわり</a></li>
             <li><a href="greetings.html">私たちについて</a></li>
+            <li><a href="tokushoho.html">特定商取引法に基づく表示</a></li>
+            <li><a href="policy.html">個人情報の取り扱いについて</a></li>
           </ul>
         </div>
       </div>
       <div class="cart">
         <a href="https://marukou-apple.stores.jp" target="_blank"
-          ><img src="img/cart.svg" alt="" class="cart_img"
+          ><img src="img/cart.svg" alt="ショップ" class="cart_img"
         /></a>
       </div>
     </header>
-    <main class="bg-main" style="padding-bottom: 200px">
+    <main class="bg-main">
       <div class="container">
         <section id="heading">
           <div class="title">
@@ -165,90 +177,135 @@
         </section>
         <!-- 商品一覧 -->
         <section id="product">
-          <div class="grid-pc-3 grid-col-gap160 grid-row-gap90 justify-center">
-            <div class="text-pc-center">
-              <img src="img/product_1.png" alt="" />
-              <p>家庭用サンふじ 5kg</p>
-              <span style="margin-bottom: 13px !important"
-                >3,520円（税込）</span
-              >
-              <div class="imgbox">
-                <div
-                  class="storesjp-button"
-                  data-storesjp-item="5fd6f1688a45721255006338"
-                  data-storesjp-variation="5fd6f1688a4572125500633c"
-                  data-storesjp-name="marukou-apple"
-                  data-storesjp-layout="layout_a"
-                  data-storesjp-lang="ja"
-                  data-storesjp-image="038a3fe3011e8f388c52_250x50.png"
-                ></div>
-                <script>
-                  (function (d, s, id) {
-                    var st = d.getElementsByTagName(s)[0];
-                    if (d.getElementById(id)) {
-                      return;
-                    }
-                    var nst = d.createElement(s);
-                    nst.id = id;
-                    nst.src = "//btn.stores.jp/button.js";
-                    nst.charset = "UTF-8";
-                    st.parentNode.insertBefore(nst, st);
-                  })(document, "script", "storesjp-button");
-                </script>
+          <div
+            class="grid-sp-2 grid-tab-3 grid-pc-3 grid-col-gap160 grid-row-gap90 justify-center"
+          >
+            <div>
+              <img src="img/product_1.png" alt="サンふじ（特選品） 5kg" />
+              <p>サンふじ（特選品） 5kg</p>
+              <span class="mb13">5,940円（税込）</span>
+              <div class="img-box">
+                <a
+                  href="https://marukou-apple.stores.jp/items/5fd6f1688a45721255006338"
+                  class="btn"
+                  >商品詳細へ</a
+                >
               </div>
             </div>
             <div>
-              <img src="img/product_1.png" alt="" />
-              <p>家庭用サンふじ 5kg</p>
-              <span>3,520円（税込）</span>
-              <a href="" class="btn">カートに入れる</a>
+              <img src="img/product_1.png" alt="サンふじ（特選品） 10kg" />
+              <p>サンふじ（特選品） 10kg</p>
+              <span class="mb13">8,640円（税込）</span>
+              <div class="img-box">
+                <a
+                  href="https://marukou-apple.stores.jp/items/5fd6f1b3da019c434f6dd6e5"
+                  class="btn"
+                  >商品詳細へ</a
+                >
+              </div>
             </div>
             <div>
-              <img src="img/product_1.png" alt="" />
-              <p>家庭用サンふじ 5kg</p>
-              <span>3,520円（税込）</span>
-              <a href="" class="btn">カートに入れる</a>
+              <img src="img/product_2.png" alt="王林（家庭用） 5kg" />
+              <p>王林（家庭用） 5kg</p>
+              <span class="mb13">3,996円（税込）</span>
+              <div class="img-box">
+                <a
+                  href="https://marukou-apple.stores.jp/items/5fbf43eeda019c6c948307f3"
+                  class="btn"
+                  >商品詳細へ</a
+                >
+              </div>
             </div>
             <div>
-              <img src="img/product_2.png" alt="" />
-              <p>家庭用サンふじ 5kg</p>
-              <span>3,520円（税込）</span>
-              <a href="" class="btn">カートに入れる</a>
+              <img src="img/product_2.png" alt="王林（家庭用） 10kg" />
+              <p>王林（家庭用） 10kg</p>
+              <span class="mb13">5,184円（税込）</span>
+              <div class="img-box">
+                <a
+                  href="https://marukou-apple.stores.jp/items/5fbf4434df51590a6df4d8e0"
+                  class="btn"
+                  >商品詳細へ</a
+                >
+              </div>
             </div>
             <div>
-              <img src="img/product_2.png" alt="" />
-              <p>家庭用サンふじ 5kg</p>
-              <span>3,520円（税込）</span>
-              <a href="" class="btn">カートに入れる</a>
+              <img src="img/product_4.png" alt="ぐんま名月 5kg" />
+              <p>ぐんま名月 5kg</p>
+              <span class="mb13">4,320円（税込）</span>
+              <div class="img-box">
+                <a
+                  href="https://marukou-apple.stores.jp/items/5fe2a781b00aa312ea797fc8"
+                  class="btn"
+                  >商品詳細へ</a
+                >
+              </div>
             </div>
             <div>
-              <img src="img/product_3.png" alt="" />
-              <p>家庭用サンふじ 5kg</p>
-              <span>3,520円（税込）</span>
-              <a href="" class="btn">カートに入れる</a>
+              <img src="img/product_4.png" alt="ぐんま名月 10kg" />
+              <p>ぐんま名月 10kg</p>
+              <span class="mb13">6,804円（税込）</span>
+              <div class="img-box">
+                <a
+                  href="https://marukou-apple.stores.jp/items/5fe2a7cada019c3c726d738c"
+                  class="btn"
+                  >商品詳細へ</a
+                >
+              </div>
+            </div>
+            <div>
+              <img
+                src="img/product_3.png"
+                alt="青森りんごジュース（3本入り）"
+              />
+              <p>青森りんごジュース（3本入り）</p>
+              <span class="mb13">3,080円（税込）</span>
+              <div class="img-box">
+                <a
+                  href="https://marukou-apple.stores.jp/items/5fbf45a98a45724a5bb92dde"
+                  class="btn"
+                  >商品詳細へ</a
+                >
+              </div>
+            </div>
+            <div>
+              <img
+                src="img/product_3.png"
+                alt="青森りんごジュース（6本入り）"
+              />
+              <p>青森りんごジュース（6本入り）</p>
+              <span class="mb13">4,730円（税込）</span>
+              <div class="img-box">
+                <a
+                  href="https://marukou-apple.stores.jp/items/5fd6f398df515955c94e6b1c"
+                  class="btn"
+                  >商品詳細へ</a
+                >
+              </div>
             </div>
           </div>
-          <a href="" class="btn_l">商品一覧はこちら</a>
+          <a href="" class="btn_l">他の商品はこちら</a>
         </section>
         <!-- /商品一覧 -->
         <!-- /container -->
       </div>
     </main>
     <footer id="footer">
-      <div class="container">
+      <div class="container text-sp-center text-pc-left">
         <!-- ir -->
         <div class="flex">
-          <div style="margin-right: 53.4px">
-            <img src="img/footer_logo.svg" alt="" class="start" />
+          <div class="mr53">
+            <img
+              src="img/footer_logo.svg"
+              alt="ロゴ"
+              class="img-sp-50 img-pc-100"
+            />
           </div>
-          <div style="margin-right: 130px">
-            <h3>株式会社<br />マルコウアップル</h3>
+          <div class="mr130">
+            <h3>株式会社<br class="spHidden pcVisible" />マルコウアップル</h3>
           </div>
           <div>
             <div class="ad">
-              <p>
-                <span>〒038-3633</span>青森県北津軽郡板柳町狐森字宮田56番地1
-              </p>
+              <p><span>〒038-3633</span>青森県北津軽郡板柳町狐森浅井80</p>
             </div>
             <div class="tel">
               <p><span>TEL</span>0172-55-5087</p>
@@ -262,145 +319,96 @@
         <!-- /ir -->
         <hr />
         <!-- フッターナビゲーション -->
-        <div class="grid-pc-5 justify-center">
+        <div class="justify-between footer_nav_wrapper">
           <div class="footer_nav">
-            <p>商品一覧</p>
-            <ul>
-              <li>サンふじ</li>
-              <li>王林</li>
-              <li>贈答用</li>
-            </ul>
+            <p><a href="product.html">商品一覧</a></p>
+          </div>
+          <div class="footer_nav accbox">
+            <input type="checkbox" id="label2" class="cssacc" />
+            <label for="label2">りんごのこと</label>
+            <div class="accshow">
+              <a class="show" href="fuji.html">サンふじ</a>
+              <a class="show" href="orin.html">王林</a>
+              <a class="show" href="meigetsu.html">ぐんま名月</a>
+            </div>
           </div>
           <div class="footer_nav">
-            <p>りんごのこと</p>
-            <ul>
-              <li>サンふじ</li>
-              <li>王林</li>
-              <li>贈答用</li>
-            </ul>
+            <p><a href="about.html">私たちのこだわり</a></p>
           </div>
           <div class="footer_nav">
-            <p>私たちのこだわり</p>
-            <ul>
-              <li>サンふじ</li>
-              <li>王林</li>
-              <li>贈答用</li>
-            </ul>
-          </div>
-          <div class="footer_nav">
-            <p>私たちについて</p>
-            <ul>
-              <li>サンふじ</li>
-              <li>王林</li>
-              <li>贈答用</li>
-            </ul>
-          </div>
-          <div class="footer_nav">
-            <p>ショッピングガイド</p>
-            <ul>
-              <li>サンふじ</li>
-              <li>王林</li>
-              <li>贈答用</li>
-              <li>贈答用</li>
-            </ul>
+            <p><a href="greetings.html">私たちについて</a></p>
           </div>
         </div>
         <!-- /フッターナビゲーション -->
       </div>
       <!-- /container -->
       <!-- 特商法、ポリシー -->
-      <div class="policy">
-        <p>特定商取引法に基づく表示</p>
-        <p>個人情報の取り扱いについて</p>
+      <div class="policy spHidden pcVisible">
+        <p><a href="tokushoho.html">特定商取引法に基づく表示</a></p>
+        <p><a href="policy.html">個人情報の取り扱いについて</a></p>
       </div>
       <div class="copy">
         <p><span>&copy;</span>marukou apple</p>
       </div>
       <!-- /特商法、ポリシー -->
       <!-- ページトップ -->
-      <a href="#top" class="pagetop"
-        ><img src="img/pagetop.svg" alt="" width="175.38" height="184.19"
+      <a id="pageTop" href="#" class="pagetop"
+        ><img src="img/pagetop.svg" alt="ページトップ"
       /></a>
       <!-- /ページトップ -->
     </footer>
+    <!-- SPナビゲーション -->
+    <div class="sp_footer_nav grid-sp-3 text-sp-center align-center">
+      <div class="sp_nav_toggle">
+        <a class="js-modal-open" href=""
+          ><img src="img/sp_nav_1.svg" alt="メニュー"
+        /></a>
+        <div class="modal js-modal">
+          <div class="modal__bg js-modal-close"></div>
+          <div class="modal__content">
+            <ul>
+              <a href="index.html"><li>トップページ</li></a>
+              <a href="fuji.html"><li>サンふじ</li></a>
+              <a href="orin.html"><li>王林</li></a>
+              <a href="meigetsu.html"><li>ぐんま名月</li></a>
+              <a href="product.html"><li>商品一覧</li></a>
+              <a href="about.html"><li>私たちのこだわり</li></a>
+              <a href="greetings.html"><li>私たちについて</li></a>
+              <a href="tokushoho.html"><li>特定商取引法に基づく表示</li></a>
+              <a href="policy.html"
+                ><li class="bb">個人情報の取り扱いについて</li></a
+              >
+            </ul>
+            <a class="js-modal-close" href="">閉じる</a>
+          </div>
+          <!--modal__inner-->
+        </div>
+        <!--modal-->
+      </div>
+      <div>
+        <a href="product.html"><img src="img/sp_nav_2.svg" alt="商品一覧" /></a>
+      </div>
+      <div>
+        <a href="https://marukou-apple.stores.jp" target="_blank"
+          ><img src="img/sp_nav_3.svg" alt="ショップ"
+        /></a>
+      </div>
+    </div>
+    <!-- /SPナビゲーション -->
     <script src="js/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/vivus/latest/vivus.min.js"></script>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="js/nav.min.js"></script>
+    <script src="js/sp_nav.js"></script>
+    <script src="js/returnTop.js"></script>
+    <script src="js/logoSmall.js"></script>
     <script>
       $(document).ready(function () {
-        $.fatNav();
+        $.Nav();
       });
     </script>
-    <script src="js/slick.min.js"></script>
-    <!-- slick option -->
-    <script>
-      $(function () {
-        var slider = "#slider"; // スライダー
-        var thumbnailItem = "#thumbnail-list .thumbnail-item"; // サムネイル画像アイテム
-
-        // サムネイル画像アイテムに data-index でindex番号を付与
-        $(thumbnailItem).each(function () {
-          var index = $(thumbnailItem).index(this);
-          $(this).attr("data-index", index);
-        });
-
-        // スライダー初期化後、カレントのサムネイル画像にクラス「thumbnail-current」を付ける
-        // 「slickスライダー作成」の前にこの記述は書いてください。
-        $(slider).on("init", function (slick) {
-          var index = $(".slide-item.slick-slide.slick-current").attr(
-            "data-slick-index"
-          );
-          $(thumbnailItem + '[data-index="' + index + '"]').addClass(
-            "thumbnail-current"
-          );
-        });
-
-        //slickスライダー初期化
-        $(slider).slick({
-          autoplay: true,
-          arrows: false,
-          fade: true,
-          infinite: false, //これはつけましょう。
-        });
-        //サムネイル画像アイテムをクリックしたときにスライダー切り替え
-        $(thumbnailItem).on("click", function () {
-          var index = $(this).attr("data-index");
-          $(slider).slick("slickGoTo", index, false);
-        });
-
-        //サムネイル画像のカレントを切り替え
-        $(slider).on(
-          "beforeChange",
-          function (event, slick, currentSlide, nextSlide) {
-            $(thumbnailItem).each(function () {
-              $(this).removeClass("thumbnail-current");
-            });
-            $(thumbnailItem + '[data-index="' + nextSlide + '"]').addClass(
-              "thumbnail-current"
-            );
-          }
-        );
-      });
-    </script>
-    <script>
-      var viv = new Vivus(
-        "my-svg",
-        {
-          // オプションの設定
-          type: "onebyone",
-          duration: 200,
-        },
-        myCallback
-      );
-      // コールバック関数の設定
-      function myCallback(data) {
-        console.log(data);
-      }
-    </script>
-
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
       window.ga = function () {

@@ -710,9 +710,9 @@ header img.cart_img {
   }
   .open_left {
     height: 100vh;
-    width: 50%;
+    width: 100%;
   }
-  .open_left .fade img {
+  .open_left img {
     width: auto;
     height: 100%;
   }
