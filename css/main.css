@@ -712,20 +712,20 @@ header img.cart_img {
     height: 100vh;
     width: 50%;
   }
-  .open_left img {
+  .open_left .fade img {
     width: auto;
     height: 100%;
   }
   .open_right_top {
     padding: 30px;
-    color: #FFF;
+    color: #fff;
   }
   .open_right_bottom {
     position: absolute;
     bottom: 0;
     right: 103px;
     padding: 30px;
-    color: #FFF;
+    color: #fff;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -736,7 +736,7 @@ header img.cart_img {
   }
   .open_right_bottom img {
     width: 30px;
-    color: #FFF !important;
+    color: #fff !important;
   }
   header #logo {
     width: 200px;
