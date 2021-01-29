@@ -3,5 +3,4 @@
 # Allow crawling of all content
 User-agent: *
 Disallow:
-
-Sitemap:http://example.com/sitemap.xml
+https://marukouapple.com/sitemap.xml
