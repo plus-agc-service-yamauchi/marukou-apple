@@ -920,7 +920,7 @@ main .title h1 {
     margin: 0 auto;
   }
   main .title h1 {
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: 400;
     color: #e5a615;
     margin-top: 27px;
@@ -1196,7 +1196,7 @@ main .title h1 {
     opacity: 1;
     color: #e5a615;
     display: block;
-    width: 100%;
+    width: 250px;
     padding: 17px 0;
     text-align: center;
     margin: 0 auto;

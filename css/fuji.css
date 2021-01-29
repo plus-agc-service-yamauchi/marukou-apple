@@ -837,7 +837,7 @@ main p.lead {
     height: 200px;
   }
   main h1 {
-    font-size: 48px;
+    font-size: 4.8rem;
     letter-spacing: 1.2rem;
     line-height: 6rem;
     color: #98231d;
@@ -864,7 +864,7 @@ main p.lead {
     margin-bottom: 190px;
   }
   #fuji_data h3 {
-    width: 336px;
+    width: 390px;
     margin: 0 auto;
     text-align: center;
     font-size: 24px;
@@ -967,7 +967,7 @@ main p.lead {
     padding-top: 100px;
   }
   #History_fuji .history_title h1 {
-    font-size: 3.6rem;
+    font-size: 4.8rem;
     font-weight: 400;
     letter-spacing: 0.1em;
     color: #98231d;
@@ -994,7 +994,7 @@ main p.lead {
     margin-bottom: 150px;
   }
   #Marukou_fuji h1 {
-    font-size: 3.6rem;
+    font-size: 4.8rem;
     font-weight: 400;
     color: #98231d;
     margin-top: 14.9px;
@@ -1016,7 +1016,7 @@ main p.lead {
     margin-top: 50px;
   }
   #product h1 {
-    font-size: 36px;
+    font-size: 3.6rem;
     letter-spacing: 3.6px;
     line-height: 6rem;
     color: #98231d;

@@ -641,7 +641,7 @@ header img.cart_img {
     display: none;
     width: 100%;
     height: 100%;
-    background: #3e0000;
+    background: rgba(62, 0, 0, 0.9);
     -webkit-transform: scale(1.4);
     transform: scale(1.4);
     -webkit-transition-property: -webkit-transform;
@@ -657,8 +657,23 @@ header img.cart_img {
   .nav__wrapper {
     width: 100%;
     height: 100%;
-    display: table;
-    table-layout: fixed;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .nav.active {
     -webkit-transform: scale(1);
@@ -668,11 +683,21 @@ header img.cart_img {
     display: table-cell;
     vertical-align: middle;
     margin: 0;
-    padding: 0;
+    padding-left: 20px;
+    border-left: solid 1px #fff;
+    position: relative;
+  }
+  .nav ul:before {
+    content: "content";
+    color: #fff;
+    position: absolute;
+    left: -30%;
+    margin-right: 20px;
+    font-size: 30px;
   }
   .nav li {
     list-style-type: none;
-    text-align: center;
+    text-align: left;
     padding: 10px;
     font-size: 2em;
   }
@@ -683,8 +708,35 @@ header img.cart_img {
   .nav li a {
     text-decoration: none;
   }
-  .nav a {
-    border-bottom: solid 1px #fff;
+  .open_left {
+    height: 100vh;
+    width: 50%;
+  }
+  .open_left img {
+    width: auto;
+    height: 100%;
+  }
+  .open_right_top {
+    padding: 30px;
+    color: #FFF;
+  }
+  .open_right_bottom {
+    position: absolute;
+    bottom: 0;
+    right: 103px;
+    padding: 30px;
+    color: #FFF;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .open_right_bottom div {
+    margin: 0 10px;
+  }
+  .open_right_bottom img {
+    width: 30px;
+    color: #FFF !important;
   }
   header #logo {
     width: 200px;
