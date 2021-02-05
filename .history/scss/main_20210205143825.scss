@@ -199,13 +199,13 @@ header {
   left: 50%;
   /* padding: 40px 0; */
   position: absolute;
-  top: 45%;
+  top: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
   color: #3e0000;
   border-radius: 5px;
   ul {
-    margin-bottom: 0;
+    margin-bottom: 40px;
   }
   li {
     font-size: 1.4rem;
@@ -219,8 +219,8 @@ header {
   li:before {
     content: ""; /*何も入れない*/
     display: inline-block; /*忘れずに！*/
-    width: 18px; /*画像の幅*/
-    height: 18px; /*画像の高さ*/
+    width: 22px; /*画像の幅*/
+    height: 22px; /*画像の高さ*/
     background-image: url(../img/appleicon_sp.svg);
     background-repeat: no-repeat;
     background-size: contain;
