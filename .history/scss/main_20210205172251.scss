@@ -428,7 +428,7 @@ header {
   .modal__bg {
     background: rgba(0, 0, 0, 0.8);
     height: 100vh;
-    position: relative;
+    position: absolute;
     width: 100%;
   }
   .modal__content {
@@ -442,7 +442,7 @@ header {
     color: #3e0000;
     border-radius: 5px;
     ul {
-      margin-bottom: 0;
+      margin-bottom: 40px;
     }
     li {
       font-size: 18px;
@@ -471,8 +471,6 @@ header {
     color: #fff;
     padding: 10px 10px;
     border-radius: 5px;
-    position:absolute;
-    bottom:0;
   }
   .mr130 {
     margin-right: 75px;
